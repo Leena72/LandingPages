@@ -1,0 +1,56 @@
+.fr2 {
+    background-image: url('../images/fr_mob/mob_fr2_banner.png');
+    /* background-image: url('../images/fr_desk/fr2-banner.png'); */
+}
+
+#fr2-video {
+    position: absolute;
+    /* width: auto; */
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    width: 100%;
+}
+
+.mr-30{
+    margin-top: 15px;
+}
+
+.heading-1 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0;
+}
+
+.heading-2 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.navigate-mob{ width: 130px;}
+.navigate-desk{display: none;}
+.navigate-mob, .navigate-desk {
+    
+    margin: auto;
+    background-color: #20a4dd;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.navigate-mob >a, .navigate-desk>a   {
+    
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+
+/* ----------------------------MEDIA QUERY----------------------------------- */

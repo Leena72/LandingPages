@@ -1,0 +1,78 @@
+.fr14 {
+    background-image: url('../images/fr_mob/fr14_mob_375.png');
+}
+.fr15 {
+    background-image: url('../images/fr_mob/fr15_mob_375.png');
+}
+
+.fr16 {
+    background-image: url('../images/fr_mob/fr16_mob_375.png');
+}
+
+.fr17 {
+    background-image: url('../images/fr_mob/fr17_mob_375.png');
+}
+.fr18 {
+    background-image: url('../images/fr_mob/fr18_mob_375.png');
+}
+
+
+.frame-content-fr14{
+    padding: 0 1em 0 3.5em;
+}
+
+.share-button{
+    width: 13em;
+    /* margin: auto;/ */
+    background: #fff;
+    box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+}
+.share-button > span{
+    font-size: 16px;
+    padding: 0 8px;
+}
+ .share-button > .twi{
+ /* width: 5px; */
+ }
+ .share-button > .twi >img{
+    width: 32px;
+    padding-right: 10px;
+}
+
+.share-button > .li{
+    /* width: 5px; */
+}
+.share-button > .li >img{
+    width: 32px;  
+}
+
+.content{
+    line-height: 1.4;
+    margin-bottom:0 ;
+}
+.detail-section{
+    margin-bottom: 10px;
+}
+
+
+.button-section{
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+    font-size: 13px;
+    padding: 0 0 20px 0;
+}
+
+.button-section >a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0095C1;
+    padding: 10px;
+}
+
+.header-2{
+width: 260px;
+}
+.header-2 > img{
+width: 100%;
+}

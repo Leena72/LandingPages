@@ -1,0 +1,114 @@
+.fr1 {
+    /* background-image: url('../images/fr_mob/fr1_mob_375x667.png'); */
+    background-image: url('../images/fr_desk/fr1-banner.png');
+}
+
+#fr1-video {
+    position: absolute;
+    /* width: auto; */
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    width: 100%;
+}
+
+.frame-contentBody {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header>a>img {
+    height: 24px;
+}
+
+.mr-100 {
+    margin-top: 100px;
+}
+
+.frame-content {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.heading-1 {
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin: 0;
+    animation: heading1-fadein 1.5s;
+    -moz-animation: heading1-fadein 1.5s; /* Firefox */
+    -webkit-animation: heading1-fadein 1.5s;/* Safari and Chrome */
+}
+
+@keyframes heading1-fadein {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.heading-2 {
+    font-size: 22px;
+    margin-bottom: 0;
+    animation: fadein 1.8s;
+    -moz-animation: fadein 1.8s; /* Firefox */
+    -webkit-animation: fadein 1.8s;/* Safari and Chrome */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.content, .line-img>img ,.navigate-mob,.content-white, .navigate-btn {
+    animation: content-fadein 1s;
+    -moz-animation: content-fadein 1s; /* Firefox */
+    -webkit-animation: content-fadein 1s;/* Safari and Chrome */
+}
+
+@keyframes content-fadein {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.navigation-section {
+
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    padding-bottom: 8px;
+
+}
+
+.navigate {
+    width: 10px;
+}
+
+.navigate>a>img {
+    width: 100%;
+}
+
+/* ----------------------------MEDIA QUERY----------------------------------- */
