@@ -6,87 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../css/fr14.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/fr18.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
     <title>Infosys</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-    <div class="column frame-body fr18">
+    <div class="home">
+        <video autoplay muted loop id="fr18-video">
+            <source src="../animationVideo/InfosysMobile_19_BG.mp4" type="video/mp4">
+        </video>
 
-        <!-- header section -->
 
-        <div class=" header">
-            <!-- logo -->
-            <div class="logo-section">
-                <div class="logo">
-                    <a href="https://www.infosys.com/">
-                        <img src="../images/Infosys_Logo.png" alt="Infosys logo">
+        <div class=" frame-contentBody">
+
+            <div class="header">
+                <a href="https://www.infosys.com/">
+                    <img src="../images/Infosys_Logo.png" alt="Infosys logo">
+                </a>
+                <a href="#">
+                    <img src="../images/Download_Button.png" alt="downarrow">
+                </a>
+            </div>
+            <div class="mr-25"></div>
+            <div class="frame-content">
+
+                <p class="content">
+                    Get access to the<br>
+                    <span class="heading-2">detailed research report</span><br>
+                    on CIO-CMO collaboration including
+                </p>
+
+            </div>
+            <div class="mr-25"></div>
+            <div class="carousel ">
+                <img src="../images/1.png" alt="">
+                <img src="../images/1.png" alt="">
+                <img src="../images/1.png" alt="">
+            </div>
+            <div class="mr-25"> </div>
+
+            <div class="frame-content">
+
+                <div class="download-btn">
+                    <a href="">
+                        <img src="../images/Download-Report.png" alt="">
                     </a>
                 </div>
             </div>
-            <div class="down-img">
-                <a href=""><img src="../images/Download_Button.png" alt=""></a>
-
+            <div class="mr-25"> </div>
+            <div class="frame-content">
+                <div class="share-button">
+                    <p class="shareText">Share this Report</p>
+                    <a class="twi sharer" data-sharer="twitter" ><img src="../images/Tw.png"></a>
+                    <a class="li sharer" data-sharer="linkedin"><img src="../images/Li.png"></a>
+                </div>
             </div>
+
         </div>
-
-        <!-- content section -->
-
-        <div class="frame-content-fr14">
-            <div class="detail-section">
-               
-                <p class="content">
-                  Get access to the <br>
-                  <span class="content-yelow">detailed research report</span>
-                  on CIO-CMO collaboration including
-                </p>
-             
-            </div>
-            <div class="detail-section">
-               
-                <p class="white-para">
-                    How to ensure resilience
-                    during the most unprecedented
-                    times.
-                </p>
-             
-            </div>
-            <div class="white-bold">
-                <p>.Insightful data points revealing 
-                    how digitally mature companies
-                    benefit  through collaboration </p>
-            </div>
-            <div class="white-bold">
-                <p>How to move past the initial
-                    hurdles when it comes
-                    to collaboration/p>
-            </div>
-        
-        </div>
-
-        <!-- navigation -->
-
-      
-            <div class="top-navigate">
-                <a href=""><img src="../images/top_button.png" alt=""></a>
-            </div>
-        
 
     </div>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="../js/sharer.min.js"></script>
+    <script src="../js/slick.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').slick({
+                slidesToShow: 1.5,
+                slidesToScroll: 1
+            });
+        });
     </script>
 </body>
 

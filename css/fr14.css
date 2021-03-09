@@ -1,78 +1,103 @@
-.fr14 {
-    background-image: url('../images/fr_mob/fr14_mob_375.png');
+.mr-110{
+margin-top: 25px;
 }
-.fr15 {
-    background-image: url('../images/fr_mob/fr15_mob_375.png');
+.mr-20{
+    margin-bottom: 20px;
+}
+#fr14-video {
+    position: absolute;
+    /* width: auto; */
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    width: 100%;
+    background-image: linear-gradient(#efeeef, #7e7c7e)
+}
+.frame-content {
+    /* text-align: center; */
+    padding: 0 1.5em;
+    position: relative;
 }
 
-.fr16 {
-    background-image: url('../images/fr_mob/fr16_mob_375.png');
+.fr14-heading{
+    display: flex;
 }
 
-.fr17 {
-    background-image: url('../images/fr_mob/fr17_mob_375.png');
+.number,.heading{
+    padding: 6px 13px;
+    font-weight: bold;
+    font-size: 18px;
 }
-.fr18 {
-    background-image: url('../images/fr_mob/fr18_mob_375.png');
+.number{
+    background-color: #fbad18;
+    color: #000;
+}
+.heading{
+    background-color: #000;
+    color: #fbad18;
 }
 
+.sub-heading{
+    color: #fbad18;
+}
 
-.frame-content-fr14{
-    padding: 0 1em 0 3.5em;
+.graph{
+    width: 300px;
+}
+.graph >img{
+    width: 100%;
+}
+
+.Graph-83{
+display: flex;
+}
+.Graph-83-img{
+width: 30em;
+}
+.Graph-83-img >img{
+    width: 100%;
+}
+.Graph-83-para{
+    padding-left: 1em;
+    opacity: .5;
 }
 
 .share-button{
-    width: 13em;
-    /* margin: auto;/ */
+   
+    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
     background: #fff;
-    box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    box-shadow:0px 3px 8px -2px rgba(0,0,0,0.75);
 }
+.share-button >p{
+    padding-right: 10px;
+    font-size: 15px;
+    color: black;
+}
+
 .share-button > span{
     font-size: 16px;
-    padding: 0 8px;
+    padding-right: 8px;
 }
  .share-button > .twi{
- /* width: 5px; */
+    width: 25px;
+    padding: 5px 0px 0 0;
+    cursor: pointer;
  }
  .share-button > .twi >img{
-    width: 32px;
+    width: 29px;
     padding-right: 10px;
 }
 
 .share-button > .li{
-    /* width: 5px; */
+    margin-left: 8px;
+    cursor: pointer;
 }
 .share-button > .li >img{
-    width: 32px;  
-}
-
-.content{
-    line-height: 1.4;
-    margin-bottom:0 ;
-}
-.detail-section{
-    margin-bottom: 10px;
-}
-
-
-.button-section{
-    text-align: center;
-    margin: 0 auto;
-    width: 85%;
-    font-size: 13px;
-    padding: 0 0 20px 0;
-}
-
-.button-section >a{
-    color: #fff;
-    text-decoration: none;
-    background-color: #0095C1;
-    padding: 10px;
-}
-
-.header-2{
-width: 260px;
-}
-.header-2 > img{
-width: 100%;
+    width: 25px;  
 }

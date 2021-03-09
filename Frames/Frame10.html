@@ -6,55 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../css/fr5.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Infosys</title>
+    <link rel="stylesheet" type="text/css" href="../css/fr4.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+ <title>Infosys</title>
+ <!-- <script src="../js/timer.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-    <div class="column frame-body fr10">
+    <div id="home ">
 
-        <!-- header section -->
+        <video autoplay muted loop id="fr4-video">
+            <source src="../animationVideo/InfosysMobile_9_BG.mp4" type="video/mp4">
+        </video>
+        <div class="fr4-board">
+            <img src="../images/fr10-board.png" alt="">
+        </div>
 
-        <div class=" header">
-            <!-- logo -->
-            <div class="logo-section">
-                <div class="logo">
-                    <a href="https://www.infosys.com/">
-                        <img src="../images/Infosys_Logo.png" alt="Infosys logo">
-                    </a>
+        <div class=" frame-contentBody">
+            <div class="header">
+                <a href="https://www.infosys.com/">
+                    <img src="../images/Infosys_Logo.png" alt="Infosys logo">
+                </a>
+            </div>
+            <div class="mr-202"> </div>
+            <div >
+                <!-- <p class="content-white">
+                    Dose
+                    <span class="heading-2">CMO-CIO collaboration</span><br> within your organisation help<br> with
+                    <span class="heading-2">sustained revenue creation</span> and<br> <span>bottom-line growth</span> ?
+                </p> -->
+                <div class="timer-img">
+                    <p class="timer-color"></p>
+                    <img src="../images/Car.png" id="carTrack" class="carIcon" alt="">
+                    <img src="../images/track.png" class="trackIcon"  alt="">
+                </div>
+                <!-- <p class="heading-3">If it does-you're on a roll!</p> -->
+              
+                <div class="navigate-btn">
+                    <a id="frame4-link" href="./Frame11.html"> Take a sneak-peek and compare!</a>
                 </div>
             </div>
         </div>
 
-        <!-- content section -->
-
-        <div class="frame-content-fr5">
-
-            <div class="detail-section">
-
-                <p class="content">
-                    According to our research, collaborators in digitally 
-                    mature companies leverage the digital ecosystem to <span class="heading-2">empower
-                     employees, bring  personalized digital experience</span>, and <span class="heading-2">drive growth.</span>
-
-                </p>
-            </div>
-            <div class="pd-80"></div>
-        </div>
-
-        <!-- navigation -->
-
-        <div class="bottom-navigation-section">
-            <div class="bottom-navigate">
-                <a href="./Frame11.html"> <img src="../images/navigation.png" alt="navigate"></a>
-            </div>
-        </div>
-
     </div>
-
+    <script src="../js/timer.js">
+    </script>
+    <script>
+        $("#carTrack").onPositionChanged(function(){
+    $('.timer-color').css({'width':$('#carTrack').position().left })
+    if($('#carTrack').position().left ==278 || 
+    $('#carTrack').position().left ==265 || 
+    $('#carTrack').position().left ==225 || $('#carTrack').position().left ==315 ){
+        window.history.pushState('', '/', window.location.pathname)
+ window.location.href='./Frame11.html'
+    }
+    console.log("position",$('#carTrack').position())
+});
+    </script>
 </body>
 
 </html>
