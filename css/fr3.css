@@ -1,42 +1,6 @@
-.fr3 {
-    background-image: url('../images/fr_mob/fr3_mob_375.png');
-    /* background-image: url('../images/fr_mob/fr3_sky_bottom.png'); */
-}
-
-.fr12 {
-    background-image: url('../images/fr_mob/fr12_mob_375.png');
-}
-
-#fr3-video {
-    position: absolute;
-    /* width: auto; */
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    width: 100%;
-    background-image: linear-gradient(#efeeef, #7e7c7e);
-}
-
-.frame-content-fr3 {
-    padding: 1em 2em;
-    text-align: center;
-}
-
-.frame-contentBody {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.frame-content {
-    text-align: center;
-    padding: 0 1.5em;
-}
-
 
 .mr-110 {
-    margin-top: 110px;
+    margin-top: 125px;
 }
 
 .mr-10 {
@@ -44,8 +8,8 @@
 }
 
 .content-white {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 1.4;
     margin: 0;
 }
 
@@ -59,7 +23,7 @@
 }
 
 .heading-2 {
-    font-size: 27px;
+    font-size: 24px;
     margin-bottom: 0;
 }
 
@@ -75,27 +39,7 @@
     display: none;
 }
 
-.navigate-btn-mob,
-.navigate-btn-desk,
-.navigate-btn {
 
-    margin: auto;
-    background-color: #20a4dd;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.navigate-btn-mob>a,
-.navigate-btn-desk>a,
-.navigate-btn>a {
-
-    color: #fff;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-}
 
 
 /* ----------------------------MEDIA QUERY----------------------------------- */
@@ -110,22 +54,28 @@
     }
 
     .mr-110 {
-        margin-top: 88px;
+        margin-top: 100px;
     }
 
     .content-white {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 20px;
+    }
+    .content-white >.heading-2{
+        font-size: 22px;
     }
 
     .navigate-btn {
         width: 15em;
     }
+    .navigate-btn>a{
+font-size: 14px;
+    }
 }
 
 @media (min-width:350px)and (max-width:370px) {
     .mr-110 {
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     .navigate-btn {
@@ -136,12 +86,11 @@
 @media (min-width:376px)and (max-width:425px) {
 
     .mr-110 {
-        margin-top: 130px;
+        margin-top: 145px;
     }
-
     .content-white {
-        font-size: 23px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 27px;
     }
 
     .navigate-btn {

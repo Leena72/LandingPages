@@ -1,18 +1,28 @@
 @font-face {
-    font-family: "myfont";
+    font-family: "myriad-pro-bold";
     src: url("../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-BOLD.woff") format('woff');
- }
-
-
-html,body
-{
-    margin: 0;
 }
-* {
+
+@font-face {
+    font-family: "myriad-semibold";
+    src: url("../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-SEMIBOLD.woff") format('woff');
+}
+
+@font-face {
+    font-family: "myriad-pro-regular";
+    src: url("../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff") format('woff');
+}
+
+
+*,
+html,
+body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* ------------ spacing ------------*/
 
 .pd-5 {
     padding-bottom: 5px;
@@ -27,23 +37,65 @@ html,body
 }
 
 .pd-80 {
-    /* padding-bottom: 80px; */
     padding-bottom: 11em;
 }
 
 .pd-100 {
     padding-bottom: 6.5em;
 }
+
 .mr-100 {
     margin-top: 110px;
 }
 
-#home {
+.mr-30 {
+    margin-top: 15px;
+}
+
+.mr-20 {
+    margin-bottom: 20px;
+}
+
+.mr-10 {
+    margin-top: 10px;
+}
+
+.mr-202 {
+    margin-top: 205px;
+}
+
+.mr-180 {
+    margin-top: 184px;
+}
+
+/* ------------ content ------------*/
+.home {
     background: none;
     height: 100vh;
     width: 100vw;
     position: relative;
     overflow: hidden;
+}
+
+.video-section {
+    position: absolute;
+    height: auto;
+    min-width: 103%;
+    min-height: 100%;
+    z-index: -1;
+    width: 100%;
+    background-image: linear-gradient(#efeeef, #7e7c7e);
+}
+
+.frame-contentBody {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.frame-content {
+    text-align: center;
+    padding: 0 1.5em;
 }
 
 .header {
@@ -68,49 +120,148 @@ html,body
     justify-content: space-between;
 }
 
+/* ------------ content colors ------------ */
+
 .heading-1 {
     color: #000;
-    font-weight: bold;
-    font-family: "myfont";
-}
+    font-family: "myriad-semibold";
 
+}
 
 .heading-2 {
     color: #fbad18;
-    font-weight: bold;
+    font-family: "myriad-pro-bold";
 }
 
+.sub-heading {
+    color: #fbad18;
+    font-family: "myriad-pro-regular";
+
+}
 
 .heading-3 {
     color: #ffffff;
     font-weight: bold;
 }
 
+.content-bold {
+    font-family: "myriad-pro-bold";
+}
 
 .content {
     color: #000;
+    font-family: "myriad-pro-regular";
 }
 
-.content-white{
+.content-white {
     color: #ffffff;
+    font-family: "myriad-pro-regular";
 }
 
-.content> span {
-    font-weight: bold;
-}
-.content-yellow{
+.content-yellow {
     color: #fbad18;
 }
 
-.content> .highlight-tag  {
-    color: #000000;
+/* ------------ buttons ------------ */
+
+/* downward arrow */
+
+.navigation-section {
+
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    padding-bottom: 8px;
+
+}
+
+.navigate {
+    width: 10px;
+}
+
+.navigate>a>img {
+    width: 100%;
+}
+
+/* Find out btn */
+
+.navigate-btn,
+.navigate-btn-fr13,
+.navigate-btn-fr15,
+.navigate-btn-fr17,
+.navigate-mob,
+.navigate-desk {
+    margin: auto;
+    background-color: #20a4dd;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navigate-btn>a,
+.navigate-mob>a,
+.navigate-btn-fr13>a,
+.navigate-btn-fr15>a,
+.navigate-btn-fr17>a,
+.navigate-desk>a {
+    font-family: "myriad-pro-bold";
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* share button */
+
+.share-button {
+    width: 11em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: -1px 2px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.share-button>p {
+    padding-right: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.share-button>span {
+    font-size: 16px;
+    padding-right: 8px;
+}
+
+.share-button>.twi {
+    width: 25px;
+    padding: 5px 0px 0 0;
+    cursor: pointer;
+}
+
+.share-button>.twi>img {
+    width: 29px;
+    padding-right: 10px;
+}
+
+.share-button>.li {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.share-button>.li>img {
+    width: 25px;
 }
 
 
+
+/* ------------line image ------------ */
 .line-img>img {
     width: 50px;
     height: 2px;
     text-align: center;
 }
-/* ----------------------------MEDIA QUERY----------------------------------- */
 
+/* ----------------------------MEDIA QUERY----------------------------------- */
