@@ -1,7 +1,12 @@
-.heading-1,.timer-img{
+.heading-1,
+.timer-img,
+.fr-14-content,
+.Graph-83-para {
     animation: heading1-fadein 1.5s;
-    -moz-animation: heading1-fadein 1.5s; /* Firefox */
-    -webkit-animation: heading1-fadein 1.5s;/* Safari and Chrome */
+    -moz-animation: heading1-fadein 1.5s;
+    /* Firefox */
+    -webkit-animation: heading1-fadein 1.5s;
+    /* Safari and Chrome */
 }
 
 @keyframes heading1-fadein {
@@ -17,10 +22,12 @@
 }
 
 
-.heading-2{
-     animation: fadein 1.7s;
-    -moz-animation: fadein 1.7s; /* Firefox */
-    -webkit-animation: fadein 1.7s;/* Safari and Chrome */
+.heading-2 {
+    animation: fadein 1.7s;
+    -moz-animation: fadein 1.7s;
+    /* Firefox */
+    -webkit-animation: fadein 1.7s;
+    /* Safari and Chrome */
 }
 
 @keyframes fadein {
@@ -35,10 +42,17 @@
     }
 }
 
-.content, .line-img>img , .navigate-desk ,.navigate-mob,.content-white, .navigate-btn {
+.content,
+.line-img>img,
+.navigate-desk,
+.navigate-mob,
+.content-white,
+.navigate-btn {
     animation: content-fadein 1s;
-    -moz-animation: content-fadein 1s; /* Firefox */
-    -webkit-animation: content-fadein 1s;/* Safari and Chrome */
+    -moz-animation: content-fadein 1s;
+    /* Firefox */
+    -webkit-animation: content-fadein 1s;
+    /* Safari and Chrome */
 }
 
 @keyframes content-fadein {
@@ -53,10 +67,12 @@
     }
 }
 
-.board > img  {
+.board>img {
     animation: board-fadein .6s;
-    -moz-animation: board-fadein .6s; /* Firefox */
-    -webkit-animation: board-fadein .6s;/* Safari and Chrome */
+    -moz-animation: board-fadein .6s;
+    /* Firefox */
+    -webkit-animation: board-fadein .6s;
+    /* Safari and Chrome */
 }
 
 @keyframes board-fadein {
@@ -71,11 +87,14 @@
     }
 }
 
-.fr4-board > img  {
+.fr4-board>img {
     animation: fr4-board-fadein .8s;
-    -moz-animation: fr4-board-fadein .8s; /* Firefox */
-    -webkit-animation: fr4-board-fadein .8s;/* Safari and Chrome */
+    -moz-animation: fr4-board-fadein .8s;
+    /* Firefox */
+    -webkit-animation: fr4-board-fadein .8s;
+    /* Safari and Chrome */
 }
+
 @keyframes fr4-board-fadein {
     from {
         opacity: 0;
@@ -87,4 +106,3 @@
         opacity: 1;
     }
 }
-

@@ -16,9 +16,12 @@
 <body>
 
     <div id="home ">
-
         <video autoplay muted loop class="video-section">
             <source src="../animationVideo/InfosysMobile_11_BG.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay muted loop class="video-section-web">
+            <source src="../animationVideo/web/InfosysWeb_11_BG.mp4" type="video/mp4">
         </video>
         <div class="fr4-board">
             <img src="../images/fr12-board.png" alt="">
@@ -31,19 +34,12 @@
                 </a>
             </div>
             <div class="mr-202"> </div>
-            <div>
-                <!-- <p class="content-white">
-                    Dose
-                    <span class="heading-2">CMO-CIO collaboration</span><br> within your organisation help<br> with
-                    <span class="heading-2">sustained revenue creation</span> and<br> <span>bottom-line growth</span> ?
-                </p> -->
+            <div class="fr12-board">
                 <div class="timer-img">
                     <p class="timer-color"></p>
                     <img src="../images/Car.png" id="carTrack" class="carIcon" alt="">
                     <img src="../images/track.png" class="trackIcon" alt="">
                 </div>
-                <!-- <p class="heading-3">If it does-you're on a roll!</p> -->
-
             </div>
         </div>
 
@@ -57,7 +53,11 @@
             })
             if ($('#carTrack').position().left == 278 ||
                 $('#carTrack').position().left == 265 ||
-                $('#carTrack').position().left == 225 || $('#carTrack').position().left == 315) {
+                $('#carTrack').position().left == 225 ||
+                $('#carTrack').position().left == 296 ||
+                $('#carTrack').position().left == 315 ||
+                $('#carTrack').position().left == 342 ||
+                $('#carTrack').position().left == 308) {
                 window.history.pushState('', '/', window.location.pathname)
                 window.location.href = './Frame13.html'
             }

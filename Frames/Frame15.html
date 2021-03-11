@@ -15,11 +15,16 @@
 
 <body>
 
-    <div class="home">
-        <video autoplay muted loop class="video-section">
-            <source src="../animationVideo//InfosysMobile_14_BG.mp4" type="video/mp4">
+    <div class="column home">
+        <video autoplay muted loop class="video-section-cloud">
+            <source src="../animationVideo/cloud.mp4" type="video/mp4">
         </video>
-
+        <video autoplay muted loop class="video-section">
+            <source src="../animationVideo/InfosysMobile_14_BG.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="video-section-web">
+            <source src="../animationVideo/web/InfosysWeb_14_BG.mp4" type="video/mp4">
+        </video>
 
         <div class=" frame-contentBody">
             <div class="header">
@@ -36,36 +41,53 @@
                     <p class="heading">Devise the Right ESG Strategy</p>
                 </div>
                 <div class="mr-30"> </div>
-                <div class="graph-content">
-                    <p class="sub-heading">Marketing sees greater opportunity </p>
-                    <p>for ESG collaboration than does IT
-                        (50% vs. 38%)</p>
+                <div class="graph-content graph-content-fr14 ">
+                    <div class="fr-14-content mr-20">
+                        <p class="sub-heading">Marketing sees greater opportunity </p>
+                        <p>for ESG collaboration than does IT
+                            (50% vs. 38%)</p>
 
-                    <div class="mr-10"></div>
-                    <div class="share-button">
-                        <p class="shareText">Share the stat</p>
-                        <a class="twi sharer" data-sharer="twitter"><img src="../images/Tw.png"></a>
-                        <a class="li sharer" data-sharer="linkedin"><img src="../images/Li.png"></a>
+                        <div class="mr-10"></div>
+                        <div class="share-button">
+                            <p class="shareText">Share the stat</p>
+                            <a class="twi sharer" data-type="twitter"><img src="../images/Tw.png"></a>
+                            <a class="li sharer" data-type="linkedin"><img src="../images/Li.png"></a>
+                        </div>
+                        <div class="mr-10"></div>
+                        <div class="fr-14-content">
+                            <p><span class="sub-heading"> CMOs can lead </span> <br>in this area, working with CIOs and
+                                CFOs
+                                to better address ESG criteria.</p>
+                        </div>
                     </div>
-                    <div class="mr-10"></div>
-                    <div>
-                        <p><span class="sub-heading"> CMOs can lead </span> <br>in this area, working with CIOs and CFOs
-                            to better address ESG criteria.</p>
-                    </div>
-                    <div class="mr-20"></div>
+
+
                     <div class="graph">
                         <img src="../images/Graph-fr15.png" alt="">
                     </div>
-                    <div class="navigate-btn-fr15">
-                        <a href="./Frame16.html">Know the secret sauce<br> for inclusive value creation</a>
-                    </div>
+
                 </div>
             </div>
+        </div>
+        <div class="navigate-btn-fr15">
+            <a href="./Frame16.html">Know the secret sauce<br> for inclusive value creation</a>
         </div>
 
     </div>
 
-    <script src="../js/sharer.min.js"></script>
+    <script src="../js/jsshare.js"></script>
+    <script>
+        // js for share on twitter and linkedin
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            var buttons = document.querySelectorAll(".sharer");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function () {
+                    return JSShare.go(this);
+                }, false);
+            }
+        });
+    </script>
 </body>
 
 </html>

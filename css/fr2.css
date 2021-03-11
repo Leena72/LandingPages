@@ -33,6 +33,10 @@
     font-size: 17px;
 }
 
+.video-section-web {
+    display: none;
+}
+
 
 /* ----------------------------MEDIA QUERY----------------------------------- */
 @media (min-width:320px)and (max-width:370px) {
@@ -85,7 +89,7 @@
     .heading-1,
     .content,
     .navigate-mob>a,
-    .navigate-desk>a  {
+    .navigate-desk>a {
         font-size: 18px;
     }
 }
@@ -137,5 +141,143 @@
 
     .navigate-desk>a {
         font-size: 22px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px)and (orientation: landscape) {
+    .video-section-web {
+        display: block;
+        transform: scale(1, 1.4);
+    }
+
+    .video-section {
+        display: none;
+    }
+
+    .content-bold {
+        color: #fbad18;
+    }
+
+    .heading-1 {
+        display: none;
+    }
+
+    .header>a>img {
+        height: 35px;
+    }
+
+    .content {
+        font-size: 28px;
+        padding: 0 4em;
+    }
+
+    .heading-1 {
+        font-size: 28px;
+    }
+
+    .heading-2 {
+        font-size: 40px;
+    }
+
+    .line-img {
+        margin-bottom: 20px;
+    }
+
+    .line-img>img {
+        width: 128px;
+        height: 4px;
+    }
+
+    .navigate-mob {
+        display: none;
+    }
+
+    .navigate-desk {
+        display: flex;
+        justify-content: center;
+        width: 447px;
+        padding: 10px;
+    }
+
+    .navigate-desk>a {
+        font-size: 22px;
+    }
+
+    .mr-30 {
+        margin-top: 24px;
+    }
+
+    .mr-110 {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+
+@media only screen and (min-width : 1224px) {
+    .video-section-web {
+        display: block;
+        transform: scale(1, 1.4);
+    }
+
+    .video-section {
+        display: none;
+    }
+
+    .content-bold {
+        color: #fbad18;
+    }
+
+    .heading-1 {
+        display: none;
+    }
+
+    .header>a>img {
+        height: 35px;
+    }
+
+    .content {
+        font-size: 28px;
+        padding: 0 4em;
+    }
+
+    .heading-1 {
+        font-size: 28px;
+    }
+
+    .heading-2 {
+        font-size: 40px;
+    }
+
+    .line-img {
+        margin-bottom: 20px;
+    }
+
+    .line-img>img {
+        width: 128px;
+        height: 4px;
+    }
+
+    .navigate-mob {
+        display: none;
+    }
+
+    .navigate-desk {
+        display: flex;
+        justify-content: center;
+        width: 447px;
+        padding: 10px;
+    }
+
+    .navigate-desk>a {
+        font-size: 22px;
+    }
+
+    .mr-30 {
+        margin-top: 24px;
+    }
+
+    .mr-110 {
+        margin-top: 70px;
     }
 }

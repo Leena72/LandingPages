@@ -14,11 +14,16 @@
 
 <body>
 
-    <div class="home">
-        <video autoplay muted loop class="video-section">
-            <source src="../animationVideo//InfosysMobile_15_BG.mp4" type="video/mp4">
+    <div class="column home">
+        <video autoplay muted loop class="video-section-cloud">
+            <source src="../animationVideo/cloud.mp4" type="video/mp4">
         </video>
-
+        <video autoplay muted loop class="video-section">
+            <source src="../animationVideo/InfosysMobile_15_BG.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="video-section-web">
+            <source src="../animationVideo/web/InfosysWeb_15_BG.mp4" type="video/mp4">
+        </video>
 
         <div class=" frame-contentBody">
             <div class="header">
@@ -36,13 +41,14 @@
 
                 <div class="mr-30"> </div>
                 <div class="graph-content">
-                    <div class="graph">
+                    <div class="graph-fr16">
                         <img src="../images/Graph-fr16.png" alt="">
                     </div>
                     <div class="mr-20"></div>
                     <div class="Graph-83">
                         <div class="Graph-83-img">
-                            <img src="../images/83%.png" alt="">
+                            <img id="mob-83" src="../images/83%.png" alt="">
+                            <img id="web-83" src="../images/web-83.png" alt="">
                         </div>
                         <div class="mr-20"></div>
                         <div class="Graph-83-para">
@@ -50,29 +56,40 @@
                                 the top: <span class="sub-heading">83% of senior executives agree or strongly
                                     agree</span>
                                 that the pandemic was a tipping point for stakeholder capitalism.</p>
-                                <div class="mr-10"></div>
-                                <div class="share-button">
+                            <div class="mr-10"></div>
+                            <div class="share-button">
                                 <p class="shareText">Share the stat</p>
-                                <a class="twi sharer" data-sharer="twitter"><img src="../images/Tw.png"></a>
-                                <a class="li sharer" data-sharer="linkedin"><img src="../images/Li.png"></a>
+                                <a class="twi sharer" data-type="twitter"><img src="../images/Tw.png"></a>
+                                <a class="li sharer" data-type="linkedin"><img src="../images/Li.png"></a>
                             </div>
-                        </div>
-                        <div class="navigate-btn">
-                            <a href="./Frame17.html">Build resilience to withstand the unknown</a>
                         </div>
                     </div>
 
 
-                    
+
 
                 </div>
             </div>
 
         </div>
-
+        <div class="navigate-btn">
+            <a href="./Frame17.html">Build resilience to withstand the unknown</a>
+        </div>
     </div>
 
-    <script src="../js/sharer.min.js"></script>
+    <script src="../js/jsshare.js"></script>
+    <script>
+        // js for share on twitter and linkedin
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            var buttons = document.querySelectorAll(".sharer");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function () {
+                    return JSShare.go(this);
+                }, false);
+            }
+        });
+    </script>
 </body>
 
 </html>
