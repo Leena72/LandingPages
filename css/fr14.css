@@ -13,7 +13,12 @@
     font-size: 16.6px;
 }
 
-
+.fr16B-graph{
+width: 900px;
+}
+.fr16B-graph>img{
+    width: 100%;
+}
 .number,
 .heading {
     padding: 6px 13px;

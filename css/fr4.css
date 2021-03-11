@@ -363,15 +363,16 @@
         position: absolute;
         left: 13em;
         padding: 0;
-        top: 18em;
+        top: 18.5em;
     }
 
-    #fr10-body>.fr1-board>.timer-img {
+    #fr10-body>.fr12-board>.timer-img {
         position: absolute;
         left: 13em;
         padding: 0;
         top: 17.5;
     }
+    
 }
 
 @media only screen and (min-width : 1224px) {

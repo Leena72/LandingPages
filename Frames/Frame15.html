@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="navigate-btn-fr15">
-            <a href="./Frame16.html">Know the secret sauce<br> for inclusive value creation</a>
+            <a href="#" onclick="location15(); return false;">Know the secret sauce<br> for inclusive value creation</a>
         </div>
 
     </div>
@@ -87,6 +87,16 @@
                 }, false);
             }
         });
+
+        function location15(){
+            console.log(">>>")
+            if ($(window).width() < 765){
+                window.location.href = './Frame16.html';
+            }
+            else{
+                window.location.href = './Frame16B.html';
+            }
+        }
     </script>
 </body>
 

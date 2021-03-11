@@ -26,42 +26,42 @@
             <img src="../images/fr7-board.png" alt="">
         </div>
 
-        <divclass=" frame-contentBody">
+        <div id="fr7-body" class=" fr10-content frame-contentBody">
             <div class="header">
                 <a href="https://www.infosys.com/">
                     <img src="../images/Infosys_Logo.png" alt="Infosys logo">
                 </a>
             </div>
-            <div class=" mr-202"> </div>
-            <div   id="fr7-body"  class="timer-img">
-                <p class="timer-color"></p>
-                <img src="../images/Car.png" id="carTrack" class="carIcon" alt="">
-                <img src="../images/track.png" class="trackIcon" alt="">
+            <div class="mr-202"> </div>
+            <div class="fr12-board">
+                <div class="timer-img">
+                    <p class="timer-color"></p>
+                    <img src="../images/Car.png" id="carTrack" class="carIcon" alt="">
+                    <img src="../images/track.png" class="trackIcon" alt="">
+                </div>
             </div>
         </div>
-    </div>
 
     </div>
     <script src="../js/timer.js">
     </script>
     <script>
-        // $("#carTrack").onPositionChanged(function () {
-        //             $('.timer-color').css({
-        //                 'width': $('#carTrack').position().left
-        //             })
-        //             if ($('#carTrack').position().left == 278 ||
-        //                 $('#carTrack').position().left == 265 ||
-        //                 $('#carTrack').position().left == 225 ||
-        //                 $('#carTrack').position().left == 296 ||
-        //                 $('#carTrack').position().left == 315 ||
-        //                 $('#carTrack').position().left == 342 ||
-        //                 $('#carTrack').position().left == 308) 
-        //                 {
-        //                     window.history.pushState('', '/', window.location.pathname)
-        //                     window.location.href = './Frame8.html'
-        //                 }
-        //                 console.log("position", $('#carTrack').position())
-        //             });
+        $("#carTrack").onPositionChanged(function () {
+            $('.timer-color').css({
+                'width': $('#carTrack').position().left
+            })
+            if ($('#carTrack').position().left == 278 ||
+                $('#carTrack').position().left == 265 ||
+                $('#carTrack').position().left == 225 ||
+                $('#carTrack').position().left == 296 ||
+                $('#carTrack').position().left == 315 ||
+                $('#carTrack').position().left == 342 ||
+                $('#carTrack').position().left == 308) {
+                window.history.pushState('', '/', window.location.pathname)
+                window.location.href = './Frame8.html'
+            }
+            console.log("position", $('#carTrack').position())
+        });
     </script>
 </body>
 
