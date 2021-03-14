@@ -83,10 +83,10 @@ body {
 
 .video-section,
 .video-section-web {
-    position: absolute;
+    /* position: absolute;
     height: auto;
     min-width: 103%;
-    min-height: 100%;
+    min-height: 100%; */
     z-index: -1;
     width: 100%;
     background-image: linear-gradient(#efeeef, #7e7c7e);

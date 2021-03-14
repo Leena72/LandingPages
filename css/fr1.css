@@ -25,8 +25,8 @@
 }
 
 .video-section {
-    display: block;
-    transform: scale(1.1);
+    /* display: block;
+    transform: scale(1.1); */
 }
 
 .video-section-web-img {

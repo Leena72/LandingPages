@@ -1,0 +1,375 @@
+@font-face {
+    font-family: "myriad-pro-bold";
+    src: url("../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-BOLD.woff") format('woff');
+}
+
+@font-face {
+    font-family: "myriad-semibold";
+    src: url("../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-SEMIBOLD.woff") format('woff');
+}
+
+@font-face {
+    font-family: "myriad-pro-regular";
+    src: url("../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff") format('woff');
+}
+
+
+*,
+html,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* section{
+    display: none;
+}
+section:first-of-type{
+    display: block;
+} */
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    padding: 15px;
+}
+
+.navbar>a>img {
+    width: 70px;
+}
+
+.home {
+    background: none;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.mr-160 {
+    margin-top: 160px;
+}
+
+.mr-12{
+    margin-top: 12px;
+}
+
+.mr-180{
+    margin-top: 180px;
+}
+
+.mr-253{
+    margin-top: 253px;
+}
+
+.video-section {
+    display: block;
+    transform: scale(1, 1);
+    z-index: -1;
+    width: 100%;
+    background-image: linear-gradient(#efeeef, #7e7c7e);
+}
+
+.video-section-web-img {
+    display: none;
+}
+
+.navigation-section {
+    position: absolute;
+    bottom: 12px;
+    left: 49%;
+}
+
+.navigation-section > a > img{
+    width: 16px;
+}
+
+.frame-contentBody {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.frame-content {
+    text-align: center;
+    padding: 0 1.5em;
+}
+
+.flag, .flag-web {
+    display: none;
+}
+
+
+.heading-2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fbad18;
+    font-family: "myriad-pro-bold";
+}
+.heading-1 {
+    font-size: 17px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    margin: 0;
+    color: #000;
+    font-family: "myriad-semibold";
+}
+.line-img {
+    margin-bottom: 8px;
+}
+
+.line-img>img {
+    width: 50px;
+    height: 2px;
+    text-align: center;
+}
+.content {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #000;
+    font-family: "myriad-pro-regular";
+}
+.content-bold {
+    font-family: "myriad-pro-bold";
+}
+.navigate-btn,
+.navigate-btn-fr13,
+.navigate-btn-fr15,
+.navigate-btn-fr17,
+.navigate-mob,
+.navigate-desk {
+    margin: auto;
+    background-color: #20a4dd;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navigate-btn>a,
+.navigate-mob>a,
+.navigate-btn-fr13>a,
+.navigate-btn-fr15>a,
+.navigate-btn-fr17>a,
+.navigate-desk>a {
+    font-family: "myriad-pro-bold";
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.navigate-mob {
+    width: 130px;
+}
+
+.navigate-desk {
+    display: none;
+}
+
+.navigate-mob>a,
+.navigate-desk>a {
+    font-size: 17px;
+}
+
+.board, .fr4-board {
+    text-align: center;
+    top: 0;
+    position: absolute;
+}
+
+.board>img, .fr4-board>img {
+    width: 85%;
+
+}
+
+.fr4-board-web {
+    display: none;
+}
+
+.content-white {
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 0;
+    color: #ffffff;
+    font-family: "myriad-pro-regular";
+}
+
+.navigate-btn {
+    width: 17em;
+}
+
+.timer-img {
+    padding: 0 45px;
+    position: relative;
+}
+.timer-color {
+    background-color: #fbad18;
+    height: 6px;
+    top: 16px;
+    position: absolute;
+    width: 0;
+}
+
+.timer-img>.carIcon {
+    width: 50px;
+    bottom: -2px;
+    position: absolute;
+    animation: carMovement 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+@keyframes carMovement {
+    form {
+        transform: translateX(10px)
+    }
+
+    to {
+        transform: translateX(233px);
+    }
+}
+
+.timer-img>.trackIcon {
+    width: 100%;
+}
+
+
+
+.answerBoxImg,
+.answerBoxImg-fr8,
+.answerBoxImg-fr9,
+.answerBoxImg-fr11,
+.answerBoxImg-fr13 {
+    width: 315px;
+    margin: auto;
+    position: relative;
+}
+
+.answerBoxImg>img,
+.answerBoxImg-fr8>img,
+.answerBoxImg-fr9>img,
+.answerBoxImg-fr11>img,
+.answerBoxImg-fr13>img {
+    width: 100%;
+}
+
+.answerBoxImg-fr11>.content {
+    position: absolute;
+    top: 2px;
+}
+
+.answerBoxImg-fr8>.content {
+    position: absolute;
+    top: 11px;
+}
+
+.answerBoxImg-fr13>.content {
+    position: absolute;
+    top: 3px;
+}
+
+.answerBoxImg,
+.share-button,
+.answerBoxImg-fr13,
+.button-section {
+    animation: answerBoxImg 1s;
+    -moz-animation: answerBoxImg 1s;
+    /* Firefox */
+    -webkit-animation: answerBoxImg 1s;
+    /* Safari and Chrome */
+
+}
+
+.answerBoxImg-fr9>.heading-1 {
+    left: 0px;
+    font-size: 27px;
+    top: 10px;
+    padding: 0 1em;
+    position: absolute;
+}
+
+.answerBoxImg-fr9>.navigate-btn {
+    position: absolute;
+    left: 70px;
+    bottom: 26px;
+}
+
+.answerBoxImg-fr13>.navigate-btn-fr13 {
+    width: 16em;
+    position: absolute;
+    left: 30px;
+    bottom: 22px;
+}
+
+.answerBoxImg-fr13>.navigate-btn-fr13>a {
+    font-size: 14px;
+}
+
+.ansewerBox {
+    position: absolute;
+    z-index: -1;
+
+}
+
+@keyframes answerBoxImg {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ansewerBox>img {
+    width: 330px;
+}
+
+
+.share-button {
+    width: 11em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: -1px 2px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.share-button>p {
+    padding-right: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.share-button>span {
+    font-size: 16px;
+    padding-right: 8px;
+}
+
+.share-button>.twi {
+    width: 25px;
+    padding: 5px 0px 0 0;
+    cursor: pointer;
+}
+
+.share-button>.twi>img {
+    width: 29px;
+    padding-right: 10px;
+}
+
+.share-button>.li {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.share-button>.li>img {
+    width: 25px;
+}
