@@ -273,7 +273,16 @@ body {
     height: 2px;
     text-align: center;
 }
-
+.download-img {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    cursor: pointer;
+}
+.download-img>a>img {
+    width: 34px;
+}
+.btn-find{}
 /* ----------------------------MEDIA QUERY----------------------------------- */
 
 @media (min-width:320px)and (max-width:350px) {
