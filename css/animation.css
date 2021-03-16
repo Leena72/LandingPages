@@ -1,17 +1,358 @@
-.heading-1,
-.timer-img,
-.fr-14-content,
-.Graph-83-para {
-    animation: heading1-fadein 1.5s;
-    -moz-animation: heading1-fadein 1.5s;
-    /* Firefox */
-    -webkit-animation: heading1-fadein 1.5s;
-    /* Safari and Chrome */
+
+/* ------------------------------------------------------- */
+/* s1 */
+.animation-s1-h1{
+    animation: fadein-s1-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
 }
 
-@keyframes heading1-fadein {
+.animation-s1-h2{
+    animation: fadein-s1-h2 .8s ease-out forwards;
+    -moz-animation: fadein-s1-h2 .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h2 .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+.animation-s1-content{
+    animation: fadein-s1-content .3s ease-out forwards;
+    -moz-animation: fadein-s1-content .3s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content .3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .3s;
+}
+
+/* s2 */
+.animation-s2-h1{
+    animation: fadein-s2-h1 .8s ease-out forwards;
+    -moz-animation: fadein-s2-h1 .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-h1 .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+
+.animation-s2-h2{
+    animation: fadein-s2-h2 .7s ease-out forwards;
+    -moz-animation: fadein-s2-h2 .7s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-h2 .7s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .7s;
+}
+.animation-s2-btn{
+    animation: fadein-s2-btn .5s ease-out forwards;
+    -moz-animation: fadein-s2-btn .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
+}
+
+/* s3 */
+.animation-s3-framebody{
+    animation: fadein-s3-framebody .1s ease-out forwards;
+    -moz-animation: fadein-s3-framebody .1s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s3-framebody .1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s3-board{
+    animation: fadein-s3-board .5s ease-out forwards;
+    -moz-animation: fadein-s3-board .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s3-board .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
+}
+
+/* s4 */
+.animation-s4-timer{
+    animation: fadein-s4-timer 1.5 ease-out forwards;
+    -moz-animation: fadein-s4-timer 1.5 ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s4-timer 1.5 ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s4-board{
+    animation: fadein-s4-board .5s ease-out forwards;
+    -moz-animation: fadein-s4-board .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s4-board .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+
+.timer-img>.carIcon {
+    width: 50px;
+    bottom: -2px;
+    position: absolute;
+    animation: carMovement 10s ease-out forwards;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+}
+
+/* s5 */
+
+.animation-s5-answerBoxImg {
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;    /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;    /* Safari and Chrome */
+
+}
+.animation-s5-h1{
+    animation: fadein-s5-h1 1.5s ease-out forwards;
+    -moz-animation: fadein-s5-h1 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s5-h1 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+
+/* s7 */
+.animation-s7-timer{
+    animation: fadein-s7-timer 1.5 ease-out forwards;
+    -moz-animation: fadein-s7-timer 1.5 ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s7-timer 1.5 ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s7-board{
+    animation: fadein-s7-board .5s ease-out forwards;
+    -moz-animation: fadein-s7-board .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s7-board .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+
+.timer-img>.carIcon {
+    width: 50px;
+    bottom: -2px;
+    position: absolute;
+    animation: carMovement 10s ease-out forwards;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+}
+
+/* s8 */
+.animation-s8-answerBoxImg-fr8 {
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;    /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;    /* Safari and Chrome */
+
+}
+.animation-s8-content{
+    animation: fadein-s5-h1 1.5s ease-out forwards;
+    -moz-animation: fadein-s5-h1 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s5-h1 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+
+/* s9 */
+.animation-s9-answerBoxImg-fr9 {
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;    /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;    /* Safari and Chrome */
+
+}
+.animation-s9-h1{
+    animation: fadein-s9-h1 1.5s ease-out forwards;
+    -moz-animation: fadein-s9-h1 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-h1 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s9-btn{
+    animation: fadein-s9-btn 1.5s ease-out forwards;
+    -moz-animation: fadein-s9-btn 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-btn 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+/* s10 */
+.animation-s10-timer{
+    animation: fadein-s7-timer 1.5 ease-out forwards;
+    -moz-animation: fadein-s7-timer 1.5 ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s7-timer 1.5 ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s10-board{
+    animation: fadein-s7-board .5s ease-out forwards;
+    -moz-animation: fadein-s7-board .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s7-board .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+
+.timer-img>.carIcon {
+    width: 50px;
+    bottom: -2px;
+    position: absolute;
+    animation: carMovement 1s ease-out forwards;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+}
+
+/* s11 */
+.animation-s11-answerBoxImg-fr11 {
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;    /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;    /* Safari and Chrome */
+
+}
+.animation-s11-content{
+    animation: fadein-s5-h1 1.5s ease-out forwards;
+    -moz-animation: fadein-s5-h1 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s5-h1 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+
+/* s12 */
+.animation-s12-timer{
+    animation: fadein-s7-timer 1.5 ease-out forwards;
+    -moz-animation: fadein-s7-timer 1.5 ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s7-timer 1.5 ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s12-board{
+    animation: fadein-s7-board .5s ease-out forwards;
+    -moz-animation: fadein-s7-board .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s7-board .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+
+/* s13 */
+.animation-s13-answerBoxImg-fr13 {
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;    /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;    /* Safari and Chrome */
+
+}
+.animation-s13-h1{
+    animation: fadein-s9-h1 1.5s ease-out forwards;
+    -moz-animation: fadein-s9-h1 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-h1 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+.animation-s13-btn{
+    animation: fadein-s9-btn 1.5s ease-out forwards;
+    -moz-animation: fadein-s9-btn 1.5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-btn 1.5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.5s;
+}
+
+/* s14 */
+.animation-s14-heading{
+    animation: fadein-s1-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+.animation-s14-fr-14-content{
+    animation: fadein-s1-content 1.2s ease-out forwards;
+    -moz-animation: fadein-s1-content 1.2s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content 1.2s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.2s;
+}
+.animation-s14-btn{
+    animation: fadein-s2-btn .8s ease-out forwards;
+    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+.animation-s14-graph{
+    animation: answerBoxImg 1.3s ease-out forwards;
+    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.3s;
+}
+/* s15 */
+.animation-s15-heading{
+    animation: fadein-s1-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+.animation-s15-fr-15-content{
+    animation: fadein-s1-content 1.2s ease-out forwards;
+    -moz-animation: fadein-s1-content 1.2s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content 1.2s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.2s;
+}
+.animation-s15-btn{
+    animation: fadein-s2-btn .8s ease-out forwards;
+    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+.animation-s15-graph{
+    animation: answerBoxImg 1.3s ease-out forwards;
+    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.3s;
+}
+
+/* s16 */
+.animation-s16-heading{
+    animation: fadein-s1-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+.animation-s16-Graph-83{
+    animation: fadein-s1-content 1.2s ease-out forwards;
+    -moz-animation: fadein-s1-content 1.2s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content 1.2s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.2s;
+}
+.animation-s16-btn{
+    animation: fadein-s2-btn .8s ease-out forwards;
+    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+.animation-s16-graph-fr16{
+    animation: answerBoxImg 1.3s ease-out forwards;
+    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.3s;
+}
+/* s17 */
+.animation-s17-heading{
+    animation: fadein-s1-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
+}
+.animation-s17-btn{
+    animation: fadein-s2-btn .8s ease-out forwards;
+    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+.animation-s17-graph{
+    animation: answerBoxImg 1.3s ease-out forwards;
+    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.3s;
+}
+/* s18 */
+.animation-s18-frame-content{
+    animation: fadein-s1-h1 .7s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .7s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .7s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .7s;
+}
+.animation-s18-btn{
+    animation: fadein-s2-btn 1.3s ease-out forwards;
+    -moz-animation: fadein-s2-btn 1.3s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn 1.3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1.3s;
+}
+.animation-s18-carousel{
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
+}
+
+/* ------------------------------------------------------- */
+/* s1 */
+@keyframes fadein-s1-h1 {
+    from{
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-s1-h2 {
     from {
-        opacity: 0;
         transform: translateY(-15px);
     }
 
@@ -21,18 +362,32 @@
     }
 }
 
+@keyframes fadein-s1-content {
+    from {
+       
+        transform: translateY(-30px);
+    }
 
-.heading-2 {
-    animation: fadein 1.7s;
-    -moz-animation: fadein 1.7s;
-    /* Firefox */
-    -webkit-animation: fadein 1.7s;
-    /* Safari and Chrome */
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-@keyframes fadein {
+/* s2 */
+
+@keyframes fadein-s2-h1 {
+    from{
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-s2-h2 {
     from {
-        opacity: 0;
         transform: translateY(-15px);
     }
 
@@ -42,43 +397,102 @@
     }
 }
 
-.content,
-.line-img>img,
-.navigate-desk,
-.navigate-mob,
-.content-white,
-.navigate-btn {
-    animation: content-fadein 1s;
-    -moz-animation: content-fadein 1s;
-    /* Firefox */
-    -webkit-animation: content-fadein 1s;
-    /* Safari and Chrome */
+@keyframes fadein-s2-btn {
+    from {
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-@keyframes content-fadein {
+/* s3 */
+@keyframes fadein-s3-framebody {
     from {
-        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadein-s3-board {
+    from {
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* s4 */
+@keyframes fadein-s4-timer {
+
+    to {
+       
+        opacity: 1;
+    }
+}
+@keyframes fadein-s4-board {
+    from {
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (min-width:370px) and (max-width:390px) {
+@keyframes carMovement {
+    form {
+        transform: translateX(10px)
+    }
+
+    to {
+        transform: translateX(233px);
+    }
+}
+}
+
+/* s5 s8 */
+@keyframes answerBoxImg {
+    from {
+    
+        transform: scale(0.5) translateY(-10px);
+    }
+
+    to {
+        transform:scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadein-s5-h1 {
+    from{
         transform: translateY(-15px);
     }
-
     to {
         transform: translateY(0);
         opacity: 1;
     }
 }
+/* s7 */
+@keyframes fadein-s7-timer {
 
-.board>img {
-    animation: board-fadein .6s;
-    -moz-animation: board-fadein .6s;
-    /* Firefox */
-    -webkit-animation: board-fadein .6s;
-    /* Safari and Chrome */
+    to {
+       
+        opacity: 1;
+    }
 }
-
-@keyframes board-fadein {
+@keyframes fadein-s7-board {
     from {
-        opacity: 0;
-        transform: translateY(-100px);
+        transform: translateY(-30px);
     }
 
     to {
@@ -87,22 +501,76 @@
     }
 }
 
-.fr4-board>img {
-    animation: fr4-board-fadein .8s;
-    -moz-animation: fr4-board-fadein .8s;
-    /* Firefox */
-    -webkit-animation: fr4-board-fadein .8s;
-    /* Safari and Chrome */
-}
-
-@keyframes fr4-board-fadein {
-    from {
-        opacity: 0;
-        transform: translateY(-100px);
+@media (min-width:370px) and (max-width:390px) {
+@keyframes carMovement {
+    form {
+        transform: translateX(10px)
     }
 
     to {
+        transform: translateX(233px);
+    }
+}
+}
+
+
+/* s9 */
+@keyframes fadein-s9-h1 {
+    from{
+        transform: translateY(15px);
+    }
+    to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+@keyframes fadein-s9-btn {
+    from{
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* ----------media query------- */
+
+@media(min-width:320px) and (max-width:350px){
+    @keyframes carMovement {
+        form {
+            transform: translateX(10px)
+        }
+
+        to {
+            transform: translateX(180px);
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:370px) {
+
+    @keyframes carMovement {
+        form {
+            transform: translateX(10px)
+        }
+
+        to {
+            transform: translateX(215px);
+        }
+    }
+
+}
+
+@media (min-width:400px) and (max-width:550px) {
+    @keyframes carMovement {
+        form {
+            transform: translateX(10px)
+        }
+
+        to {
+            transform: translateX(270px);
+        }
     }
 }
