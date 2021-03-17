@@ -2,6 +2,7 @@ function section1_animation(){
     $('#section1 .heading-1').addClass('animation-s1-h1')
     $('#section1 .heading-2').addClass('animation-s1-h2')
     $('#section1 .content ,#section1 .line-img>img').addClass('animation-s1-content')
+    $('#flaf1 , #flag2').addClass('.animation-s1-flag')
 }
 
 function section2_animation(){
@@ -12,12 +13,12 @@ function section2_animation(){
 
 function section3_animation(){
     $('#section3 .frame-contentBody').addClass('animation-s3-framebody')
-    $('#section3 .board').addClass('animation-s3-board')
+    $('#section3 .board, #section3 .web-board').addClass('animation-s3-board')
 }
 
 function section4_animation(){
     $('#section4 .timer-img').addClass('animation-s4-timer')
-    $('#section4 .fr4-board').addClass('animation-s4-board')
+    $('#section4 .fr4-board, #section4 .fr4-webboard').addClass('animation-s4-board')
 }
 function section5_animation(){
     $('#section5 .answerBoxImg').addClass('animation-s5-answerBoxImg')
@@ -26,7 +27,7 @@ function section5_animation(){
 
 function section7_animation(){
     $('#section7 .timer-img').addClass('animation-s7-timer')
-    $('#section7 .fr4-board').addClass('animation-s7-board')
+    $('#section7 .fr4-board, #section7 .web-board').addClass('animation-s7-board')
 }
 
 function section8_animation(){
@@ -42,7 +43,7 @@ function section9_animation(){
 
 function section10_animation(){
     $('#section10 .timer-img').addClass('animation-s10-timer')
-    $('#section10 .fr4-board').addClass('animation-s10-board')
+    $('#section10 .fr4-board, #section10 .web-board').addClass('animation-s10-board')
 }
 
 function section11_animation(){
@@ -52,7 +53,7 @@ function section11_animation(){
 
 function section12_animation(){
     $('#section12 .timer-img').addClass('animation-s12-timer')
-    $('#section12 .fr4-board').addClass('animation-s12-board')
+    $('#section12 .fr4-board, #section12 .web-board').addClass('animation-s12-board')
 }
 
 function section13_animation(){

@@ -68,9 +68,9 @@
     display: block;
 } */
 
-.video-section-web {
+/* .video-section-web {
     display: none;
-}
+} */
 
 /* .answerBoxImg-fr11 {
     width: 315px;
@@ -266,10 +266,10 @@
         transform: scale(1, 1.4);
     }
 
-    .download-img,
+    /* .download-img,
     .top-btn {
         display: none;
-    }
+    } */
 
     .content>br {
         display: none;
@@ -460,18 +460,18 @@
 }
 
 @media only screen and (min-width : 1224px) {
-    .video-section {
+    /* .video-section {
         display: none;
     }
 
     .video-section-web {
         display: block;
-        transform: scale(1, 1.4);
-    }
+        transform: scale(1, 1);
+    } */
 
     .download-img,
     .top-btn {
-        display: none;
+        /* display: none; */
     }
 
     .content>br {
@@ -551,7 +551,7 @@
         width: 400px!important;
     } */
     .number {
-        position: absolute;
+        /* position: absolute; */
         padding: 4px 11px;
         text-align: center;
         top: 0px;

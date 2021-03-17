@@ -21,6 +21,13 @@
     animation-delay: .3s;
 }
 
+.animation-s1-flag{
+    animation: fadein-s1-flag .3s ease-out forwards;
+    -moz-animation: fadein-s1-flag .3s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-flag .3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .3s;
+}
+
 /* s2 */
 .animation-s2-h1{
     animation: fadein-s2-h1 .8s ease-out forwards;
@@ -370,6 +377,17 @@
 
     to {
         transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadein-s1-flag {
+    from {
+       
+        transform: translateX(-30px);
+    }
+
+    to {
+        transform: translateX(0);
         opacity: 1;
     }
 }
