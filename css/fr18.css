@@ -17,9 +17,9 @@
 }
 
 .carousel {
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
-    overflow: auto;
+    overflow: auto; */
 }
 
 .carousel::-webkit-scrollbar {
@@ -113,12 +113,12 @@
 }
 
  .number-fr18{
-     position: absolute;
+     /* position: absolute;
      padding: 2px 6px;
      text-align: center;
      top: 0px;
      background: #fbad18;
-     left: 6em;
+     left: 6em; */
 }
 
 /* --------------MEDIA QUERY--------------- */
@@ -320,8 +320,8 @@
     }
 
     .answerBoxImg-fr11 {
-        width: 315px;
-        margin: 0 20px;
+        /* width: 315px; */
+        /* margin: 0 20px; */
         position: relative;
     }
 
@@ -332,7 +332,7 @@
     .answerBoxImg-fr11>.content {
         position: absolute;
         top: 29px;
-        font-size: 20px;
+        /* font-size: 20px; */
         text-align: center;
         padding: 0 10px;
         z-index: -1;
@@ -354,7 +354,7 @@
         width: 400px!important;
     } */
     .number {
-        position: absolute;
+        /* position: absolute; */
         padding: 4px 11px;
         text-align: center;
         top: 0px;
@@ -450,7 +450,7 @@
         width: 400px!important;
     } */
     .number {
-        position: absolute;
+        /* position: absolute; */
         padding: 4px 11px;
         text-align: center;
         top: 0px;

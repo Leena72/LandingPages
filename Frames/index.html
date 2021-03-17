@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="../css/index.css"> -->
-    <link rel="stylesheet" type="text/css" href="../css/fr14.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/fr14.css"> -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/fr18.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
@@ -32,7 +32,7 @@
         <video autoplay muted class="video-section">
             <source src="../animationVideo/mob/InfosysMobile_1.mp4" type="video/mp4">
         </video>
-        <img class="video-section-web-img" src="../images/fr_desk/fr1_desk_1024.png" alt="">
+        <!-- <img class="video-section-web-img" src="../images/fr_desk/fr1_desk_1024.png" alt=""> -->
         <div class="frame-contentBody">
 
             <div class="mr-160"> </div>
@@ -220,11 +220,13 @@
         <div class="fr4-board">
             <img src="../images/fr7-board.png" alt="">
         </div>
-
+        <div class="web-board">
+            <img src="../images/fr7-board-web.png" alt="">
+        </div>
         <div id="fr7-body" class=" fr10-content frame-contentBody">
 
             <div class="mr-253"> </div>
-            <div class="fr12-board">
+            <div class="fr12-board fr4-boardsection">
                 <div class="timer-img">
                     <p id="s7-timercolor" class="timer-color"></p>
                     <img src="../images/Car.png" id="s7-car" class="carIcon" alt="">
@@ -312,12 +314,14 @@
         <div class="fr4-board">
             <img src="../images/fr10-board.png" alt="">
         </div>
-
+        <div class="web-board">
+            <img src="../images/fr10-web.png" alt="">
+        </div>
         <div id="fr10-body" class=" fr10-content frame-contentBody">
 
             <div class="mr-235"> </div>
-            <div class="fr12-board">
-                <div class="timer-img">
+            <div class="fr12-board fr4-boardsection">
+                <div class="timer-img ">
                     <p id="s10-timercolor" class="timer-color"></p>
                     <img src="../images/Car.png" id="s10-car" class="carIcon" alt="">
                     <img src="../images/track.png" class="trackIcon" alt="">
@@ -375,11 +379,13 @@
         <div class="fr4-board">
             <img src="../images/fr12-board.png" alt="">
         </div>
-
+        <div class="web-board">
+            <img src="../images/fr12-web.png" alt="">
+        </div>
         <div class=" frame-contentBody">
 
             <div class="mr-253"> </div>
-            <div class="fr12-board">
+            <div class="fr12-board fr4-boardsection">
                 <div class="timer-img">
                     <p id="s12-timercolor" class="timer-color"></p>
                     <img src="../images/Car.png" id="s12-car" class="carIcon" alt="">
@@ -445,8 +451,8 @@
                 <div class="mr-30"> </div>
                 <div class=" graph-content-fr14">
                     <div class="fr-14-content mr-20">
-                        <p class="sub-heading">Marketing is more concerned than IT</p>
-                        <p>about agility (69% vs. 46%) and evolving CX to HX (58% vs.35%)</p>
+                        <p class="points" ><span class="sub-heading">Marketing is more concerned than IT</span>
+                        <br>about agility (69% vs. 46%) and evolving CX to HX (58% vs.35%)</p>
 
                         <div class=" mr-12"></div>
                         <div class="share-button">
@@ -456,12 +462,12 @@
                         </div>
                         <div class="mr-20"></div>
 
-                        <p>Build the culture of <span class="sub-heading"> co-creation, listening,</span> and <span
+                        <p class="points">Build the culture of <br><span class="sub-heading"> co-creation, listening,</span> and <span
                                 class="sub-heading">learning</span></p>
 
                         <div class="mr-12"></div>
 
-                        <p> <span class="sub-heading">Connect brands with customers </span>via stories and experiences
+                        <p class="points"> <span class="sub-heading">Connect brands with customers </span><br>via stories and experiences
                         </p>
                         <div class="mr-12"></div>
                     </div>
@@ -500,8 +506,8 @@
                 <div class="mr-30"> </div>
                 <div class="graph-content graph-content-fr14 ">
                     <div class="fr-14-content mr-20">
-                        <p class="sub-heading">Marketing sees greater opportunity </p>
-                        <p>for ESG collaboration than does IT
+                        <p class="points" ><span class="sub-heading"> Marketing sees greater opportunity </span>
+                        for ESG collaboration than does IT
                             (50% vs. 38%)</p>
 
                         <div class="mr-12"></div>
@@ -512,7 +518,7 @@
                         </div>
                         <div class="mr-12"></div>
 
-                        <p><span class="sub-heading"> CMOs can lead </span> <br>in this area, working with CIOs and
+                        <p class="points"><span class="sub-heading"> CMOs can lead </span> <br>in this area, working with CIOs and
                             CFOs
                             to better address ESG criteria.</p>
 
@@ -555,6 +561,9 @@
                 <div class="graph-content">
                     <div class="graph-fr16">
                         <img src="../images/Graph-fr16.png" alt="">
+                    </div>
+                    <div class="graph-fr16-web">
+                        <img src="../images/Bracket.png" alt="">
                     </div>
                     <div class="mr-20"></div>
                     <div class="Graph-83">
@@ -612,6 +621,7 @@
                 <div class="graph-content">
                     <div class="graph">
                         <img src="../images/CIO.png" alt="">
+                        
                         <p class="graph-para"><span class="sub-heading">CIO</span> drives business
                             resilience<span class="sub-heading"> through
                                 technology</span></p>
@@ -861,15 +871,15 @@
         });
 
         //-----------slick------------
-        $(document).ready(function () {
+        // $(document).ready(function () {
 
-            $('.carousel').slick({
-                slidesToShow: 3,
-                slidesToScroll: 1
-            });
+        //     $('.carousel').slick({
+        //         slidesToShow: 3,
+        //         slidesToScroll: 1
+        //     });
 
 
-        });
+        // });
     </script>
      
     <link rel="stylesheet" type="text/css" href="../css/slick.css">
