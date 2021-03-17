@@ -170,7 +170,7 @@
     width: 50px;
     bottom: -2px;
     position: absolute;
-    animation: carMovement 1s ease-out forwards;
+    animation: carMovement 10s ease-out forwards;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-delay: 1.5s;

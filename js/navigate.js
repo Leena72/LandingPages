@@ -1,95 +1,95 @@
 function section1_2(e){
-    $('#section1').slideUp('fast')
-    $('#section2').slideDown('fast'); 
+    $('#section1').slideUp('slow')
+    $('#section2').slideDown('slow'); 
     section2_animation()
 }
 
 function section2_3(e){
-    $('#section2').slideUp('fast')
-    $('#section3').slideDown('fast'); 
+    $('#section2').slideUp('slow')
+    $('#section3').slideDown('slow'); 
     section3_animation()
 }
 
 function section3_4(e){
-    $('#section3').slideUp('fast')
-    $('#section4').slideDown('fast'); 
+    $('#section3').slideUp('slow')
+    $('#section4').slideDown('slow'); 
     section4_animation()
 }
 
 function section4_5(e){
-    $('#section4').slideUp('fast')
-    $('#section5').slideDown('fast'); 
+    $('#section4').slideUp('slow')
+    $('#section5').slideDown('slow'); 
     section5_animation()
 }
 function section5_7(e){
-    $('#section5').slideUp('fast')
-    $('#section7').slideDown('fast'); 
+    $('#section5').slideUp('slow')
+    $('#section7').slideDown('slow'); 
     section7_animation()
 }
 
 function section7_8(e){
-    $('#section7').slideUp('fast')
-    $('#section8').slideDown('fast'); 
+    $('#section7').slideUp('slow')
+    $('#section8').slideDown('slow'); 
     section8_animation()
 }
 function section8_9(e){
-    $('#section8').slideUp('fast')
-    $('#section9').slideDown('fast'); 
+    $('#section8').slideUp('slow')
+    $('#section9').slideDown('slow'); 
     section9_animation()
 }
 function section9_10(e){
-    $('#section9').slideUp('fast')
-    $('#section10').slideDown('fast'); 
+    $('#section9').slideUp('slow')
+    $('#section10').slideDown('slow'); 
     section10_animation()
 }
 function section10_11(e){
-    $('#section10').slideUp('fast')
-    $('#section11').slideDown('fast'); 
+    $('#section10').slideUp('slow')
+    $('#section11').slideDown('slow'); 
     section11_animation()
 }
 function section11_12(e){
-    $('#section11').slideUp('fast')
-    $('#section12').slideDown('fast'); 
+    $('#section11').slideUp('slow')
+    $('#section12').slideDown('slow'); 
     section12_animation()
 }
 
 function section12_13(e){
-    $('#section12').slideUp('fast')
-    $('#section13').slideDown('fast'); 
+    $('#section12').slideUp('slow')
+    $('#section13').slideDown('slow'); 
     section13_animation()
 }
 
 function section13_14(e){
-    $('#section13').slideUp('fast')
-    $('#section14').slideDown('fast'); 
+    $('#section13').slideUp('slow')
+    $('#section14').slideDown('slow'); 
     section14_animation()
 }
 
 function section14_15(e){
-    $('#section14').slideUp('fast')
-    $('#section15').slideDown('fast'); 
+    $('#section14').slideUp('slow')
+    $('#section15').slideDown('slow'); 
     section15_animation()
 }
 function section15_16(e){
-    $('#section15').slideUp('fast')
-    $('#section16').slideDown('fast'); 
+    $('#section15').slideUp('slow')
+    $('#section16').slideDown('slow'); 
     section16_animation()
    setTimeout(percentage_loader,2000)
 }
 function section16_17(e){
-    $('#section16').slideUp('fast')
-    $('#section17').slideDown('fast'); 
+    $('#section16').slideUp('slow')
+    $('#section17').slideDown('slow'); 
     section17_animation()
 }
 function section17_18(e){
-    $('#section17').slideUp('fast')
-    $('#section18').slideDown('fast'); 
+    $('#section17').slideUp('slow')
+    $('#section18').slideDown('slow'); 
     section18_animation()
 }
   // hide and show 
   $(document).ready(function () { 
     section1_animation()
-    $('.home:not(:first)').slideUp('fast')
+    $('.home:not(:first)').slideUp('slow')
     $("#section1-link").click( section1_2);
     $("#section2-mob-link").click( section2_3);
     $("#section2-desk-link").click( section2_3);
