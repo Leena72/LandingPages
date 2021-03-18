@@ -2,17 +2,17 @@
 /* ------------------------------------------------------- */
 /* s1 */
 .animation-s1-h1{
-    animation: fadein-s1-h1 .5s ease-out forwards;
-    -moz-animation: fadein-s1-h1 .5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-h1 .5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .5s;
+    animation: fadein-s1-h1 .4s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .4s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .4s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .4s;
 }
 
 .animation-s1-h2{
-    animation: fadein-s1-h2 .8s ease-out forwards;
-    -moz-animation: fadein-s1-h2 .8s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-h2 .8s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .8s;
+    animation: fadein-s1-h2 .6s ease-out forwards;
+    -moz-animation: fadein-s1-h2 .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h2 .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
 }
 .animation-s1-content{
     animation: fadein-s1-content .3s ease-out forwards;
@@ -22,45 +22,45 @@
 }
 
 .animation-s1-flag{
-    animation: fadein-s1-flag .3s ease-out forwards;
-    -moz-animation: fadein-s1-flag .3s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-flag .3s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .3s;
+    animation: fadein-s1-flag .6s ease-out forwards;
+    -moz-animation: fadein-s1-flag .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-flag .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
 }
 
 /* s2 */
 .animation-s2-h1{
-    animation: fadein-s2-h1 .8s ease-out forwards;
-    -moz-animation: fadein-s2-h1 .8s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s2-h1 .8s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .8s;
+    animation: fadein-s2-h1 .6s ease-out forwards;
+    -moz-animation: fadein-s2-h1 .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-h1 .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
 }
 
 .animation-s2-h2{
-    animation: fadein-s2-h2 .7s ease-out forwards;
-    -moz-animation: fadein-s2-h2 .7s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s2-h2 .7s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .7s;
+    animation: fadein-s2-h2 .5s ease-out forwards;
+    -moz-animation: fadein-s2-h2 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-h2 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
 }
 .animation-s2-btn{
     animation: fadein-s2-btn .5s ease-out forwards;
     -moz-animation: fadein-s2-btn .5s ease-out forwards;  /* Firefox */
     -webkit-animation: fadein-s2-btn .5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1s;
+    animation-delay:.8s;
 }
 
 /* s3 */
 .animation-s3-framebody{
-    animation: fadein-s3-framebody .1s ease-out forwards;
-    -moz-animation: fadein-s3-framebody .1s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s3-framebody .1s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s3-framebody .3s ease-out forwards;
+    -moz-animation: fadein-s3-framebody .3s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s3-framebody .3s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 .animation-s3-board{
     animation: fadein-s3-board .5s ease-out forwards;
     -moz-animation: fadein-s3-board .5s ease-out forwards;  /* Firefox */
     -webkit-animation: fadein-s3-board .5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1s;
+    animation-delay: .5s;
 }
 
 /* s4 */
@@ -68,7 +68,7 @@
     animation: fadein-s4-timer 1.5 ease-out forwards;
     -moz-animation: fadein-s4-timer 1.5 ease-out forwards;  /* Firefox */
     -webkit-animation: fadein-s4-timer 1.5 ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 .animation-s4-board{
     animation: fadein-s4-board .5s ease-out forwards;
@@ -99,7 +99,7 @@
     animation: fadein-s5-h1 1.5s ease-out forwards;
     -moz-animation: fadein-s5-h1 1.5s ease-out forwards;  /* Firefox */
     -webkit-animation: fadein-s5-h1 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 /* s7 */
@@ -134,10 +134,10 @@
 
 }
 .animation-s8-content{
-    animation: fadein-s5-h1 1.5s ease-out forwards;
-    -moz-animation: fadein-s5-h1 1.5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s5-h1 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s5-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s5-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s5-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
 }
 
 /* s9 */
@@ -148,16 +148,16 @@
 
 }
 .animation-s9-h1{
-    animation: fadein-s9-h1 1.5s ease-out forwards;
-    -moz-animation: fadein-s9-h1 1.5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s9-h1 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s9-h1 1s ease-out forwards;
+    -moz-animation: fadein-s9-h1 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-h1 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 .animation-s9-btn{
-    animation: fadein-s9-btn 1.5s ease-out forwards;
-    -moz-animation: fadein-s9-btn 1.5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s9-btn 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s9-btn 1s ease-out forwards;
+    -moz-animation: fadein-s9-btn 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-btn 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 /* s10 */
 .animation-s10-timer{
@@ -191,10 +191,10 @@
 
 }
 .animation-s11-content{
-    animation: fadein-s5-h1 1.5s ease-out forwards;
-    -moz-animation: fadein-s5-h1 1.5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s5-h1 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s5-h1 .5s ease-out forwards;
+    -moz-animation: fadein-s5-h1 .5s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s5-h1 .5s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .5s;
 }
 
 /* s12 */
@@ -219,16 +219,16 @@
 
 }
 .animation-s13-h1{
-    animation: fadein-s9-h1 1.5s ease-out forwards;
-    -moz-animation: fadein-s9-h1 1.5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s9-h1 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s9-h1 1s ease-out forwards;
+    -moz-animation: fadein-s9-h1 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-h1 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 .animation-s13-btn{
-    animation: fadein-s9-btn 1.5s ease-out forwards;
-    -moz-animation: fadein-s9-btn 1.5s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s9-btn 1.5s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.5s;
+    animation: fadein-s9-btn 1s ease-out forwards;
+    -moz-animation: fadein-s9-btn 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s9-btn 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 
 /* s14 */
@@ -239,22 +239,22 @@
     animation-delay: .5s;
 }
 .animation-s14-fr-14-content{
-    animation: fadein-s1-content 1.2s ease-out forwards;
-    -moz-animation: fadein-s1-content 1.2s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-content 1.2s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.2s;
-}
-.animation-s14-btn{
-    animation: fadein-s2-btn .8s ease-out forwards;
-    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
+    animation: fadein-s1-content .8s ease-out forwards;
+    -moz-animation: fadein-s1-content .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content .8s ease-out forwards;/* Safari and Chrome */
     animation-delay: .8s;
 }
+.animation-s14-btn{
+    animation: fadein-s2-btn .6s ease-out forwards;
+    -moz-animation: fadein-s2-btn .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
+}
 .animation-s14-graph{
-    animation: answerBoxImg 1.3s ease-out forwards;
-    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
-    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.3s;
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 /* s15 */
 .animation-s15-heading{
@@ -264,22 +264,22 @@
     animation-delay: .5s;
 }
 .animation-s15-fr-15-content{
-    animation: fadein-s1-content 1.2s ease-out forwards;
-    -moz-animation: fadein-s1-content 1.2s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-content 1.2s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.2s;
-}
-.animation-s15-btn{
-    animation: fadein-s2-btn .8s ease-out forwards;
-    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
+    animation: fadein-s1-content .8s ease-out forwards;
+    -moz-animation: fadein-s1-content .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content .8s ease-out forwards;/* Safari and Chrome */
     animation-delay: .8s;
 }
+.animation-s15-btn{
+    animation: fadein-s2-btn .6s ease-out forwards;
+    -moz-animation: fadein-s2-btn .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
+}
 .animation-s15-graph{
-    animation: answerBoxImg 1.3s ease-out forwards;
-    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
-    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.3s;
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 
 /* s16 */
@@ -290,22 +290,22 @@
     animation-delay: .5s;
 }
 .animation-s16-Graph-83{
-    animation: fadein-s1-content 1.2s ease-out forwards;
-    -moz-animation: fadein-s1-content 1.2s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-content 1.2s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.2s;
+    animation: fadein-s1-content 1s ease-out forwards;
+    -moz-animation: fadein-s1-content 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-content 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 .animation-s16-btn{
-    animation: fadein-s2-btn .8s ease-out forwards;
-    -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .8s;
+    animation: fadein-s2-btn .6s ease-out forwards;
+    -moz-animation: fadein-s2-btn .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
 }
 .animation-s16-graph-fr16{
-    animation: answerBoxImg 1.3s ease-out forwards;
-    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
-    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.3s;
+    animation: answerBoxImg 1s ease-out forwards;
+    -moz-animation: answerBoxImg 1s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg 1s ease-out forwards;/* Safari and Chrome */
+    animation-delay: 1s;
 }
 /* s17 */
 .animation-s17-heading{
@@ -315,35 +315,35 @@
     animation-delay: .5s;
 }
 .animation-s17-btn{
+    animation: fadein-s2-btn .6s ease-out forwards;
+    -moz-animation: fadein-s2-btn .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s2-btn .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
+}
+.animation-s17-graph{
+    animation: answerBoxImg .8s ease-out forwards;
+    -moz-animation: answerBoxImg .8s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg .8s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .8s;
+}
+/* s18 */
+.animation-s18-frame-content{
+    animation: fadein-s1-h1 .6s ease-out forwards;
+    -moz-animation: fadein-s1-h1 .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: fadein-s1-h1 .6s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .6s;
+}
+.animation-s18-btn{
     animation: fadein-s2-btn .8s ease-out forwards;
     -moz-animation: fadein-s2-btn .8s ease-out forwards;  /* Firefox */
     -webkit-animation: fadein-s2-btn .8s ease-out forwards;/* Safari and Chrome */
     animation-delay: .8s;
 }
-.animation-s17-graph{
-    animation: answerBoxImg 1.3s ease-out forwards;
-    -moz-animation: answerBoxImg 1.3s ease-out forwards;  /* Firefox */
-    -webkit-animation: answerBoxImg 1.3s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.3s;
-}
-/* s18 */
-.animation-s18-frame-content{
-    animation: fadein-s1-h1 .7s ease-out forwards;
-    -moz-animation: fadein-s1-h1 .7s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-h1 .7s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .7s;
-}
-.animation-s18-btn{
-    animation: fadein-s2-btn 1.3s ease-out forwards;
-    -moz-animation: fadein-s2-btn 1.3s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s2-btn 1.3s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1.3s;
-}
 .animation-s18-carousel{
-    animation: answerBoxImg 1s ease-out forwards;
-    -moz-animation: answerBoxImg 1s ease-out forwards;  /* Firefox */
-    -webkit-animation: answerBoxImg 1s ease-out forwards;/* Safari and Chrome */
-    animation-delay: 1s;
+    animation: answerBoxImg .7s ease-out forwards;
+    -moz-animation: answerBoxImg .7s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg .7s ease-out forwards;/* Safari and Chrome */
+    animation-delay: .7s;
 }
 
 /* ------------------------------------------------------- */
