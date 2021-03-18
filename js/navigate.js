@@ -89,6 +89,12 @@ function section16_16B(e) {
 	section16B_animation()
 	setTimeout(percentage_loader, 2000)
 }
+function section16B_17(e) {
+	$('#section16B').slideUp('slow')
+	$('#section17').slideDown('slow');
+	section17_animation()
+	
+}
 
 function section16_17(e) {
 	$('#section16').slideUp('slow')
@@ -118,6 +124,7 @@ $(document).ready(function () {
 	$("#section15-link").click(section15_16);
 	$("#section16-link").click(section16_17);
 	$("#section16B-link").click(section16_16B);
+    $("#section16B-17-link").click(section16B_17);
 	$("#section17-link").click(section17_18);
 	//--------------car movement----S4---------------
 	$("#s4-car").onPositionChanged(function () {

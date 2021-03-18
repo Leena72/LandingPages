@@ -1656,7 +1656,8 @@ body {
 	#section17 .number,
 	#section16 .number,
 	#section15 .number,
-	#section14 .number {
+	#section14 .number,
+	#section16B .number {
 		font-size: 28px;
 		padding: 4px 11px;
 		text-align: center;
@@ -1665,7 +1666,8 @@ body {
 	#section17 .heading,
 	#section16 .heading,
 	#section15 .heading,
-	#section14 .heading {
+	#section14 .heading,
+	#section16B .heading {
 		font-size: 28px;
 		padding: 6px 13px;
 		font-weight: bold;
@@ -1746,15 +1748,53 @@ body {
 		text-align: center;
 	}
 	#section16 .navigate-btn {
-		width: 17em;
+		/* width: 17em;
 		left: 18em;
 		bottom: 1.2em;
 		position: absolute;
-		text-align: center;
+		text-align: center; */
+		display: none;
 	}
+	#section16 .navigation-section{display: block;}
 	#section16 .graph-fr16 {
 		display: none;
 	}
+	#section16B .frame-content {
+		padding: 0px 3em;
+	}
+	#section16B .fr14-heading {
+		display: flex;
+	}
+	#section16B .navigate-btn {
+		position: absolute;
+		bottom: 1em;
+		right: 1em;
+	}
+	#section16B .graph-content {
+		display: block;
+	}
+	#section16B .frame-content {
+		text-align: left;
+	}
+	#section16B .Graph-83 {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	#section16B .mr-12 {
+		margin-top: 45px;
+	}
+	#section16B .mr-60 {
+		margin-top: 90px;
+	}
+	#section16B .Graph-83-img {
+		width: 20%;
+	}
+	#section16B .Graph-83-para {
+		width: 55%;
+		font-size: 26px;
+	}
+	#section16B .share-button {
+		width: 9em;}
 	#section16 .graph-fr16-web {
 		display: block;
 		width: 56em;
@@ -1779,6 +1819,7 @@ body {
 		width: 27em;
 		margin-top: 40px;
 	}
+
 	.answerBoxImg,
 	.answerBoxImg-fr8,
 	.answerBoxImg-fr9,
@@ -2255,7 +2296,7 @@ body {
 		top: 0;
 		display: flex;
 		height: 100vh;
-		padding-top: 30px;
+		padding-top: 100px;
 		width: 100%;
 	}
 	.video-section {
@@ -2311,6 +2352,9 @@ body {
 	.navigate-desk>a,
 	.navigate-btn {
 		font-size: 28px;
+	}
+	.download-img>a>img {
+		width: 50px;
 	}
 	.flag-web {
 		display: flex;
@@ -2531,7 +2575,13 @@ body {
 	}
 	#section16 .graph-fr16-web {
 		display: block;
-		width: 82em;
+		width: 70em;
+	}
+	#section16B .share-button{
+		width: 9em;
+	}
+	#section16B .share-button p{
+		font-size: 23px;
 	}
 	#section16 .graph-fr16-web img {
 		width: 100%;
@@ -2590,7 +2640,7 @@ body {
 		bottom: 38px;
 	}
 	#section18 .answerBoxImg-fr11 {
-		width: 345px !important;
+		width: 400px !important;
 	}
 	.carousel {
 		overflow: auto;
@@ -2602,8 +2652,8 @@ body {
 	}
 	#section18 .answerBoxImg-fr11>.content {
 		position: absolute;
-		top: 29px;
-		font-size: 24px;
+		top: 40px;
+    font-size: 26px;
 		text-align: center;
 		padding: 0 10px;
 		z-index: -1;
@@ -2658,6 +2708,7 @@ body {
 	}
 	#section16B .Graph-83 {
 		display: flex;
+		justify-content: space-evenly;
 	}
 	#section16B .mr-12 {
 		margin-top: 45px;
@@ -2666,7 +2717,7 @@ body {
 		width: 20%;
 	}
 	#section16B .Graph-83-para {
-		width: 80%;
+		width: 55%;
 		font-size: 30px;
 	}
 }
