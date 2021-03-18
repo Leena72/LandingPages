@@ -61,7 +61,7 @@
 }
 
 .share-button {
-    width: 12em;
+    /* width: 12em; */
 }
 
 /* .video-section {
@@ -158,7 +158,7 @@
     }
 
     .share-button {
-        width: 11.5em;
+        /* width: 11.5em; */
     }
 
 }
@@ -376,7 +376,7 @@
 
     .download-img,
     .top-btn {
-        display: none;
+        /* display: none; */
     }
 
     .content>br {
@@ -428,7 +428,7 @@
     .answerBoxImg-fr11>.content {
         position: absolute;
         top: 29px;
-        font-size: 20px;
+        /* font-size: 20px; */
         text-align: center;
         padding: 0 10px;
         z-index: -1;
