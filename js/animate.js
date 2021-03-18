@@ -2,7 +2,8 @@ function section1_animation(){
     $('#section1 .heading-1').addClass('animation-s1-h1')
     $('#section1 .heading-2, #section1 .flag ').addClass('animation-s1-h2')
     $('#section1 .content ,#section1 .line-img>img').addClass('animation-s1-content')
-    $('#flaf1 , #flag2').addClass('.animation-s1-flag')
+    $('#section1 .flag-web ').addClass('.animation-s1-flagleft')
+  
 }
 
 function section2_animation(){

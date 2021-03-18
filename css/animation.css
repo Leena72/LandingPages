@@ -21,12 +21,14 @@
     animation-delay: .3s;
 }
 
-.animation-s1-flag{
-    animation: fadein-s1-flag .6s ease-out forwards;
-    -moz-animation: fadein-s1-flag .6s ease-out forwards;  /* Firefox */
-    -webkit-animation: fadein-s1-flag .6s ease-out forwards;/* Safari and Chrome */
-    animation-delay: .6s;
+.animation-s1-flagleft{
+    animation: answerBoxImg .6s ease-out forwards;
+    -moz-animation: answerBoxImg .6s ease-out forwards;  /* Firefox */
+    -webkit-animation: answerBoxImg .6s ease-out forwards;/* Safari and Chrome */
+    /* animation-delay: 3s; */
+  
 }
+
 
 /* s2 */
 .animation-s2-h1{

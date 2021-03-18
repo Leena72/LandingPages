@@ -7,10 +7,9 @@
 #section2 .line-img>img,
 #section3 .frame-contentBody,
 #section4 .timer,
-#section5 .answerBoxImg,
-#section5 .heading-1,
-#flag1,
-#flag2 {
+#section5 .answerBoxImg,.flag-web
+#section5 .heading-1
+{
     opacity: 0;
     display: inline-block;
 }
@@ -60,6 +59,7 @@
 #section18 .carousel {
     opacity: 0;
 }
+
 
 
 /* --83%-- */
