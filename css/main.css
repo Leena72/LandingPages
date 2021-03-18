@@ -787,6 +787,8 @@ body {
 		z-index: -1;
 		white-space: normal;
 	}
+
+
 }
 @media (min-width: 360px) and (max-width: 370px) {
 	.navbar>a>img {
@@ -2792,6 +2794,8 @@ body {
 		width: 133px;
 		position: absolute;
 	}
+
+	#section18 .share-button{width: 16em;}
 }
 /* specific */
 

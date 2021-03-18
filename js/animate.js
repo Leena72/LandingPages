@@ -78,10 +78,10 @@ function section14_animation(){
     setTimeout(function() {
         setTimeout(function() {
           move1() 
-        },1000)
+        },100)
       
         move() 
-      },1000)
+      },2000)
 }
 
 function section15_animation(){
