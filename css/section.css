@@ -1,4 +1,3 @@
-
 #section1 .heading-2,
 #section1 .content,
 #section1 .line-img>img,
@@ -9,15 +8,15 @@
 #section3 .frame-contentBody,
 #section4 .timer,
 #section5 .answerBoxImg,
-#section5 .heading-1
-,#flag1,#flag2
-{
+#section5 .heading-1,
+#flag1,
+#flag2 {
     opacity: 0;
     display: inline-block;
 }
 
-#section1 .heading-1, #section1 .flag
-#section2 .navigate-desk,
+#section1 .heading-1,
+#section1 .flag #section2 .navigate-desk,
 #section2 .navigate-mob,
 #section5 .navigate-btn,
 #section8 .answerBoxImg-fr8 img,
@@ -32,13 +31,18 @@
 #section13 .navigate-btn-fr13,
 #section14 .graph img,
 #section14 .navigate-btn,
-#section3 .board,#section3 .web-board,
-#section4 .fr4-board,#section4 .fr4-webboard,
+#section3 .board,
+#section3 .web-board,
+#section4 .fr4-board,
+#section4 .fr4-webboard,
 .timer-img,
-#section7 .fr4-board,#section7 .web-board,
-#section10 .fr4-board, #section10 .web-board,
-#section12 .fr4-board,#section12 .web-board,
-#section14 .fr-14-content ,
+#section7 .fr4-board,
+#section7 .web-board,
+#section10 .fr4-board,
+#section10 .web-board,
+#section12 .fr4-board,
+#section12 .web-board,
+#section14 .fr-14-content,
 #section14 .fr14-heading,
 #section15 .navigate-btn-fr15,
 #section15 .fr-14-content,
@@ -50,11 +54,10 @@
 #section16 .graph-fr16 img,
 #section17 .fr14-heading,
 #section17 .navigate-btn-fr17,
-#section17 .graph ,
+#section17 .graph,
 #section18 .frame-content,
 #section18 .button-section,
-#section18 .carousel
-{
+#section18 .carousel {
     opacity: 0;
 }
 
@@ -71,16 +74,18 @@
     overflow: hidden;
     display: inline-block;
     /* margin: 20px; */
-   }
-   .circle_inner {
+}
+
+.circle_inner {
     position: absolute;
     left: 0;
     top: 0;
     width: 1em;
     height: 1em;
     clip: rect(0 1em 1em 0.5em);
-   }
-   .round_per {
+}
+
+.round_per {
     position: absolute;
     left: 0;
     top: 0;
@@ -90,11 +95,13 @@
     clip: rect(0 1em 1em 0.5em);
     transform: rotate(180deg);
     transition: 1.05s;
-   }
-   .percent_more .circle_inner {
+}
+
+.percent_more .circle_inner {
     clip: rect(0 0.5em 1em 0em);
-   }
-   .percent_more:after {
+}
+
+.percent_more:after {
     position: absolute;
     left: 0.5em;
     top: 0em;
@@ -102,8 +109,9 @@
     bottom: 0;
     background: #fbae3d;
     content: "";
-   }
-   .circle_inbox {
+}
+
+.circle_inbox {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -112,8 +120,9 @@
     background: #efeeef;
     z-index: 999;
     border-radius: 50%;
-   }
-   .percent_text {
+}
+
+.percent_text {
     position: absolute;
     font-size: 22px;
     left: 50%;
@@ -121,15 +130,75 @@
     transform: translate(-50%, -50%);
     z-index: 3;
     color: #fbae3d;
-   }
+}
 
 
-   @media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1224px) {
     .circle_percent {
         font-size: 220px;
-       }
-   }
-   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-   .circle_percent {
-    font-size: 160px;}
+    }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .circle_percent {
+        font-size: 160px;
+    }
+}
+
+/* ----------- */
+
+.common-graph {
+    position: relative;
+    width: 480px;
+}
+
+.common-graph img {
+    width: 100%;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#myBar,
+#myBar1 {
+    height: 6px;
+    background-color: #3c4354;
+    /* text-align: center; */
+    line-height: 25px;
+    color: #3c4354;
+    position: absolute;
+}
+
+#myBar {
+    width: 0%;
+    top: 142px;
+    left: 123px;
+}
+
+#myBar p {left: -50px;
+    top: -9px;
+    position: absolute;
+    font-size: 22px;
+}
+#myBar span{width: 120%;
+    left: 26px;
+    top: 10px;
+    position: absolute;}
+
+#myBar1 {
+    width: 0%;
+    top: 225px;
+    left: 137px
+}
+
+#myBar1 p {left: -48px;
+    top: -9px;
+    position: absolute;
+    font-size: 22px;
+}
+#myBar1 span{width: 120%;
+    left: 26px;
+    top: 10px;
+    position: absolute;}

@@ -67,6 +67,20 @@ function section14_animation(){
     $('#section14 .navigate-btn ').addClass('animation-s14-btn')
     $('#section14 .fr-14-content ').addClass('animation-s14-fr-14-content')
     $('#section14 .graph img').addClass('animation-s14-graph')
+
+    // setTimeout(() => {
+    //     move()
+    // }, 2000);
+    // setTimeout(() => {
+    //     move1()
+    // }, 3000);
+    setTimeout(function() {
+        setTimeout(function() {
+          move1() 
+        },1000)
+      
+        move() 
+      },1000)
 }
 
 function section15_animation(){
