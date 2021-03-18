@@ -2285,6 +2285,9 @@ body {
 	#section16 .share-button {
 		width: 10em;
 	}
+	#section18 .share-button {
+		width: 16em;
+	}
 	#section15 .fr-14-content,
 	#section14 .fr-14-content {
 		width: 80%;
@@ -2339,7 +2342,7 @@ body {
 		left: 10em;
 	}
 }
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1025px) {
 	.video-section {
 		display: none;
 	}
