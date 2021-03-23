@@ -213,7 +213,7 @@
 
     // linkedin
     linkedin: function (options) {
-      return 'https://www.linkedin.com/shareArticle'
+      return 'https://www.linkedin.com/sharing/share-offsite'
         + '?mini=true'
         + '&url=' + encodeURIComponent(_getURL(options))
         + '&title=' + encodeURIComponent(options.title)

@@ -2,8 +2,9 @@ function section1_animation(){
     $('#section1 .heading-1').addClass('animation-s1-h1')
     $('#section1 .heading-2, #section1 .flag ').addClass('animation-s1-h2')
     $('#section1 .content ,#section1 .line-img>img').addClass('animation-s1-content')
-    $('#section1 .flag-web ').addClass('.animation-s1-flagleft')
-  
+    $('#section1 .flag1').addClass('animation-s1-flag1')
+    $('#section1 .flag2').addClass('animation-s1-flag2')
+ 
 }
 
 function section2_animation(){
@@ -64,31 +65,78 @@ function section13_animation(){
 }
 
 function section14_animation(){
+
+    $('.custom-graph').slick({
+        dots:true,
+        arrows: false,
+        infinte:false
+
+        
+    });
+  
+
     $('#section14 .fr14-heading').addClass('animation-s14-heading')
     $('#section14 .navigate-btn ').addClass('animation-s14-btn')
     $('#section14 .fr-14-content ').addClass('animation-s14-fr-14-content')
-    $('#section14 .graph img').addClass('animation-s14-graph')
+    $('#section14 .graph ').addClass('animation-s14-graph')
 
-    // setTimeout(() => {
-    //     move()
-    // }, 2000);
-    // setTimeout(() => {
-    //     move1()
-    // }, 3000);
     setTimeout(function() {
         setTimeout(function() {
-          move1() 
-        },100)
+            setTimeout(function() {
+                setTimeout(function() {
+                    setTimeout(function() {
+                        setTimeout(function() {
+                            ll_move('prsec6') 
+                          },1000)
+                        ll_move('prsec5') 
+                      },2000)
+                    ll_move('prsec4') 
+                    $('.custom-graph').slick('slickGoTo', 1);
+                  },1000)
+                 
+                ll_move('prsec3') 
+              },1000)
+
+          ll_move('prsec2') 
+        },1000)
       
-        move() 
+        ll_move( 'prsec1') 
       },2000)
+
+  
 }
 
 function section15_animation(){
+    
     $('#section15 .fr14-heading').addClass('animation-s15-heading')
     $('#section15 .navigate-btn-fr15 ').addClass('animation-s15-btn')
     $('#section15 .fr-14-content ').addClass('animation-s15-fr-15-content')
-    $('#section15 .graph img').addClass('animation-s15-graph')
+    $('#section15 .graph ').addClass('animation-s15-graph')
+    $('.custom-graph-2').slick({
+        dots:true,
+        arrows: false,
+        infinte:false
+
+        
+    });
+    setTimeout(function() {
+        setTimeout(function() {
+            setTimeout(function() {
+                setTimeout(function() {
+                   
+                    ll_move('prsec10') 
+                  
+                  },1000)
+                 
+                ll_move('prsec9') 
+                $('.custom-graph-2').slick('slickGoTo', 1);
+              },2000)
+             
+          ll_move('prsec8') 
+        },1000)
+      
+        ll_move( 'prsec7') 
+      },1000)
 }
 
 function section16_animation(){

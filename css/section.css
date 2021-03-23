@@ -1,21 +1,22 @@
 #section1 .heading-2,
 #section1 .content,
 #section1 .line-img>img,
-#section2 .heading-1,
+
 #section2 .heading-2,
 #section2 .content,
 #section2 .line-img>img,
 #section3 .frame-contentBody,
 #section4 .timer,
-#section5 .answerBoxImg,.flag-web
+#section5 .answerBoxImg,
 #section5 .heading-1
+/* #section1 .flag1, #section1 .flag2 */
 {
     opacity: 0;
     display: inline-block;
 }
 
 #section1 .heading-1,
-#section1 .flag ,#section2 .navigate-desk,
+#section1 .flag ,#section2 .navigate-desk,#section2 .heading-1, 
 #section2 .navigate-mob,
 #section5 .navigate-btn,
 #section8 .answerBoxImg-fr8 img,
@@ -28,7 +29,7 @@
 #section13 .answerBoxImg-fr13 img,
 #section13 .content,
 #section13 .navigate-btn-fr13,
-#section14 .graph img,
+#section14 .graph ,
 #section14 .navigate-btn,
 #section3 .board,
 #section3 .web-board,
@@ -45,7 +46,7 @@
 #section14 .fr14-heading,
 #section15 .navigate-btn-fr15,
 #section15 .fr-14-content,
-#section15 .graph img,
+#section15 .graph,
 #section15 .fr14-heading,
 #section16 .fr14-heading,
 #section16 .navigate-btn,
@@ -131,7 +132,15 @@
     z-index: 3;
     color: #fbae3d;
 }
-
+@media(min-width:400px) and (max-width:600px){
+    .circle_percent {
+        font-size: 110px;}
+}
+@media(min-width:650px) and (max-width:920px){
+    .circle_percent {
+        font-size: 170px;}
+       
+}
 
 @media only screen and (min-width: 1224px) {
     .circle_percent {
@@ -147,58 +156,7 @@
 
 /* ----------- */
 
-.common-graph {
-    position: relative;
-    width: 480px;
-}
 
-.common-graph img {
-    width: 100%;
-}
 
-#myProgress {
-    width: 100%;
-    background-color: #ddd;
-}
 
-#myBar,
-#myBar1 {
-    height: 6px;
-    background-color: #3c4354;
-    /* text-align: center; */
-    line-height: 25px;
-    color: #3c4354;
-    position: absolute;
-}
 
-#myBar {
-    width: 0%;
-    top: 142px;
-    left: 123px;
-}
-
-#myBar p {left: -50px;
-    top: -9px;
-    position: absolute;
-    font-size: 22px;
-}
-#myBar span{width: 120%;
-    left: 26px;
-    top: 10px;
-    position: absolute;}
-
-#myBar1 {
-    width: 0%;
-    top: 225px;
-    left: 137px
-}
-
-#myBar1 p {left: -48px;
-    top: -9px;
-    position: absolute;
-    font-size: 22px;
-}
-#myBar1 span{width: 120%;
-    left: 26px;
-    top: 10px;
-    position: absolute;}
