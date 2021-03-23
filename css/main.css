@@ -1041,9 +1041,7 @@ button {
 		margin-top: 2em;
 		font-size: 24px;
 	}
-	/* #section5 .answerBoxImg {
-		width: 30em;
-	} */
+
 	#section5 .share-button {
 		width: 12em;
 		display: flex;
@@ -1701,9 +1699,9 @@ button {
 	#section10 .trackIcon {
 		margin: 0 0 4.5em 1em;
 	}
-	#section5 .answerBoxImg {
+	/* #section5 .answerBoxImg {
 		width: 33.5em;
-	}
+	} */
 	#section5 .share-button {
 		width: 13em;
 		padding: 0.1em .5em;
