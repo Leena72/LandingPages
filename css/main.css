@@ -1075,7 +1075,8 @@ button {
 	#section5 .navigate-btn {
 		font-size: 24px;
 	}
-	#section8 .answerBoxImg-fr8,	#section5 .answerBoxImg-fr5,
+	#section8 .answerBoxImg-fr8,	
+	#section5 .answerBoxImg .answerBoxImg-fr5,
 	#section9 .answerBoxImg-fr9,
 	#section11 .answerBoxImg-fr11,
 	#section13 .answerBoxImg-fr13 {
