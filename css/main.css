@@ -1710,6 +1710,7 @@ button {
 		left: 10em;
 		bottom: 2.5em;
 	}
+	#section5 .frame-contentBody{top: 38%;}
 	#section5 .share-button .shareText {
 		font-size: 1.3em;
 		color: black;
@@ -1805,6 +1806,7 @@ button {
 		right: 2em;
 		left: auto;
 	}
+	#section5 .mr-160{margin-top: 2em;}
 	#section14 .share-button,
 	#section15 .share-button {
 		width: 12em;
