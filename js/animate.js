@@ -9,8 +9,8 @@ function section1_animation(){
 
 function section2_animation(){
     $('#section2 .heading-1,#section2 .content').addClass('animation-s2-h1')
-    $('#section2 .heading-2').addClass('animation-s2-h2')
-    $('#section2 .line-img>img , #section2 .navigate-desk,#section2 .navigate-mob').addClass('animation-s2-btn')
+    $('#section2 .heading-2,#section2 .line-img>img ').addClass('animation-s2-h2')
+    $(' #section2 .navigate-desk,#section2 .navigate-mob').addClass('animation-s2-btn')
 }
 
 function section3_animation(){

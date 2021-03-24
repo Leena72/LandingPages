@@ -31,12 +31,16 @@ button {
 }
 .navbar .logo {
 	width: 4em;
+	outline: none;
 }
 .navbar .logo img {
 	width: 100%;
+	outline: none;
 }
-.navbar .download-arrow-web{display: none;}
-.navbar .download-arrow  {
+.navbar .download-arrow-web {
+	display: none;
+}
+.navbar .download-arrow {
 	width: 2.2em;
 }
 .navbar .download-arrow img,
@@ -44,9 +48,26 @@ button {
 	width: 100%;
 }
 .download-btn {
-	width: 10.5em;
-	cursor: pointer;
+	border-radius: 3px;
+	width: 13em;
+	align-items: center;
+	display: flex;
+	padding: 0.25em;
 	margin: auto;
+	justify-content: center;
+	cursor: pointer;
+}
+.download-btn a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+	background-color: #1fa4dd;
+	padding: 6px;
+	border-radius: 3px;
+}
+.download-btn a img {
+	width: 20px;
+	margin-left: 8px;
 }
 /* common */
 
@@ -58,27 +79,35 @@ button {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-#section1 .heading-2,
+#section1 .heading-2 {
+	font-size: 1.5em;
+}
 #section2 .heading-2 {
-	font-size: 1.6em;
+	font-size: 1.45em;
+	line-height: 1.4;
 }
 #section1 .heading-1,
 #section2 .heading-1,
 #section5 .heading-1 {
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 #section1 .line-img,
 #section2 .line-img {
-	padding-bottom: .5em;
+	padding: .3em 0;
 }
 #section1 .content,
-#section2 .content,
+.sub-heading-fr14 #section2 .content,
 #section3 .content-white,
 #section8 .content {
 	font-size: 1em;
+	line-height: 1.4;
 }
 /* section 1 || 8 || 11 */
 
+#section1 .heading-1 {
+	line-height: 1.4;
+	text-transform: uppercase;
+}
 #section1 .navigation-section,
 #section8 .navigation-section,
 #section11 .navigation-section {
@@ -108,10 +137,12 @@ button {
 #section2 .navigate-desk {
 	display: none;
 }
-#section2 .navigate-mob {
-	margin-top: 1em;
+#section2 .navigate-mob,
+#section5 .navigate-btn {
+	margin-top: .85em;
 	display: block;
-	font-size: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
 }
 #section2 .fr2-heading {
 	display: block;
@@ -123,7 +154,7 @@ button {
 #section7 .fr4-board,
 #section10 .fr4-board,
 #section12 .fr4-board {
-	width: 18em;
+	width: 19em;
 	margin: auto;
 	position: relative;
 }
@@ -139,24 +170,25 @@ button {
 #section7 .fr4-board .timer-img,
 #section12 .fr4-board .timer-img {
 	position: absolute;
-	bottom: 0;
+	bottom: 0.5em;
 	left: 7px;
 }
-#section3 .frame-contentBody {
-	margin: 0;
+#section3 .fr3-content {
+	bottom: 1.5em;
+	padding: .5em;
 	position: absolute;
-	top: 24%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	text-align: center;
 }
-/* #section3 .board{display: ;} */
-
+#section3 .heading-2 {
+	font-size: 1.5em;
+}
 #section3 .web-board {
 	display: none;
 }
 #section3 .navigate-btn {
-	margin-top: 2em;
-	font-size:1em;
+	margin: .7em 0 .4em;
+	font-size: 1em;
+	font-weight: bold;
 }
 /* section 4 || 7 */
 
@@ -202,9 +234,10 @@ button {
 }
 /* section 5 || 8 || 9 */
 
-#section5 .answerBoxImg {
-	/* width: 18.5em; */
+#section5 .answerBoxImg-fr5 {
+	width: 21em;
 	position: relative;
+	margin: auto;
 }
 #section5 .answerBoxImg .box-img,
 #section8 .answerBoxImg-fr8 .box-img,
@@ -213,7 +246,13 @@ button {
 #section13 .answerBoxImg-fr13 .box-img {
 	width: 100%;
 }
-#section5 .frame-contentBody,
+#section5 .frame-contentBody {
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
 #section8 .frame-contentBody,
 #section9 .frame-contentBody,
 #section11 .frame-contentBody,
@@ -225,20 +264,21 @@ button {
 	transform: translateY(-50%);
 }
 #section5 .share-button {
-	width: 9em;
+	border-radius: 3px;
+	width: 11em;
 	display: flex;
 	align-items: center;
-	padding: 0.1em .5em;
+	padding: 0.25em;
 	position: absolute;
 	bottom: 1em;
 	left: 4.5em;
 }
 #section5 .share-button .shareText {
-	font-size: .8em;
+	font-size: .95em;
 	color: black;
 }
 #section5 .share-button .twi {
-	width: 1em;
+	width: 1.1em;
 	padding: 0;
 }
 #section5 .share-button .twi img {
@@ -246,7 +286,7 @@ button {
 	padding: 0;
 }
 #section5 .share-button .li {
-	width: 1.3em;
+	width: 1.1em;
 }
 #section5 .share-button .li img {
 	width: 100%;
@@ -261,11 +301,11 @@ button {
 }
 /* section 8 || 9 || 11*/
 
-#section8 .answerBoxImg-fr8, #section5 .answerBoxImg-fr5,
+#section8 .answerBoxImg-fr8,
 #section9 .answerBoxImg-fr9,
 #section11 .answerBoxImg-fr11,
 #section13 .answerBoxImg-fr13 {
-	width: 19em;
+	width: 20em;
 	position: relative;
 	margin: auto;
 }
@@ -274,8 +314,14 @@ button {
 #section13 .frame-content {
 	position: relative;
 }
-#section8 .content, #section5 .content {
-	top: 1.5em;
+#section5 .content {
+	top: 1em;
+	position: absolute;
+	line-height: 1.4;
+	padding: 0 1.2em;
+}
+#section8 .content {
+	top: 1em;
 	position: absolute;
 	padding: 0 1em;
 }
@@ -286,7 +332,8 @@ button {
 }
 #section9 .heading-1 {
 	padding: 0 1em;
-    font-size: 1.8em;
+	font-size: 1.5em;
+	line-height: 1.3;
 	position: absolute;
 	top: .5em;
 }
@@ -294,15 +341,15 @@ button {
 	position: absolute;
 	left: 4.5em;
 	bottom: 1.5em;
-	width: 10em;
-	padding: .5em;
+	font-size: 1.2em;
+	font-weight: bold;
 }
 /* section10 */
 
 #section10 .fr4-board .timer-img {
 	position: absolute;
 	bottom: 25px;
-	left: 7px;
+	left: 1em;
 }
 #section10 .web-board {
 	display: none;
@@ -310,39 +357,50 @@ button {
 /* section11 */
 
 #section11 .content {
-	top: 2em;
+	top: .5em;
 	position: absolute;
 	padding: 0 1em;
+	line-height: 1.4
 }
 /* section12 */
 
 #section12 .timer-img {
 	left: 4em;
-	/* top: -4em; */
 	position: absolute;
 }
 #section12 .web-board {
 	display: none;
 }
+#section12 .fr12-content {
+	position: absolute;
+	bottom: 4em;
+	left: 1.5em;
+	text-align: center;
+}
+#section12 .fr12-content .heading-2 {
+	font-size: 1.4em;
+}
 /* section13 */
 
 #section13 .content {
-	top: 2em;
+	top: 1em;
 	position: absolute;
 	padding: 0 1em;
+	line-height: 1.4;
 }
 #section13 .navigate-btn-fr13 {
 	position: absolute;
-    left: 1.7em;
-    font-size: .9em;
-    bottom: 1.5em;
-    padding: .5em;
-
+	left: 1.25em;
+	bottom: 2em;
+	font-size: .9em;
+	font-weight: bold;
 }
 #section14 .navigate-btn {
 	position: absolute;
 	bottom: 1.5em;
+	font-size: 1em;
 	left: 4.5em;
+	font-weight: bold;
 }
 #section14 .mr-60,
 #section15 .mr-60,
@@ -377,12 +435,13 @@ button {
 #section16 .heading,
 #section16B .heading,
 #section17 .heading {
-	font-size: 1.1em;
-	padding: 0.3em 1em;
+	font-size: 1em;
+	padding: 0.5em 1em;
 	font-weight: bold;
 	background-color: #000;
 	color: #fbad18;
 	text-align: left;
+	border-radius: 0 3px 3px 0;
 }
 #section14 .fr-14-content,
 #section15 .fr-14-content {
@@ -396,70 +455,71 @@ button {
 #section14 .mr-12,
 #section15 .mr-12,
 #section16 .mr-12 {
-	padding-top: 1em;
+	padding-top: .8em;
 }
 #section14 .mr-20,
 #section15 .mr-20 {
 	padding-top: 1em;
 }
-#section14 .share-button {
-	width: 9em;
-	padding: 0.1em .5em;
+#section14 .share-button,
+#section15 .share-button,
+#section16 .share-button {
+	border-radius: 3px;
+	width: 11em;
+	display: flex;
+	padding: 0.25em;
 	margin: 0;
 }
-#section14 .share-button .shareText {
-	font-size: .8em;
+#section14 .share-button .shareText,
+#section15 .share-button .shareText,
+#section16 .share-button .shareText,
+#section18 .share-button .shareText {
+	font-size: .95em;
 	color: black;
+	padding-right: 5px;
 }
-#section14 .share-button .twi {
-	width: 1em;
+#section14 .share-button .twi,
+#section15 .share-button .twi,
+#section16 .share-button .twi,
+#section18 .share-button .twi {
+	width: 1.1em;
 	padding: 0;
 }
-#section14 .share-button .twi img {
+#section14 .share-button .twi img,
+#section15 .share-button .twi img,
+#section16 .share-button .twi img,
+#section18 .share-button .twi img {
 	width: 100%;
-	padding: 0;
+	padding-top: 4px;
 }
-#section14 .share-button .li {
-	width: 1.3em;
+#section14 .share-button .li,
+#section15 .share-button .li,
+#section16 .share-button .li,
+#section18 .share-button .li {
+	width: 1.1em;
 }
-#section14 .share-button .li img {
+#section14 .share-button .li img,
+#section15 .share-button .li img,
+#section16 .share-button .li img,
+#section18 .share-button .li img {
 	width: 100%;
 }
-#section14 .graph {
-	width: 19em;
+#section14 .graph,
+#section15 .graph {
+	width: 19.05em;
+	margin: auto;
 }
 #section14 .graph img {
 	width: 100%;
 }
 /* section15 */
 
-#section15 .share-button {
-	width: 9em;
-	padding: 0.1em .5em;
-	margin: 0;
-}
-#section15 .share-button .shareText {
-	font-size: .8em;
-	color: black;
-}
-#section15 .share-button .twi {
-	width: 1em;
-	padding: 0;
-}
-#section15 .share-button .twi img {
-	width: 100%;
-	padding: 0;
-}
-#section15 .share-button .li {
-	width: 1.3em;
-}
-#section15 .share-button .li img {
-	width: 100%;
-}
-#section15 .graph,
-#section16 .graph-fr16,
 #section17 .graph {
-	width: 19em;
+	width: 19.05em;
+}
+#section16 .graph-fr16 {
+	width: 17em;
+	margin: auto;
 }
 #section15 .graph img,
 #section16 .graph-fr16 img,
@@ -469,16 +529,18 @@ button {
 #section15 .navigate-btn-fr15 {
 	position: absolute;
 	bottom: 1.5em;
-	left: 1.5em;
-	font-size: .9em;
+	left: 1em;
+	font-size: .85em;
+	font-weight: bold;
 }
 /* section 16 */
 
 #section16 .navigate-btn {
 	position: absolute;
 	bottom: 1.5em;
-	left: 3.5em;
-	font-size: .9em;
+	left: 1.2em;
+	font-weight: bold;
+	font-size: 1em;
 }
 #section16 .Graph-83 {
 	display: flex;
@@ -486,6 +548,7 @@ button {
 }
 #section16 .Graph-83-para {
 	text-align: left;
+	line-height: 1.3;
 }
 #section16 .Graph-83 .mr-20 {
 	margin-left: 1em;
@@ -493,31 +556,6 @@ button {
 #section16 .navigation-section {
 	display: none;
 }
-#section16 .share-button {
-	width: 9em;
-	padding: 0.1em .5em;
-	margin: 0;
-}
-#section16 .share-button .shareText {
-	font-size: .8em;
-	color: black;
-}
-#section16 .share-button .twi {
-	width: 1em;
-	padding: 0;
-}
-#section16 .share-button .twi img {
-	width: 100%;
-	padding: 0;
-}
-#section16 .share-button .li {
-	width: 1.3em;
-}
-#section16 .share-button .li img {
-	width: 100%;
-}
-/* #section16	.graph-fr16{display: block;} */
-
 #section16 .graph-fr16-web {
 	display: none;
 }
@@ -526,18 +564,16 @@ button {
 #section17 .navigate-btn-fr17 {
 	position: absolute;
 	bottom: 1.5em;
-	left: 3em;
+	left: 1.5em;
 	font-size: .9em;
-
+	font-weight: bold;
 }
 #section17 .mr-20 {
 	padding-top: 1em;
 }
-#section17 .graph-content {
-	padding-left: 15px;
-}
 #section17 .graph {
 	position: relative;
+	margin: auto;
 }
 #section17 .graph-para {
 	position: absolute;
@@ -551,6 +587,7 @@ button {
 #section18 .frame-content .content {
 	font-size: 18px;
 	color: black;
+	line-height: 1.4;
 }
 #section18 .carousel {
 	overflow: auto;
@@ -578,15 +615,18 @@ button {
 	padding: 0 10px;
 	z-index: -1;
 	white-space: normal;
+	font-size: .85em;
 }
 #section18 .number-fr18 {
 	position: absolute;
 	padding: 3px 12px;
 	text-align: center;
 	top: 0px;
+	font-size: .8em;
 	background: #fbad18;
 	border-radius: 3px;
-	left: 6em;
+	left: 7em;
+	font-weight: bold;
 }
 #section18 .mr-90 {
 	padding-top: 5em;
@@ -595,41 +635,29 @@ button {
 	padding-top: 2em;
 }
 #section18 .share-button {
-	width: 10em;
-	padding: 0.1em .5em;
-	/* margin: auto; */
-}
-#section18 .share-button .shareText {
-	font-size: .8em;
-	color: black;
-}
-#section18 .share-button .twi {
-	width: 1em;
-	padding: 0;
-}
-#section18 .share-button .twi img {
-	width: 100%;
-	padding: 0;
-}
-#section18 .share-button .li {
-	width: 1.3em;
-}
-#section18 .share-button .li img {
-	width: 100%;
-}
-.custom-graph .pro-graph-2 {
-	/* display: none; */
+	border-radius: 3px;
+	width: 11em;
+	display: flex;
+	padding: 0.25em;
+	margin: auto;
 }
 .pro-graph-1,
+.pro-graph-2,
 .pro-graph-3,
-.pro-graph-4,
-.pro-graph-2 {
+.pro-graph-4 {
 	background-image: url(../images/C-graph.png);
 	background-size: cover;
 	width: 20em;
 	padding: 1em;
 	position: relative;
-	height: 14em;
+}
+.pro-graph-1,
+.pro-graph-2 {
+	height: 15em;
+}
+.pro-graph-3,
+.pro-graph-4 {
+	height: 16em;
 }
 .pro-graph-1 .sub-heading,
 .pro-graph-3 .sub-heading,
@@ -637,7 +665,7 @@ button {
 .pro-graph-2 .sub-heading {
 	color: #03A9F4;
 	font-size: 18px;
-	padding: 5px;
+	padding: 2px;
 	border-radius: 10px;
 	margin-top: 10px;
 	border: 1px solid black;
@@ -646,7 +674,7 @@ button {
 	height: 3px;
 	background-color: #3c4354;
 	color: #3c4354;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .pro-graph-1 .content .CG-heading,
 .pro-graph-3 .content .CG-heading,
@@ -676,7 +704,7 @@ button {
 	display: flex;
 	font-size: 15px;
 	justify-content: flex-end;
-	margin-bottom: 10px
+	margin-bottom: 5px
 }
 .slick-dots {
 	list-style: none;
@@ -702,7 +730,56 @@ button {
 @media (min-width: 320px) and (max-width: 350px) {
 	#section1 .heading-2,
 	#section2 .heading-2 {
-		font-size: 1.3em;
+		font-size: 1.2em;
+	}
+	#section1 .heading-1,
+	#section2 .heading-1 {
+		font-size: 1em;
+	}
+	#section1 .flag {
+		width: 6em;
+	}
+	#section2 .navigate-mob,
+	#section5 .navigate-btn {
+		margin-top: .5em;
+		font-size: 1em;
+	}
+	#section3 .board,
+	#section4 .fr4-board,
+	#section7 .fr4-board,
+	#section10 .fr4-board,
+	#section12 .fr4-board {
+		width: 18em;
+	}
+	#section5 .answerBoxImg-fr5 {
+		width: 17em;
+	}
+	#section5 .content {
+		top: .5em;
+		font-size: .85em;
+	}
+	#section5 .share-button {
+		width: 9em;
+		bottom: 0em;
+	}
+	#section5 .share-button .twi,
+	#section5 .share-button .li {
+		width: 1em;
+	}
+	#section3 .fr3-content {
+		bottom: 1em;
+	}
+	#section3 .navigate-btn {
+		font-size: 0.9em;
+	}
+	#section1 .content,
+	.sub-heading-fr14 #section2 .content,
+	#section3 .content-white,
+	#section11 .content,
+	#section13 .content,
+	#section8 .content {
+		font-size: .9em;
+		line-height: 1.3;
 	}
 	#section3 .frame-contentBody {
 		top: 29%;
@@ -724,16 +801,14 @@ button {
 		padding: 0 1em;
 	}
 	#section9 .heading-1 {
-		font-size: 1.7em;
+		font-size: 1.4em;
 	}
 	#section9 .navigate-btn {
 		left: 4.5em;
-		bottom: 0.5em;
-		width: 8em;
-		padding: .5em;
+		font-size: 1em;
 	}
-	#section10 .timer-img {
-		left: 2em;
+	#section10 .fr4-board .timer-img {
+		left: 5px;
 	}
 	#section11 .content {
 		top: 1em;
@@ -743,12 +818,31 @@ button {
 		left: 2em;
 	}
 	#section13 .navigate-btn-fr13 {
-		position: absolute;
-		left: 2em;
-		bottom: 1.5em;
-		font-size: 12px;
-		width: 19em;
-		padding: .5em;
+		font-size: .75em;
+		width: 21em;
+		left: .8em;
+		bottom: 2em;
+	}
+	#section14 .share-button,
+	#section15 .share-button,
+	#section16 .share-button {
+		width: 9em;
+	}
+	#section14 .share-button .shareText,
+	#section15 .share-button .shareText,
+	#section16 .share-button .shareText,
+	#section18 .share-button .shareText {
+		font-size: .85em;
+	}
+	#section14 .share-button .twi,
+	#section15 .share-button .twi,
+	#section16 .share-button .twi,
+	#section18 .share-button .twi,
+	#section14 .share-button .li,
+	#section15 .share-button .li,
+	#section16 .share-button .li,
+	#section18 .share-button .li {
+		width: 1em;
 	}
 	#section14 .heading,
 	#section15 .heading,
@@ -765,7 +859,7 @@ button {
 		width: 15em;
 	}
 	#section14 .navigate-btn {
-		left: 3.5em;
+		left: 2.5em;
 	}
 	#section15 .graph,
 	#section16 .graph-fr16,
@@ -773,20 +867,22 @@ button {
 		width: 16em;
 	}
 	#section15 .navigate-btn-fr15 {
-		left: 1.5em;
+		left: 0.5em;
 		font-size: 12px;
 	}
 	#section16 .Graph-83-para p {
 		font-size: 13px;
 	}
 	#section16 .navigate-btn {
-		left: 1.5em;
+		left: 0.5em;
+		font-size: 13px;
 	}
 	#section16 .mr-12 {
 		padding-top: 0.2em;
 	}
 	#section17 .navigate-btn-fr17 {
-		left: 1em;
+		left: 0.5em;
+		font-size: 13px;
 	}
 	#section17 .graph-para {
 		bottom: 2em;
@@ -826,23 +922,31 @@ button {
 	}
 }
 @media (min-width: 360px) and (max-width: 370px) {
-	#section10 .timer-img {
-		left: 3em;
+	#section5 .answerBoxImg-fr5 {
+		width: 20em;
 	}
-	#section12 .timer-img {
-		left: 3em;
+	#section5 .content {
+		top: 0.45em;
 	}
-	#section14 .mr-12,
-	#section16 .mr-12 {
-		padding-top: 0.5em;
+	#section5 .share-button {
+		bottom: 0.5em;
 	}
-	#section14 .mr-20,
-	#section15 .mr-20 {
-		padding-top: 0.5em;
+	#section14 .navigate-btn {
+		left: 3.5em;
+	}
+	#section15 .navigate-btn-fr15 {
+		left: 0.5em;
+	}
+	#section14 .graph,
+	#section15 .graph {
+		margin: 1em auto auto;
+	}
+	#section16 .navigate-btn {
+		left: 0.7em;
 	}
 	#section14 .points,
 	#section15 .points {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 	#section15 .mr-12 {
 		padding-top: 1.5em;
@@ -861,69 +965,55 @@ button {
 	}
 }
 @media (min-width: 400px) and (max-width: 600px) {
-	#section1 .content,
-	#section2 .content,
-	#section3 .content-white,
-	#section8 .content {
-		font-size: 1.1em;
-	}
-	#section2 .navigate-mob {
-		width: 9em;
-	}
-	#section2 .navigate-desk {
-		display: none;
+	#section3 .board .timer-img,
+	#section4 .fr4-board .timer-img,
+	#section7 .fr4-board .timer-img,
+	#section12 .fr4-board .timer-img {
+		left: 1em
 	}
 	#section3 .board,
 	#section4 .fr4-board,
 	#section7 .fr4-board,
 	#section10 .fr4-board,
 	#section12 .fr4-board {
-		width: 19em;
-	}
-	#section3 .navigate-btn {
-		width: 18em;
-		font-size: 14px;
-	}
-	#section5 .navigate-btn {
-		width: 10em;
-	}
-	#section5 .content {
-		padding: 0 .8em;
-	}
-	#section10 .timer-img {
-		left: 5em;
-	}
-	#section12 .timer-img {
-		left: 5em;
-	}
-	#section14 .navigate-btn {
-		left: 5.5em;
-		font-size: 16px;
-	}
-	#section15 .navigate-btn-fr15 {
-		left: 1em;
-		font-size: 16px;
-	}
-	#section16 .navigate-btn {
-		left: 3em;
-		font-size: 16px;
-	}
-	#section16 .Graph-83-para p {
-		font-size: 18px;
-	}
-	#section17 .graph {
 		width: 20em;
 	}
-	#section17 .navigate-btn-fr17 {
-		left: 2.5em;
-		font-size: 16px;
+	#section14 .graph,
+	#section15 .graph,
+	#section16 .Graph-83,
+	#section16 .graph-content,
+	#section17 .graph-content,
+	#section17 .mr-20 {
+		margin-top: 1.5em;
 	}
-	.pro-graph-1,
-	.pro-graph-2,
+	#section14 .points,
+	#section15 .points {
+		font-size: 1.2em;
+	}
+	#section12 .fr12-content {
+		left: 2em;
+	}
+	#section15 .navigate-btn-fr15 {
+		left: 1.5em;
+		font-size: .9em;
+	}
+	#section16 .navigate-btn {
+		left: 2em;
+	}
+	#section17 .navigate-btn-fr17 {
+		font-size: 1em
+	}
+	;
+	#section14 .heading,
+	#section15 .heading,
+	#section16 .heading,
+	#section16B .heading,
+	#section17 .heading {
+		font-size: 1.15em;
+	}
 	.pro-graph-3,
 	.pro-graph-4 {
-		width: 22em;
-		height: 15em;
+		height: 18em;
 	}
 }
 @media (width: 411px) and (height: 823px) {
@@ -934,6 +1024,32 @@ button {
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
+	#section14 .graph,
+	#section15 .graph,
+	#section16 .Graph-83,
+	#section16 .graph-content,
+	#section17 .graph-content,
+	#section17 .mr-20 {
+		margin-top: 2em;
+	}
+	#section14 .points,
+	#section15 .points {
+		font-size: 1.2em;
+	}
+	#section15 .navigate-btn-fr15 {
+		left: 1em;
+	}
+	#section14 .heading,
+	#section15 .heading,
+	#section16 .heading,
+	#section16B .heading,
+	#section17 .heading {
+		font-size: 1.15em;
+	}
+	.pro-graph-3,
+	.pro-graph-4 {
+		height: 18em;
+	}
 }
 @media (width: 375px) and (height: 812px) {
 	#section3 .frame-contentBody {
@@ -943,9 +1059,50 @@ button {
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
+	#section3 .board .timer-img,
+	#section4 .fr4-board .timer-img,
+	#section7 .fr4-board .timer-img,
+	#section12 .fr4-board .timer-img {
+		left: 1em
+	}
+	#section3 .board,
+	#section4 .fr4-board,
+	#section7 .fr4-board,
+	#section10 .fr4-board,
+	#section12 .fr4-board {
+		width: 20em;
+	}
+	#section14 .graph,
+	#section15 .graph,
+	#section16 .Graph-83,
+	#section16 .graph-content,
+	#section17 .graph-content,
+	#section17 .mr-20 {
+		margin-top: 2em;
+	}
+	#section14 .points,
+	#section15 .points {
+		font-size: 1.2em;
+	}
+	#section15 .navigate-btn-fr15 {
+		left: 1em;
+	}
+	#section14 .heading,
+	#section15 .heading,
+	#section16 .heading,
+	#section16B .heading,
+	#section17 .heading {
+		font-size: 1.15em;
+	}
+	.pro-graph-3,
+	.pro-graph-4 {
+		height: 18em;
+	}
 }
 @media (min-width: 650px) and (max-width: 1024px) {
-	#section1 .content{    padding: 0 2em;}
+	#section1 .content {
+		padding: 0 2em;
+	}
 	#section4 .timer-img,
 	#section7 .timer-img {
 		bottom: 1.5em !important;
@@ -983,22 +1140,23 @@ button {
 		/* width: 3em; */
 		display: none;
 	}
-	.navbar .download-arrow-web  {
+	.navbar .download-arrow-web {
 		display: block;
 		width: 3em;
 	}
-	.navbar .download-arrow-web img
-	{
+	.navbar .download-arrow-web img {
 		width: 100%;
 	}
 	#section1 .heading-2,
 	#section2 .heading-2 {
-		font-size: 2.5em;
+		font-size: 2.2em;
+	}
+	#section12 .fr12-content {
+		font-size: 1.3em;
 	}
 	#section1 .heading-1,
-	#section2 .heading-1
-	{
-		font-size: 2em;
+	#section2 .heading-1 {
+		font-size: 1.8em;
 	}
 	#section5 .heading-1 {
 		font-size: 2em;
@@ -1029,7 +1187,7 @@ button {
 	#section4 .fr4-board,
 	#section7 .fr4-board,
 	#section10 .fr4-board {
-		width: 27em;
+		width: 28em;
 	}
 	#section12 .fr4-board {
 		width: 24em;
@@ -1041,9 +1199,8 @@ button {
 		margin-top: 2em;
 		font-size: 24px;
 	}
-
 	#section5 .share-button {
-		width: 12em;
+		width: 14em;
 		display: flex;
 		align-items: center;
 		padding: 0.1em .5em;
@@ -1075,25 +1232,26 @@ button {
 	#section5 .navigate-btn {
 		font-size: 24px;
 	}
-	#section8 .answerBoxImg-fr8,	
+	#section8 .answerBoxImg-fr8,
 	#section5 .answerBoxImg .answerBoxImg-fr5,
 	#section9 .answerBoxImg-fr9,
 	#section11 .answerBoxImg-fr11,
 	#section13 .answerBoxImg-fr13 {
 		width: 30em;
 	}
-	#section8 .content,#section5 .content {
+	#section8 .content,
+	#section5 .content {
 		top: 1em;
-		font-size: 28px;
+		font-size: 1.5em;
 		padding: 0 1em;
 	}
 	#section9 .heading-1 {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 	#section9 .navigate-btn {
 		position: absolute;
 		left: 5em;
-		font-size: 24px;
+		font-size: 27px;
 	}
 	#section10 .timer-img {
 		bottom: 50px !important;
@@ -1101,21 +1259,21 @@ button {
 	}
 	#section11 .content {
 		top: 1em;
-		font-size: 26px;
+		font-size: 1.5em;
 		padding: 0 .5em;
 	}
 	#section12 .timer-img {
 		left: 16em;
 	}
 	#section13 .content {
-		font-size: 26px;
+		font-size: 1.5em;
 	}
 	#section13 .navigate-btn-fr13 {
 		position: absolute;
 		left: 1.5em;
 		bottom: 1.5em;
-		font-size: 22px;
-		width: 19em;
+		font-size: 20px;
+		width: 21em;
 		padding: .5em;
 	}
 	#section14 .frame-content,
@@ -1158,7 +1316,8 @@ button {
 		font-size: 1.5em;
 	}
 	#section14 .graph {
-		/* width: 26em; */    width: 18em;
+		width: 18.05em;
+		margin: 0;
 	}
 	#section14 .navigate-btn {
 		left: 8.5em;
@@ -1289,12 +1448,22 @@ button {
 	#section18 .share-button .li {
 		width: 1.7em;
 	}
+	#section18 .content .content-yellow {
+		font-size: 1.4em;
+		line-height: 1;
+	}
+	#section15 .graph {
+		margin: 0;
+	}
+	.download-btn a {
+		font-size: 1.2em;
+	}
 	.pro-graph-1,
 	.pro-graph-2,
 	.pro-graph-3,
 	.pro-graph-4 {
 		/* width: 24em; */
-		height: 16em;
+		height: 18em;
 	}
 	.pro-graph-1 .content .CG-heading,
 	.pro-graph-2 .content .CG-heading,
@@ -1317,12 +1486,14 @@ button {
 		background-size: cover;
 		position: relative;
 		height: 100vh;
-		padding-top: 170px;
+		padding-top: 140px;
 		width: 100%;
 		transform: translateY(0);
 		top: 0;
 	}
-	#section1 .content{    padding: 0 ;}
+	#section1 .content {
+		padding: 0;
+	}
 	#section1 .flag-web {
 		position: relative;
 		display: block;
@@ -1542,12 +1713,11 @@ button {
 		/* width: 3em; */
 		display: none;
 	}
-	.navbar .download-arrow-web  {
+	.navbar .download-arrow-web {
 		display: block;
 		width: 3em;
 	}
-	.navbar .download-arrow-web img
-	{
+	.navbar .download-arrow-web img {
 		width: 100%;
 	}
 	.video-section {
@@ -1590,7 +1760,7 @@ button {
 		background-size: cover;
 		position: relative;
 		height: 100vh;
-		padding-top: 170px;
+		padding-top: 80px;
 		width: 100%;
 		transform: translateY(0);
 		top: 0;
@@ -1656,6 +1826,12 @@ button {
 		width: 33em;
 		margin: auto;
 	}
+	#section5 .content {
+		font-size: 1.5em;
+	}
+	#section9 .heading-1 {
+		font-size: 2.5em;
+	}
 	#section3 .board-img,
 	#section4 .fr4-webboard .board-img,
 	#section7 .web-board .board-img,
@@ -1710,7 +1886,9 @@ button {
 		left: 10em;
 		bottom: 2.5em;
 	}
-	#section5 .frame-contentBody{top: 38%;}
+	#section5 .frame-contentBody {
+		top: 38%;
+	}
 	#section5 .share-button .shareText {
 		font-size: 1.3em;
 		color: black;
@@ -1725,18 +1903,19 @@ button {
 	#section5 .navigate-btn {
 		font-size: 26px;
 	}
-	#section8 .answerBoxImg-fr8,#section5 .answerBoxImg-fr5,
+	#section8 .answerBoxImg-fr8,
+	#section5 .answerBoxImg-fr5,
 	#section9 .answerBoxImg-fr9,
 	#section11 .answerBoxImg-fr11,
 	#section13 .answerBoxImg-fr13 {
 		width: 33em;
 	}
 	#section9 .heading-1 {
-		font-size: 3.3em;
+		font-size: 2.5em;
 	}
 	#section9 .navigate-btn {
 		position: absolute;
-		left: 6em;
+		left: 7em;
 		font-size: 24px;
 	}
 	#section11 .content {
@@ -1744,13 +1923,16 @@ button {
 		font-size: 26px;
 		padding: 0 .5em;
 	}
+	.download-btn a {
+		font-size: 1.5em;
+	}
 	#section13 .navigate-btn-fr13 {
 		position: absolute;
-		left: 2.5em;
 		bottom: 1.5em;
-		font-size: 22px;
-		width: 19em;
 		padding: .5em;
+		width: 21em;
+		left: 3em;
+		font-size: 1.2em;
 	}
 	#section14 .mr-60,
 	#section15 .mr-60,
@@ -1806,7 +1988,9 @@ button {
 		right: 2em;
 		left: auto;
 	}
-	#section5 .mr-160{margin-top: 2em;}
+	#section5 .mr-160 {
+		margin-top: 2em;
+	}
 	#section14 .share-button,
 	#section15 .share-button {
 		width: 12em;
@@ -1955,7 +2139,7 @@ button {
 		left: 9em;
 	}
 	#section18 .answerBoxImg-fr11 .content {
-		font-size: 22px;
+		font-size: 1.2em;
 		color: black;
 	}
 	#section18 .share-button {
@@ -1972,7 +2156,7 @@ button {
 		padding: 0;
 	}
 	#section18 .share-button .li {
-		width: 1.8em;
+		width: 1.5em;
 	}
 	#section18 .content br:nth-of-type(2) {
 		display: block;
