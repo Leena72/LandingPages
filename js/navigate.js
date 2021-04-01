@@ -111,6 +111,54 @@ function section17_18(e) {
 // hide and show 
 $(document).ready(function () {
 	section1_animation()
+	$("#section1-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section2-mob-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section2-desk-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section-3-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section3-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section5-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section8-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section9-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section11-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section13-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section14-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section15-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section16-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section16B-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section16B-17-link").click(function() {
+myFullpage.moveSectionDown()
+});
+$("#section17-link").click(function() {
+myFullpage.moveSectionDown()
+});
 	// $('.home:not(:first)').slideUp('fast')
 	// $("#section1-link").click(section1_2);
 	// $("#section2-mob-link").click(section2_3);

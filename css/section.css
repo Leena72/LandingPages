@@ -117,12 +117,13 @@
 }
 .percent_text {
 	position: absolute;
-	font-size: 22px;
+	font-size: 4rem;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
 	color: #fbae3d;
+	font-family: "myriad-semibold"
 }
 @media(min-width:400px) and (max-width:600px) {
 	.circle_percent {
@@ -142,6 +143,11 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 	.circle_percent {
 		font-size: 160px;
+	}
+}
+@media (max-width: 767px) {
+	.percent_text {
+		font-size: 1.8rem;
 	}
 }
 /* ----------- */

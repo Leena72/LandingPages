@@ -76,7 +76,7 @@ button {
 #section2 .frame-contentBody {
 	margin: 0;
 	position: absolute;
-	top: 40%;
+	top: 34%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
@@ -422,7 +422,7 @@ button {
 #section16 .number,
 #section16B .number,
 #section17 .number {
-	padding: 6px 12px;
+	padding: 0.2em 0.5em;
 	text-align: center;
 	font-size: 18px;
 	top: 0px;
@@ -437,7 +437,7 @@ button {
 #section16B .heading,
 #section17 .heading {
 	font-size: 1em;
-	padding: 0.5em 1em;
+	padding: 0.2em .5em;
 	font-weight: bold;
 	background-color: #000;
 	color: #fbad18;
@@ -464,12 +464,14 @@ button {
 }
 #section14 .share-button,
 #section15 .share-button,
-#section16 .share-button {
+#section16 .share-button,
+#section16B .share-button {
 	border-radius: 3px;
 	width: 11em;
 	display: flex;
 	padding: 0.25em;
 	margin: 0;
+	border: 1px solid #20a4dd;
 }
 #section14 .share-button .shareText,
 #section15 .share-button .shareText,
@@ -498,6 +500,7 @@ button {
 #section16 .share-button .li,
 #section18 .share-button .li {
 	width: 1.1em;
+	border-left: 1px solid #20a4dd;
 }
 #section14 .share-button .li img,
 #section15 .share-button .li img,
@@ -633,7 +636,7 @@ button {
 	padding-top: 5em;
 }
 #section18 .mr-20 {
-	padding-top: 2em;
+	padding-top: 1em;
 }
 #section18 .share-button {
 	border-radius: 3px;
@@ -709,7 +712,8 @@ button {
 }
 .slick-dots {
 	list-style: none;
-	display: flex;
+	/*display: flex;*/
+	display: none !important;
 	justify-content: center;
 }
 .slick-dots button {
@@ -1151,7 +1155,7 @@ button {
 	}
 	#section1 .heading-2,
 	#section2 .heading-2 {
-		font-size: 2.2em;
+		font-size: 2em;
 	}
 	#section12 .fr12-content {
 		font-size: 1.3em;
@@ -1730,12 +1734,13 @@ button {
 	}
 	#section1 .heading-2,
 	#section2 .heading-2 {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	#section1 .heading-1,
-	#section2 .heading-1,
-	#section5 .heading-1 {
-		font-size: 2em;
+	#section2 .heading-1 {
+		/* font-size: 2em; */
+		font-size: 1.5em;
+    	padding: 0 80px;
 	}
 	#section1 .content,
 	#section2 .content,
@@ -1829,7 +1834,7 @@ button {
 		margin: auto;
 	}
 	#section5 .content {
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 	#section9 .heading-1 {
 		font-size: 2.5em;
@@ -1903,7 +1908,7 @@ button {
 		width: 1.7em;
 	}
 	#section5 .navigate-btn {
-		font-size: 26px;
+		font-size: 20px;
 	}
 	#section8 .answerBoxImg-fr8,
 	#section5 .answerBoxImg-fr5,
@@ -1948,7 +1953,7 @@ button {
 	#section16 .heading,
 	#section16B .heading,
 	#section17 .heading {
-		font-size: 1.8em;
+		font-size: 1.4em;
 	}
 	#section14 .number,
 	#section15 .number,
@@ -1987,8 +1992,8 @@ button {
 	#section14 .navigate-btn {
 		font-size: 24px;
 		position: absolute;
-		bottom: 1.2em;
-		right: 2em;
+		bottom: .4em;
+		right: 6em;
 		left: auto;
 	}
 	#section5 .mr-160 {
@@ -2017,8 +2022,8 @@ button {
 	#section15 .navigate-btn-fr15 {
 		font-size: 24px;
 		position: absolute;
-		bottom: 1.2em;
-		right: 4em;
+		bottom: .6em;
+		right: 6em;
 		left: auto;
 	}
 	#section15 .mr-30 {
@@ -2065,8 +2070,8 @@ button {
 		padding-top: 1.2em;
 	}
 	#section16B .share-button {
-		width: 10em;
-		padding: 0.1em .5em;
+		width: 9em;
+		padding: 0.1em .3em;
 		margin: 0;
 	}
 	#section16 .navigation-section {
@@ -2110,8 +2115,8 @@ button {
 	#section17 .navigate-btn-fr17 {
 		font-size: 24px;
 		position: absolute;
-		bottom: 1.2em;
-		right: 4em;
+		bottom: .6em;
+		right: 5em;
 		left: auto;
 	}
 	#section14 .number,
@@ -2119,7 +2124,7 @@ button {
 	#section16 .number,
 	#section16B .number,
 	#section17 .number {
-		font-size: 1.7em;
+		font-size: 1.4em;
 	}
 	#section18 .mr-90 {
 		padding-top: 4em;
@@ -2148,7 +2153,7 @@ button {
 	}
 	#section18 .share-button {
 		width: 15em;
-		padding: 0.1em .5em;
+		padding: 0.4em .5em;
 		/* margin: auto; */
 	}
 	#section18 .share-button .shareText {
@@ -2263,7 +2268,7 @@ button {
 
 
 #section9 .navigate-btn{
-	bottom: 52px;
+	bottom: 44px;
 }
 
 .share-button{
@@ -2290,7 +2295,7 @@ button {
 }
 @media (min-width: 1030px){
 	#section5 .share-button{
-		bottom: 16px;
+		bottom: 60px;
 	}
 
 	.video-section, .video-section-web{
@@ -2300,7 +2305,7 @@ button {
 		min-height: 100%;
 		z-index: -1;
 		width: 100%;
-		object-fit: cover !important;
+		object-fit: fill;
 		background-image: linear-gradient(#efeeef, #7e7c7e);
 	}
 
@@ -2322,6 +2327,7 @@ button {
 		padding: 0 109px;
 		line-height: 1;
 		top: 26px;
+		text-transform: uppercase;
 	}
 
 	#section11 .content{
@@ -2347,15 +2353,15 @@ button {
 		font-size: 1em !important;
 	}
 	#section16B .share-button .shareText {
-		font-size: 0.8em !important;
+		font-size: 0.7em !important;
 		color: black;
 	}
 
 	#section3 .content-white{
-		padding: 0 80px;
+		padding: 0 50px;
 	}
 	#section3 .fr3-content{
-		bottom: 3.5em;
+		bottom: 1.5em;
 	}
 
 	#section5 .content{
@@ -2377,8 +2383,38 @@ button {
 		font-size: 26px !important;
 	}
 
+	#section1 .content,
+	#section2 .content{
+		font-size: 1.2em !important;
+	}
+
+	#section2 .frame-content p.content {
+		padding: 0 20px;
+	}
+
+	#section2 .heading-2{
+		text-transform: uppercase;
+	}
+
+	#section3 .board-img, #section4 .fr4-webboard .board-img, #section7 .web-board .board-img, #section10 .web-board .board-img, #section12 .web-board .board-img{
+		margin-top: -36px;
+	}
+
+	#section3 .web-board{
+		width: 32em;
+	}
+
+	#section5 .heading-1{
+		font-size: 24px;
+	}
+
 }
 
+
+#section2 .content>span{
+	color: #fbad18;
+    font-family: "myriad-pro-bold";
+}
 
 #p16-content,#p16B-content{
 	font-family: "myriad-pro-regular";
@@ -2417,3 +2453,40 @@ button {
 		padding-left: 0;
 	}
 }
+.share-button {
+	border: 1px solid #20a4dd;
+}
+#section16B .share-button .li, #section5 .share-button .li {
+		border-left:1px solid #20a4dd;
+	}
+	@media (max-width: 767px) {
+		#section5 .content {
+			    font-size: .9rem;
+			    top: 1em;
+			    padding: .2em 1.9em;
+		}
+		#section5 .share-button {
+			bottom: 1.5em;
+		}
+			#section5 .share-button .li {
+				width:1.5em;
+			}
+			#section13 .navigate-btn-fr13 {
+				font-size: .85em;
+				left:1.85em;
+				bottom: 3em;
+			}
+			#section11 .content {
+				font-size: .9em;
+				padding: .5em 1.3em
+			}
+			#section14 .graph,#section15 .graph {
+				margin: 0 auto;
+			}
+			.slick-track {
+				height: 11em;
+			}
+			.slick-track .slick-slide > div, .graph-div, .graph-div img  {
+				height: 100%;
+			}
+	}

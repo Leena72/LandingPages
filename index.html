@@ -190,7 +190,7 @@
 
 						</div>
 						<div class="share-button">
-							<p class="shareText">Share the stat</p>
+							<p class="shareText">Share this stat</p>
 							<a class="twi sharer dataShare" data-type="twitter">
 								<img src="./images/Tw.png">
 							</a>
@@ -203,7 +203,7 @@
 
 				<div class="mr-20"></div>
 				<div id="fr5-body" class="frame-content">
-					<p class="heading-1 ">How about your risk miitigation strategy?</p>
+					<p class="heading-1 ">How about your risk mitigation strategy?</p>
 					<div class="mr-20"></div>
 					<button class="navigate-btn" id="section5-link">Find out now!
 					</button>
@@ -413,7 +413,7 @@
 							</p>
 							<div class=" mr-12"></div>
 							<div class="share-button">
-								<p class="shareText">Share the stat</p>
+								<p class="shareText">Share this stat</p>
 								<a class="twi sharer dataShare-14" data-type="twitter">
 									<img src="./images/Tw.png">
 								</a>
@@ -435,7 +435,13 @@
 						</div>
 
 						<div class="custom-graph graph">
-							<div class="pro-graph-1">
+							<div class="graph-div">
+								<img src="./images/Graph-fr14-1.png" alt="">
+							</div>
+							<div class="graph-div">
+								<img src="./images/Graph-fr14-2.png" alt="">
+							</div>
+							<!-- <div class="pro-graph-1">
 
 								<div class="content">
 									<p class="CG-heading">Gap between Marketing-IT perception</p>
@@ -459,8 +465,8 @@
 									</div>
 
 								</div>
-							</div>
-							<div class="pro-graph-2">
+							</div> -->
+						<!-- 	<div class="pro-graph-2">
 
 								<div class="content">
 									<p class="CG-heading">Gap between Marketing-IT perception</p>
@@ -483,7 +489,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 
 					</div>
@@ -515,7 +521,7 @@
 								for ESG collaboration than does IT (50% vs. 38%)</p>
 							<div class="mr-12"></div>
 							<div class="share-button">
-								<p class="shareText">Share the stat</p>
+								<p class="shareText">Share this stat</p>
 								<a class="twi sharer dataShare-15" data-type="twitter">
 									<img src="./images/Tw.png">
 								</a>
@@ -532,7 +538,13 @@
 
 
 						<div class="custom-graph-2 graph ">
-							<div class="pro-graph-3">
+							<div class="graph-div">
+								<img src="./images/Graph-fr15-1.png" alt="">
+							</div>
+							<div class="graph-div">
+								<img src="./images/Graph-fr15-2.png" alt="">
+							</div>
+							<!-- <div class="pro-graph-3">
 
 								<div class="content">
 									<p class="CG-heading">Gap between Marketing-IT perception</p>
@@ -553,7 +565,7 @@
 									</div>
 
 								</div>
-							</div>
+							</div> -->
 							<div class="pro-graph-4">
 
 								<div class="content">
@@ -626,7 +638,7 @@
 								</p>
 								<div class="mr-12"></div>
 								<div class="share-button">
-									<p class="shareText">Share the stat</p>
+									<p class="shareText">Share this stat</p>
 									<a class="twi sharer dataShare-16" data-type="twitter">
 										<img src="./images/Tw.png">
 									</a>
@@ -678,7 +690,7 @@
 							</p>
 							<div class="mr-12"></div>
 							<div class="share-button">
-								<p class="shareText">Share the stat</p>
+								<p class="shareText">Share this stat</p>
 								<a class="twi sharer dataShare-16B" data-type="twitter">
 									<img src="./images/Tw.png">
 								</a>
@@ -801,6 +813,7 @@
 	<script>
 		var myFullpage = new fullpage('#fullpage', {
 			css3: true,
+			// anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11', 'page12', 'page13', 'page14', 'page15', 'page16', 'page17', 'page18'],
 			onLeave: function (index, nextIndex, direction) {
 				var leavingSection = $(this);
 
@@ -880,6 +893,8 @@
 					section18_animation()
 				}
 			}
+
+
 		});
 
 		$(document).ready(function () {
@@ -902,14 +917,71 @@
 			})
 
 			if ($(window).width() <= 991) {
-				console.log('here')
 				$('#section16B').remove()
 				$('#section18 .carousel').css({
 					overflow: 'auto'
 				})
 				$('#section18 .carousel').attr('style', 'overflow: auto !important');
 			}
+
+			// $(document).on('click', '#section1-link', function () {
+			// 	fullpage_api.moveTo('page2');
+			// });
+			// $(document).on('click', '#section2-desk-link', function () {
+			// 	fullpage_api.moveTo('page3');
+			// });
+			// $(document).on('click', '#section-3-link', function () {
+			// 	fullpage_api.moveTo('page4');
+			// });
+			// $(document).on('click', '#section3-link', function () {
+			// 	fullpage_api.moveTo('page4');
+			// });
+			// $(document).on('click', '#section2-mob-link', function () {
+			// 	fullpage_api.moveTo('page3');
+			// });
+			// $(document).on('click', '#section5-link', function () {
+			// 	fullpage_api.moveTo('page6');
+			// });
+			// $(document).on('click', '#section1-link', function () {
+			// 	fullpage_api.moveTo('page2');
+			// });
+			// $(document).on('click', '#section8-link', function () {
+			// 	fullpage_api.moveTo('page8');
+			// });
+			// $(document).on('click', '#section9-link', function () {
+			// 	fullpage_api.moveTo('page9');
+			// });
+			// $(document).on('click', '#section11-link', function () {
+			// 	fullpage_api.moveTo('page11');
+			// });
+			// $(document).on('click', '#section13-link', function () {
+			// 	fullpage_api.moveTo('page13');
+			// });
+			// $(document).on('click', '#section14-link', function () {
+			// 	fullpage_api.moveTo('page14');
+			// });
+			// $(document).on('click', '#section15-link', function () {
+			// 	fullpage_api.moveTo('page15');
+			// });
+
+			// $(document).on('click', '#section16-link', function () {
+			// 	fullpage_api.moveTo('page17');
+			// });
+			// $(document).on('click', '#section16B-link', function () {
+			// 	fullpage_api.moveTo('page16');
+			// });
+			// $(document).on('click', '#section16B-17-link', function () {
+			// 	fullpage_api.moveTo('page17');
+			// });
+			// $(document).on('click', '#section17-link', function () {
+			// 	fullpage_api.moveTo('page18');
+			// });
 		})
+
+		// function myFunction() {
+		// 	history.replaceState(null, null, ' ');
+		// 	fullpage_api.moveTo(1);
+		// }
 
 	</script>
 
