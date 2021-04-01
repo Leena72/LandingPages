@@ -49,7 +49,7 @@ button {
 }
 .download-btn {
 	border-radius: 3px;
-	width: 13em;
+	width: 19em;
 	align-items: center;
 	display: flex;
 	padding: 0.25em;
@@ -64,6 +64,7 @@ button {
 	background-color: #1fa4dd;
 	padding: 6px;
 	border-radius: 3px;
+	font-family: "myriad-pro-regular";
 }
 .download-btn a img {
 	width: 20px;
@@ -759,7 +760,7 @@ button {
 		font-size: .85em;
 	}
 	#section5 .share-button {
-		width: 9em;
+		width: 10em;
 		bottom: 0em;
 	}
 	#section5 .share-button .twi,
@@ -806,6 +807,7 @@ button {
 	#section9 .navigate-btn {
 		left: 4.5em;
 		font-size: 1em;
+		bottom: 1.5em !important;
 	}
 	#section10 .fr4-board .timer-img {
 		left: 5px;
@@ -1456,7 +1458,7 @@ button {
 		margin: 0;
 	}
 	.download-btn a {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.pro-graph-1,
 	.pro-graph-2,
@@ -1924,7 +1926,7 @@ button {
 		padding: 0 .5em;
 	}
 	.download-btn a {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	#section13 .navigate-btn-fr13 {
 		position: absolute;
@@ -1977,6 +1979,7 @@ button {
 	#section15 .graph-content {
 		display: flex;
 		justify-content: space-around;
+		padding-left: 40px;
 	}
 	#section14 .fr-14-content {
 		padding-right: 1em;
@@ -2051,6 +2054,7 @@ button {
 	#section16B .Graph-83,
 	#section17 .graph-content {
 		display: flex;
+		padding-left: 40px;
 	}
 	#section16B .Graph-83-para {
 		font-size: 26px;
@@ -2219,5 +2223,197 @@ button {
 	.custom-graph-2 {
 		height: 286px;
 		width: 400px;
+	}
+}
+
+/* Updated Css */
+
+.slick-dots li.slick-active::before {
+    background-color: #52a4dd;
+    box-shadow: 0px 0px 4px;
+}
+
+.pro-graph-1 .sub-heading,
+.pro-graph-2 .sub-heading,
+.pro-graph-3 .sub-heading, 
+.pro-graph-4 .sub-heading{
+	border: none;
+}
+
+.pro-graph-1 .sub-heading span,
+.pro-graph-2 .sub-heading span,
+.pro-graph-3 .sub-heading span, 
+.pro-graph-4 .sub-heading span{
+	
+	color: #03A9F4;
+    font-size: inherit;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.pro-block .pr-line{
+	color:#03A9F4 ;
+}
+
+#section8 .content{
+	padding: 0 24px;
+}
+
+
+#section9 .navigate-btn{
+	bottom: 52px;
+}
+
+.share-button{
+	font-family: "myriad-pro-regular";
+}
+
+#section14 .points, #section15 .points {
+    font-size: 14px;
+    font-family: "myriad-pro-regular";
+}
+
+#section18 .share-button .shareText{
+	font-size: 14px;
+}
+#section14 .heading, #section15 .heading, #section16 .heading, #section16B .heading, #section17 .heading{
+	font-family: "myriad-pro-regular";
+}
+#section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number{
+	font-family: "myriad-pro-regular";
+}
+
+#section8 .navigation-section{
+    left: 48%;
+}
+@media (min-width: 1030px){
+	#section5 .share-button{
+		bottom: 16px;
+	}
+
+	.video-section, .video-section-web{
+		position: absolute;
+		height: 100vh !important;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -1;
+		width: 100%;
+		object-fit: cover !important;
+		background-image: linear-gradient(#efeeef, #7e7c7e);
+	}
+
+	.pro-graph-1 .content, .pro-graph-2 .content, .pro-graph-3 .content, .pro-graph-4 .content{
+		padding: 0 !important;
+	}
+
+	.pro-block .pr-line, .pro-block .pr-title{
+		width:50% !important;
+	}
+
+	#section8 .content{
+		font-size: 1.4em;
+		top: 1.6em;
+	}
+
+	#section9 .heading-1 {
+		font-size: 40px;
+		padding: 0 109px;
+		line-height: 1;
+		top: 26px;
+	}
+
+	#section11 .content{
+		font-size: 21px;
+    	padding: 0 54px;
+    	top: 35px;
+	}
+
+	#section13 .content{
+		font-size: 25px;
+    	top: 46px;
+	}
+
+	#section13 .navigate-btn-fr13{
+		bottom: 44px;
+	}
+
+	.slick-dots{
+		margin-top: -30px;
+	}
+
+	.share-button .shareText{
+		font-size: 1em !important;
+	}
+	#section16B .share-button .shareText {
+		font-size: 0.8em !important;
+		color: black;
+	}
+
+	#section3 .content-white{
+		padding: 0 80px;
+	}
+	#section3 .fr3-content{
+		bottom: 3.5em;
+	}
+
+	#section5 .content{
+		padding: 0 2.5em;
+		top: 1.4em;
+	}
+
+	#section14 .points, #section15 .points {
+		font-size: 20px;
+		font-family: "myriad-pro-regular";
+	}
+
+	#section16B .Graph-83-para{
+		max-width: 750px;
+    	line-height: 1.2;
+	}
+	#p16-content,#p16B-content{
+		font-family: "myriad-pro-regular";
+		font-size: 26px !important;
+	}
+
+}
+
+
+#p16-content,#p16B-content{
+	font-family: "myriad-pro-regular";
+	font-size: 14px;
+}
+
+.slick-dots li.slick-active::before {
+    background-color: #52a4dd;
+    box-shadow: 0px 0px 4px;
+}
+
+#fullPage{
+	height: 100vh;
+}
+
+.video-section, .video-section-web{
+	top: 0;
+}
+
+.fp-tableCell{
+	display: block !important;
+}
+@media (min-width:320px) and (max-width: 767px){
+	#section3 .content-white{
+		padding: 0 10px;
+	}
+}
+
+@media (max-width:1029px){
+	#section14 .graph-content-fr14,
+	#section15 .graph-content {
+		padding-left: 0;
+	}
+	#section16B .Graph-83,
+	#section17 .graph-content{
+		padding-left: 0;
 	}
 }

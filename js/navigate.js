@@ -111,32 +111,32 @@ function section17_18(e) {
 // hide and show 
 $(document).ready(function () {
 	section1_animation()
-	$('.home:not(:first)').slideUp('fast')
-	$("#section1-link").click(section1_2);
-	$("#section2-mob-link").click(section2_3);
-	$("#section2-desk-link").click(section2_3);
-	$("#section3-link").click(section3_4);
-	$("#section-3-link").click(section3_4);
-	$("#section5-link").click(section5_7);
-	$("#section8-link").click(section8_9);
-	$("#section9-link").click(section9_10);
-	$("#section11-link").click(section11_12);
-	$("#section13-link").click(section13_14);
-	$("#section14-link").click(section14_15);
-	$("#section15-link").click(section15_16);
-	$("#section16-link").click(section16_17);
-	$("#section16B-link").click(section16_16B);
-	$("#section16B-17-link").click(section16B_17);
-	$("#section17-link").click(section17_18);
+	// $('.home:not(:first)').slideUp('fast')
+	// $("#section1-link").click(section1_2);
+	// $("#section2-mob-link").click(section2_3);
+	// $("#section2-desk-link").click(section2_3);
+	// $("#section3-link").click(section3_4);
+	// $("#section-3-link").click(section3_4);
+	// $("#section5-link").click(section5_7);
+	// $("#section8-link").click(section8_9);
+	// $("#section9-link").click(section9_10);
+	// $("#section11-link").click(section11_12);
+	// $("#section13-link").click(section13_14);
+	// $("#section14-link").click(section14_15);
+	// $("#section15-link").click(section15_16);
+	// $("#section16-link").click(section16_17);
+	// $("#section16B-link").click(section16_16B);
+	// $("#section16B-17-link").click(section16B_17);
+	// $("#section17-link").click(section17_18);
 	//--------------car movement----S4---------------
 	$("#s4-car").onPositionChanged(function () {
 		$('#s4-timercolor').css({
 			'width': $('#s4-car').position().left
 		})
 		if ($('#s4-car').position().left == 216 || $('#s4-car').position().left == 217 || $('#s4-car').position().left == 300) {
-			section4_5()
+			// section4_5()
 		}
-		console.log("$('#s4-car').position().left", $('#s4-car').position().left)
+		// console.log("$('#s4-car').position().left", $('#s4-car').position().left)
 	});
 	$("#s4-web-car").onPositionChanged(function () {
 		$('#s4-web-timercolor').css({
@@ -146,9 +146,9 @@ $(document).ready(function () {
 			$('#s4-web-car').position().left == 217 ||
 			$('#s4-web-car').position().left == 300 ||
 			$('#s4-web-car').position().left == 349) {
-			section4_5()
+			// section4_5()
 		}
-		console.log("$('#s4-web-car').position().left", $('#s4-web-car').position().left)
+		// console.log("$('#s4-web-car').position().left", $('#s4-web-car').position().left)
 	});
 	//--------------car movement----S7---------------
 	$("#s7-car").onPositionChanged(function () {
@@ -156,9 +156,9 @@ $(document).ready(function () {
 			'width': $('#s7-car').position().left
 		})
 		if ($('#s7-car').position().left == 216 || $('#s7-car').position().left == 217 || $('#s7-car').position().left == 300) {
-			section7_8()
+			// section7_8()
 		}
-		console.log("$('#s7-car').position().left", $('#s7-car').position().left)
+		// console.log("$('#s7-car').position().left", $('#s7-car').position().left)
 	});
 	$("#s7-web-car").onPositionChanged(function () {
 		$('#s7-web-timercolor').css({
@@ -168,9 +168,9 @@ $(document).ready(function () {
 			|| $('#s7-web-car').position().left == 217 ||
 			$('#s7-web-car').position().left == 300 ||
 			$('#s7-web-car').position().left == 349) {
-			section7_8()
+			// section7_8()
 		}
-		console.log("$('#s7-web-car').position().left", $('#s7-web-car').position().left)
+		// console.log("$('#s7-web-car').position().left", $('#s7-web-car').position().left)
 	});
 	//--------------car movement----S10---------------
 	$("#s10-car").onPositionChanged(function () {
@@ -180,9 +180,9 @@ $(document).ready(function () {
 		if ($('#s10-car').position().left == 216 ||
 			$('#s10-car').position().left == 217 ||
 			$('#s10-car').position().left == 300) {
-			section10_11()
+			// section10_11()
 		}
-		console.log("$('#s10-car').position().left", $('#s10-car').position().left)
+		// console.log("$('#s10-car').position().left", $('#s10-car').position().left)
 	});
 	$("#s10-web-car").onPositionChanged(function () {
 		$('#s10-web-timercolor').css({
@@ -192,9 +192,9 @@ $(document).ready(function () {
 			|| $('#s10-web-car').position().left == 217 ||
 			$('#s10-web-car').position().left == 300 ||
 			$('#s10-web-car').position().left == 349) {
-			section10_11()
+			// section10_11()
 		}
-		console.log("$('#s10-web-car').position().left", $('#s10-web-car').position().left)
+		// console.log("$('#s10-web-car').position().left", $('#s10-web-car').position().left)
 	});
 	//--------------car movement----S12---------------
 	$("#s12-car").onPositionChanged(function () {
@@ -202,13 +202,13 @@ $(document).ready(function () {
 			'width': $('#s12-car').position().left
 		})
 		if ($('#s12-car').position().left == 216 || $('#s12-car').position().left == 217 || $('#s12-car').position().left == 300) {
-			section12_13()
+			// section12_13()
 		}
-		console.log("$('#s12-car').position().left", $('#s12-car').position().left)
+		// console.log("$('#s12-car').position().left", $('#s12-car').position().left)
 	});
-	$('#scroll-up-btn').click(function () {
-		window.location.reload()
-	})
+	// $('#scroll-up-btn').click(function () {
+	// 	window.location.reload()
+	// })
 	$("#s12-web-car").onPositionChanged(function () {
 		$('#s12-web-timercolor').css({
 			'width': $('#s12-web-car').position().left
@@ -217,11 +217,11 @@ $(document).ready(function () {
 			$('#s12-web-car').position().left == 217 ||
 			$('#s12-web-car').position().left == 300 ||
 			$('#s12-web-car').position().left == 349) {
-			section12_13()
+			// section12_13()
 		}
-		console.log("$('#s12-web-car').position().left", $('#s12-web-car').position().left)
+		// console.log("$('#s12-web-car').position().left", $('#s12-web-car').position().left)
 	});
-	$('#scroll-up-btn').click(function () {
-		window.location.reload()
-	})
+	// $('#scroll-up-btn').click(function () {
+	// 	window.location.reload()
+	// })
 });

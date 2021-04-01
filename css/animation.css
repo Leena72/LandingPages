@@ -82,7 +82,7 @@
     animation-delay: .5s;
 }
 
-#section4 .timer-img .carIcon {
+#section4 .timer-img.animation-s4-timer .carIcon {
     /* position: absolute;
     top: 3px;
     left: 7px;
@@ -122,11 +122,11 @@
     animation-delay: .5s;
 }
 
-.timer-img>.carIcon {
+#section7 .timer-img.animation-s7-timer .carIcon {
     animation: carMovement 3s ease-out forwards;
     animation-fill-mode: both;
     animation-iteration-count: 1;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 /* s8 */
@@ -154,13 +154,13 @@
     animation: fadein-s9-h1 1s ease-out forwards;
     -moz-animation: fadein-s9-h1 1s ease-out forwards;  
     -webkit-animation: fadein-s9-h1 1s ease-out forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 .animation-s9-btn{
     animation: fadein-s9-btn 1s ease-out forwards;
     -moz-animation: fadein-s9-btn 1s ease-out forwards;  
     -webkit-animation: fadein-s9-btn 1s ease-out forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 /* s10 */
 .animation-s10-timer{
@@ -176,11 +176,11 @@
     animation-delay: .5s;
 }
 
-.timer-img>.carIcon {
+#section10 .timer-img.animation-s10-timer .carIcon {
     animation: carMovement 3s ease-out forwards;
     animation-fill-mode: both;
     animation-iteration-count: 1;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 /* s11 */
@@ -210,6 +210,12 @@
     -webkit-animation: fadein-s7-board .5s ease-out forwards;
     animation-delay: .5s;
 }
+#section12 .timer-img.animation-s12-timer .carIcon {
+    animation: carMovement 3s ease-out forwards;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
 
 /* s13 */
 .animation-s13-answerBoxImg-fr13 {
@@ -222,13 +228,13 @@
     animation: fadein-s9-h1 1s ease-out forwards;
     -moz-animation: fadein-s9-h1 1s ease-out forwards;  
     -webkit-animation: fadein-s9-h1 1s ease-out forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 .animation-s13-btn{
     animation: fadein-s9-btn 1s ease-out forwards;
     -moz-animation: fadein-s9-btn 1s ease-out forwards;  
     -webkit-animation: fadein-s9-btn 1s ease-out forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 /* s14 */
