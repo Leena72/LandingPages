@@ -76,7 +76,7 @@ button {
 #section2 .frame-contentBody {
 	margin: 0;
 	position: absolute;
-	top: 34%;
+	top: 60%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
@@ -94,7 +94,10 @@ button {
 }
 #section1 .line-img,
 #section2 .line-img {
-	padding: .3em 0;
+	margin: 10px auto;
+	width:20%;
+	border:1px solid #3c79bd;
+	border-radius: 2px;
 }
 #section1 .content,
 .sub-heading-fr14 #section2 .content,
@@ -250,7 +253,7 @@ button {
 #section5 .frame-contentBody {
 	margin: 0;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
@@ -1761,7 +1764,6 @@ button {
 		display: block;
 	}
 	#section1 .frame-contentBody {
-		background-image: url(../images/fr_desk/fr1_desk_1024.png);
 		background-position: bottom center;
 		background-repeat: no-repeat;
 		background-size: cover;

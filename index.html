@@ -22,12 +22,336 @@
 	<script src="./js/loader83.js"></script>
 	<link rel="stylesheet" href="./css/fullpage.css">
 
+	<link rel="stylesheet" href="./css/mob-desk.css">
 	<title>Infosys Landing Page</title>
 
 
 </head>
 
 <body>
+	<style>
+ .css_transform1 { 
+	position: absolute;
+	left:32rem;
+	top:-3.5rem;
+
+	transform: scale(1.7,1.3) translate(0px, 600px);
+	animation: T1-animation 4.5s ease infinite normal;
+ } 
+@keyframes T1-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateY(-50px);
+	}
+	100% {
+		transform: scaleX(1.7) scaleY(1.3) translateY(600px);
+	}
+}
+ .css_transform2 { 
+	position: absolute;
+	top: -2.5rem; 
+	left:34rem;
+	transform: scale(1.7,1.3) translate(-400px, 400px);
+	animation: T2-animation 6s ease infinite normal;
+ } 
+@keyframes T2-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
+	}
+	100% {
+		transform: scaleX(1.7) scaleY(1.3) translateX(-400px) translateY(400px);
+	}
+}
+ .css_transform3 { 
+	position: absolute;
+	top: -2.5rem; 
+	left:34rem;
+	transform: scale(1.7,1.3) translate(400px, 400px);
+	animation: T3-animation 5.5s ease infinite normal;
+ } 
+@keyframes T3-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
+	}
+	100% {
+		transform: scaleX(1.7) scaleY(1.3) translateX(400px) translateY(400px);
+	}
+}
+ .css_transform4 { 
+		position: absolute;
+	top: -3.5rem; 
+	left:32rem;
+	transform: scale(1.7,1.3) translate(-800px, 800px);
+	animation: T2-animation 4s ease infinite normal;
+ } 
+@keyframes T2-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateX(-100px) translateY(-100px);
+	}
+	100% {
+		transform: scaleX(1.7) scaleY(1.3) translateX(-800px) translateY(800px);
+	}
+}
+ .css_transform5 { 
+	position: absolute;
+	top: -2.5rem;
+	left:34rem;
+	transform: scale(1.7,1.3) translate(0px, 600px);
+	animation: T5-animation 5s ease infinite normal;
+
+ } 
+@keyframes T5-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateY(-50px);
+	}
+	100% {
+		transform: scaleX(1.7) scaleY(1.3) translateY(600px);
+	}
+}
+ .css_transform6 { 
+	position: absolute;
+	top: -3.5rem;
+	left:32rem;
+	transform: scale(1.7,1.3) translate(0px, 600px);
+	animation: T6-animation 6.5s ease infinite normal;
+
+ } 
+@keyframes T6-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateY(-50px);
+	}
+	100% {
+		transform: scaleX(1.7) scaleY(1.3) translateY(600px);
+	}
+}
+ .css_transform7 { 
+	position: absolute;
+	left:32rem;
+	top:1.5rem;
+
+	transform: scale(1,1) translate(0px, 50px);
+	animation: T7-animation 3s ease infinite normal;
+ } 
+@keyframes T7-animation {
+	0% {
+		transform: scaleX(0) scaleY(0) translateY(0px);
+	}
+	100% {
+		transform: scaleX(1) scaleY(1) translateY(50px);
+	}
+}
+ .css_transform8 { 
+	position: absolute;
+	left:-40rem;
+	top:1.5rem;
+
+	transform: translate(2000px, 0px);
+	animation: T8-animation 3s ease-in-out infinite normal;
+ } 
+@keyframes T8-animation {
+	0% {
+		transform: translateX(-50px);
+	}
+	100% {
+		transform: translateX(2000px);
+	}
+}
+ .css_transform9 {
+
+	transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
+	transform-origin: 200px 200px 420px;
+	animation: T9-animation 2s linear infinite normal;
+ } 
+ @keyframes T9-animation {
+	0% {
+		transform: rotateX(16deg) rotateY(-36deg) rotateZ(0);
+	}
+	100% {
+		transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
+	}
+}
+
+ @media(max-width:767px) {
+ 	.css_transform1 {
+ 		left:0 !important;
+ 		top:-3rem !important;
+
+ 	}
+ 	.css_transform2 {
+ 		left:3rem !important;
+ 		top:-2rem !important;
+
+ 	}
+ 	.css_transform3 {
+ 		left:3rem !important;
+ 		top:-2rem !important;
+
+ 	}
+ 		.css_transform4 {
+ 		left:1rem !important;
+ 		top:-3rem !important;
+
+ 	}
+ 		.css_transform5 {
+ 		left:3rem !important;
+ 		top:-2rem !important;
+
+ 	}
+ 		.css_transform6 {
+ 		left:1rem !important;
+ 		top:-3rem !important;
+
+ 	}
+ 	.css_transform7 {
+ 		left:0 !important;
+ 		top:1.8rem !important;
+ 		transform: scale(0.4,0.4) translate(0px, 100px);
+ 	} 
+ 	@keyframes T7-animation {
+ 		0% {
+ 			transform: scaleX(0) scaleY(0) translateY(0px);
+ 		}
+ 		100% {
+ 			transform: scaleX(0.4) scaleY(0.4) translateY(100px);
+ 			}
+ 		}
+ 		.css_transform8 { 
+	position: absolute;
+	width:100%;
+	left:-40rem;
+	top:1.5rem;
+
+	transform: translate(1000px, 0px);
+	animation: T8-animation 3s ease-in-out infinite normal;
+ } 
+@keyframes T8-animation {
+	0% {
+		transform: translateX(-50px);
+	}
+	100% {
+		transform: translateX(1000px);
+	}
+}
+ 	}
+ 	@media(min-width:768px) and (max-width:1024px) { 
+ 		.css_transform1 {
+ 			left:12rem !important;
+ 			top:-2rem !important;
+ 		}
+ 		.css_transform2 {
+ 			left:15rem !important;
+ 			top:-1rem !important;
+ 		}
+ 		.css_transform3 {
+ 			left:15rem !important;
+ 			top:-1rem !important;
+ 		}
+ 		.css_transform4 {
+ 			left:13rem !important;
+ 			top:-2rem !important;
+ 		}
+ 		.css_transform5 {
+ 			left:15rem !important;
+ 			top:-1rem !important;
+ 		}
+ 		.css_transform6 {
+ 			left:13rem !important;
+ 			top:-2rem !important;
+ 		}
+ 		.css_transform7 {
+ 			left:13rem !important;
+ 			top:6rem !important;
+ 		}
+ 		.css_transform8 { 
+	position: absolute;
+	left:-90rem;
+	top:1.5rem;
+	width:100%;
+
+	transform: translate(2200px, 0px);
+	animation: T8-animation 3s ease-in-out infinite normal;
+ } 
+@keyframes T8-animation {
+	0% {
+		transform: translateX(-50px);
+	}
+	100% {
+		transform: translateX(2200px);
+	}
+}
+ 	}
+  .cloud_transform { 
+  	display: none;
+	position: absolute;
+
+	transform: translate(2000px, 0);
+	animation: Tcloud-animation 8s linear infinite reverse;
+	height: 100%;
+ } 
+@keyframes Tcloud-animation {
+	0% {
+		transform: translateX(-1000px);
+	}
+	100% {
+		transform: translateX(1200px);
+	}
+}
+  .cloud_transform.mobile-cloud { 
+  	display: block;
+	position: absolute;
+
+	transform: translate(400px, 0);
+	animation: Tcloud-animationMob 5s linear infinite reverse;
+	height: 100%;
+ } 
+@keyframes Tcloud-animationMob {
+	0% {
+		transform: translateX(-500px);
+	}
+	100% {
+		transform: translateX(400px);
+	}
+}
+@media(min-width:1200px) {
+	 .cloud_transform.mobile-cloud {
+	 	display: none;
+	 }
+	 	 .cloud_transform {
+	 	display: block;
+	 }
+	}
+
+
+ .mainDiv{
+ 	height: 50%;
+ 	position: relative;
+ }
+ .clouds {
+ 	height: 50%;
+ 	position: relative;
+ }
+ .mainDiv .backImg{
+ 	height: 100%;
+ 	width:100%;
+ }
+ .mainDiv1 {
+ 	height: 45% !important;
+ }
+.clouds1 {
+	height: 55%;
+}
+.mainDiv2 {
+	height: 35%;
+}
+.clouds2 {
+	height: 65%;
+}
+#section7 .mainDiv {
+	perspective: 600px;
+}
+ section {
+ 	background-color: #BEE3FF!important;
+ }
+	</style>
 	<div class="navbar">
 		<div class="logo">
 			<a href="https://www.infosys.com/">
@@ -35,12 +359,12 @@
 			</a>
 		</div>
 		<div class="download-arrow">
-			<a href="./Files/Infosys_Race Track_Mob Version.pdf" download="PDF file">
+			<a href="../Files/Infosys_Race Track_Mob Version.pdf" download="PDF file">
 				<img src="./images/Download_Button.png" alt="downarrow">
 			</a>
 		</div>
 		<div class="download-arrow-web">
-			<a href="./Files/Infosys_RaceTrack_Frames_WebVersion.pdf" download="PDF file">
+			<a href="../Files/Infosys_RaceTrack_Frames_WebVersion.pdf" download="PDF file">
 				<img src="./images/Download_Button.png" alt="downarrow">
 			</a>
 		</div>
@@ -48,10 +372,10 @@
 	<div id="fullpage">
 		<section id="section1" class="section home">
 			<div class="fr1"></div>
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_1_BG.mp4" type="video/mp4">
-			</video>
-			<div class="frame-contentBody">
+			<div class="clouds clouds1">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+					<div class="frame-contentBody">
 				<div class="frame-content">
 					<div class="flag">
 						<img src="./images/fr_mob/flag_mobile.png" alt="">
@@ -63,7 +387,6 @@
 					<h4 class="heading-2"> CMO-C-Suite Partnership</h4>
 					<p class="heading-1">The Key to Succeed in the race of Digital Transformation</p>
 					<div class="line-img">
-						<img src="./images/line.png" alt="">
 					</div>
 					<p class="content"><span class="content-bold">COVID-19</span> created seismic shifts in consumer
 						behavior and the way businesses operate, communicate, and collaborate.<span
@@ -73,6 +396,11 @@
 						and deliver stakeholder value.</p>
 				</div>
 			</div>
+			</div>
+		
+					<div class="mainDiv mainDiv1">
+						<img class="backImg" src="./images/fr_mob/S1-Road.png" alt="navigate">
+					</div>
 			<div class="navigation-section">
 				<a id="section1-link">
 					<img src="./images/navigation.png" alt="navigate">
@@ -81,13 +409,10 @@
 		</section>
 
 		<section id="section2" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_2_loop.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_2_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class=" frame-contentBody">
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+					<div class=" frame-contentBody">
 				<div class="mr-160"></div>
 				<div id="sec2-framebody" class="frame-content">
 					<p class="content">Infosys surveyed <span class="content-bold ">970</span> business leaders &
@@ -100,7 +425,6 @@
 						organization?
 					</h4>
 					<div class="line-img">
-						<img src="./images/line.png" alt="">
 					</div>
 					<p class="heading-1 fr2-heading ">Get insight from our report</p>
 					<div class="mr-12"></div>
@@ -109,17 +433,27 @@
 						now!</button>
 				</div>
 			</div>
+			</div>
+		<div class="mainDiv">
+				<img src="./images/fr_mob/S2-Road_Crowd.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Red-Car.png" alt="" class="css_transform1">
+				<img src="./images/fr_mob/S2-Green-Car.png" alt="" class="css_transform2" >
+				<img src="./images/fr_mob/S2-Yellow-Car.png" alt="" class="css_transform3" >
+				<img src="./images/fr_mob/Red-Car.png" alt="" class="css_transform4">
+				<img src="./images/fr_mob/S2-Green-Car.png" alt="" class="css_transform5">
+				<img src="./images/fr_mob/Grey-Car-0.png" alt="" class="css_transform6">
+
+			</div>
+
+		
 		</section>
 
 		<section id="section3" class="section home ">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_3_loop.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_3_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class="board">
-				<img class="board-img" src="./images/board.png" alt="">
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+					<div class="board">
+				<img class="board-img" src="./images/fr_mob/Frame3/Hanging Board.png" alt="">
 
 				<div class="fr3-content">
 					<p class="content-white">According to our research,the roles of
@@ -131,7 +465,7 @@
 
 			</div>
 			<div class="web-board">
-				<img class="board-img" src="./images/web-board.png" alt="">
+				<img class="board-img" src="./images/fr_desk/Frame3/S3_Screen.png" alt="">
 				<div class="fr3-content">
 					<p class="content-white">According to our research,the roles of
 						<span class="heading-2">CMO & CIO </span>have evolved.
@@ -140,18 +474,33 @@
 					<button class="navigate-btn" id="section-3-link">Take a sneak-peek and compare!</button>
 				</div>
 			</div>
+			</div>
+
+			<div class="mainDiv">
+				<img src="./images/fr_mob/Road-Stadium.png" alt="" class="backImg">
+				<img src="./images/fr_mob/CIO-Female.png" alt="" class="img-f3-female">
+				<img src="./images/fr_mob/Red-Car.png" alt="" class="css_transform7">
+				<img src="./images/fr_mob/CTO.png" alt="" class="img-f3-male">
+
+			</div>
+		
 
 		</section>
 
 		<section id="section4" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_4_BG.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_4_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class="fr4-board">
-				<img class="board-img" src="./images/fr4-board.png" alt="">
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+					<div class="fr4-board">
+				<img class="board-img" src="./images/fr_mob/Frame3/Hanging Board.png" alt="">
+				<div class="fr4-content">
+					<p class="content-white">Does <span class="heading-2">CMO-CIO collaboration </span> within your
+						organization help with <span class="heading-2">sustained revenue creation </span> and
+						<span class="heading-2"> bottom
+							line growth</span>?
+					</p>
+					<p class="content-white">If it does - you are on roll!</p>
+				</div>
 				<div class="timer-img">
 
 					<span id="s4-timercolor" class="timer-color"></span>
@@ -160,28 +509,49 @@
 				</div>
 			</div>
 			<div class="fr4-webboard">
-				<img class="board-img" src="./images/fr4-board-web.png" alt="">
+				<img class="board-img" src="./images/fr_desk/Frame4a/S4A_Screen.png" alt="">
+				<div class="fr4-content">
+					<p class="content-white">Does <span class="heading-2">CMO-CIO collaboration </span>within your
+						organization help with <span class="heading-2">sustained revenue creation</span> and
+						<span class="heading-2">bottom
+							line growth</span>?
+					</p>
+					<p class="content-white">If it does - you are on roll!</p>
+				</div>
+
 				<div class="timer-img">
 					<span id="s4-web-timercolor" class="timer-color"></span>
 					<img src="./images/Car.png" id="s4-web-car" class="carIcon" alt="">
 					<img src="./images/track.png" class="trackIcon" alt="">
 				</div>
 			</div>
+			</div>
+
+			<div class="mainDiv">
+				<img src="./images/fr_mob/Frame4a/Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame4a/Car.png" alt="" class="img-f4-car">
+				<img src="./images/fr_mob/Frame4a/Girl Left.png" alt="" class="img-f4a-female">
+				<img src="./images/fr_mob/Frame4a/MAN right.png" alt="" class="img-f4a-male">
+			</div>
 		</section>
 
 		<section id="section5" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_5_BG.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_5A_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds clouds2">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+
+			<div class="mainDiv mainDiv2">
+				<img src="./images/fr_mob/Frame4b/Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame4b/Car.png" alt="" class="img-f4b-car css_transform8">
+
+			</div>
 			<div class=" frame-contentBody">
 
 				<div class="frame-content">
 					<div id="fr5-content-body" class="answerBoxImg">
 						<div class="answerBoxImg-fr5">
-							<img class="box-img" src="./images/answerBox.png" alt="">
+							<img class="box-img" src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 
 							<p class="content" id="p5-content">According to our research, almost
 								<span class="heading-2">44% of digitally mature companies</span> have a collaborative
@@ -212,14 +582,19 @@
 		</section>
 
 		<section id="section7" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_7_BG.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_7_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class="fr4-board">
-				<img class="board-img" src="./images/fr7-board.png" alt="">
+
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+					<div class="fr4-board">
+				<img class="board-img" src="./images/fr_mob/Frame5a/Hanging Board 2.png" alt="">
+				<div class="fr5-content">
+					<p class="content-white">Does the <span class="heading-2">C-suite </span>within your
+						organization <span class="heading-2">share cooperative ethos</span> to accelerate decision
+						making and mitigate risk?
+					</p>
+					<p class="content-white">If they do, it is really commendable!</p>
+				</div>
 				<div class="timer-img">
 					<p id="s7-timercolor" class="timer-color"></p>
 					<img src="./images/Car.png" id="s7-car" class="carIcon" alt="">
@@ -227,34 +602,63 @@
 				</div>
 			</div>
 			<div class="web-board">
-				<img class="board-img" src="./images/fr7-board-web.png" alt="">
+				<img class="board-img" src="./images/fr_desk/Frame5a/S5A_Screen.png" alt="">
+				<div class="fr5-content">
+					<p class="content-white">Does the <span class="heading-2">C-suite </span>within your
+						organization <span class="heading-2">share cooperative ethos</span> to accelerate decision
+						making and mitigate risk?
+					</p>
+					<p class="content-white">If they do, it is really commendable!</p>
+				</div>
 				<div class="timer-img">
 					<span id="s7-web-timercolor" class="timer-color"></span>
 					<img src="./images/Car.png" id="s7-web-car" class="carIcon" alt="">
 					<img src="./images/track.png" class="trackIcon" alt="">
 				</div>
 			</div>
+			</div>
+
+			<div class="mainDiv">
+				<img src="./images/fr_mob/Frame5a/Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame5a/Car Front.png" alt="" class="img-f5-car css_transform9">
+
+			</div>
 		</section>
 
 		<section id="section8" class="section home">
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+			<div class="mainDiv">
+				<img src="./images/fr_mob/Road-Stadium.png" alt="" class="backImg">
+				<img src="./images/fr_mob/CIO-Female.png" alt="" class="img-f3-female">
+				<img src="./images/fr_mob/Red-Car.png" alt="" class="css_transform7">
+				<img src="./images/fr_mob/CTO.png" alt="" class="img-f3-male">
+				<img src="./images/fr_mob/Frame5b/CFO.png" alt="" class="img-5b-cfo">
 
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_8_BG.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_8_BG_1.mp4" type="video/mp4">
-			</video>
+			</div>
+				
+				
+			
+
 			<div class=" frame-contentBody">
 				<div class="mr-160"></div>
 				<div class="frame-content">
 					<div class="answerBoxImg-fr8">
-						<img class="box-img" src="./images/answerBox.png" alt="">
+						<img class="box-img" src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 						<p class="content">According to our research,
 							CMO-CIO collaboration with the CFO <span class="heading-2">enhances value, builds
 								reputation</span>, and <span class="heading-2">mitigates financial</span> risk to cash
 							flow
 							and profitability.</p>
 					</div>
+				</div>
+				<div id="fr5-body" class="frame-content">
+					<p class="heading-1 ">How about your growth strategy?</p>
+					<div class="mr-20"></div>
+					<button class="navigate-btn" id="section5-link">Find out now!
+					</button>
 				</div>
 			</div>
 			<div class="navigation-section">
@@ -264,35 +668,19 @@
 			</div>
 		</section>
 
-		<section id="section9" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_2_loop.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_2_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class=" frame-contentBody">
-				<div class="mr-160"></div>
-				<div class="frame-content">
-					<div id="fr9-body" class="answerBoxImg-fr9">
-						<img class="box-img" src="./images/answerBox.png" alt="">
-						<p class="heading-1 ">How about your growth strategy?</p>
-						<button class="navigate-btn" id="section9-link"> Find out now!
-						</button>
-					</div>
-				</div>
-			</div>
-		</section>
+	
 
-		<section id="section10" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_9_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_10_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class="fr4-board">
-				<img class="board-img" src="./images/fr10-board.png" alt="">
+		<!-- <section id="section10" class="section home">
+			<div class="clouds clouds2">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+					<div class="fr4-board">
+				<img class="board-img" src="./images/fr_mob/Hanging Board 3.png" alt="">
+				<div class="fr5-content">
+					<p class="content-white">Does the collaboration between  <span class="heading-2">CMO-CIO drive growth </span>through digital ecosystem?
+					</p>
+					<p class="content-white">If it does, your digital maturity must be high!</p>
+				</div>
 				<div class="timer-img ">
 					<p id="s10-timercolor" class="timer-color"></p>
 					<img src="./images/Car.png" id="s10-car" class="carIcon" alt="">
@@ -307,20 +695,31 @@
 					<img src="./images/track.png" class="trackIcon" alt="">
 				</div>
 			</div>
+			</div>
+			<div class="mainDiv mainDiv2">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Car Full.png" alt="" class="img-section9-car">
+				<img src="./images/fr_mob/Left Side Arrows.png" alt="" class="img-left-arrow">
+				<img src="./images/fr_mob/Right Side Arrows.png" alt="" class="img-right-arrow">
+
+			</div>
+		
 		</section>
 
 		<section id="section11" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_10_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_10B_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+			<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-160"></div>
 				<div class="frame-content">
 					<div id="fr11-body" class="answerBoxImg-fr11">
-						<img class="box-img" src="./images/answerBox.png" alt="">
+						<img class="box-img" src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 						<p class="content">According to our research, collaborators in digitally mature companies
 							leverage
 							the digital ecosystem to <span class="heading-2">empower employees, bring personalized
@@ -338,13 +737,10 @@
 		</section>
 
 		<section id="section12" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_11_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_11_BG_1.mp4" type="video/mp4">
-			</video>
-			<div class="fr4-board">
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+				<div class="fr4-board">
 				<img class="board-img" src="./images/board.png" alt="">
 				<div class="fr12-content">
 					<p class="content-white">How can a strong<br>
@@ -365,20 +761,28 @@
 					<img src="./images/track.png" class="trackIcon" alt="">
 				</div>
 			</div>
+			</div>
+			<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
+			
 		</section>
 
 		<section id="section13" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_12_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_12_BG_1.mp4" type="video/mp4">
-			</video>
+		<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-160"></div>
 				<div class="frame-content">
 					<div class="answerBoxImg-fr13">
-						<img class="box-img" src="./images/answerBox.png" alt="">
+						<img class="box-img" src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 						<p class="content">Our research found 4 <span class="heading-2">key </span>areas for
 							collaboration -
 							if Marketing and IT can see eye-to-eye on them</p>
@@ -390,12 +794,14 @@
 		</section>
 
 		<section id="section14" class="section home">
-			<video autoplay loop muted class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_13_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay loop muted class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_13_BG_1.mp4 " type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
 				<div id="fr14-content-body" class="frame-content">
@@ -441,55 +847,6 @@
 							<div class="graph-div">
 								<img src="./images/Graph-fr14-2.png" alt="">
 							</div>
-							<!-- <div class="pro-graph-1">
-
-								<div class="content">
-									<p class="CG-heading">Gap between Marketing-IT perception</p>
-									<p class="sub-heading"><span>Marketing Respondents</span></p>
-									<div class="CG-detail">
-										<div class="prsec1 pro-block">
-											<p class=" pr-line" percent="23"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>EvolvingCX to HX</span></p>
-										</div>
-										<div class="prsec2 pro-block">
-											<p class=" pr-line" percent="23"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>Agility</span></p>
-										</div>
-										<div class="prsec3 pro-block">
-											<p class=" pr-line" percent="15"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>Collaboration</span></p>
-										</div>
-									</div>
-
-								</div>
-							</div> -->
-						<!-- 	<div class="pro-graph-2">
-
-								<div class="content">
-									<p class="CG-heading">Gap between Marketing-IT perception</p>
-									<p class="sub-heading"><span>IT Respondents</span></p>
-									<div class="CG-detail">
-										<div class="prsec4 pro-block">
-											<p class=" pr-line" percent="19"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>Talent or skills</span></p>
-										</div>
-										<div class="prsec5 pro-block">
-											<p class="pr-line" percent="23"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>A company culture to avoid this</span></p>
-										</div>
-										<div class="prsec6 pro-block">
-											<p class=" pr-line" percent="31"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>Budgets</span></p>
-										</div>
-									</div>
-								</div>
-							</div> -->
 						</div>
 
 					</div>
@@ -500,12 +857,14 @@
 		</section>
 
 		<section id="section15" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_14_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_14_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
 				<div id="fr16-content-body" class="frame-content">
@@ -544,28 +903,7 @@
 							<div class="graph-div">
 								<img src="./images/Graph-fr15-2.png" alt="">
 							</div>
-							<!-- <div class="pro-graph-3">
-
-								<div class="content">
-									<p class="CG-heading">Gap between Marketing-IT perception</p>
-									<p class="sub-heading"><span>Marketing Respondents</span></p>
-									<div class="CG-detail">
-										<div class="prsec7 pro-block">
-											<p class=" pr-line" percent="15"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>Regular Marketing It Meeting</span></p>
-										</div>
-										<div class="prsec8 pro-block">
-											<p class=" pr-line" percent="12"></p>
-											<div class="bar"></div>
-											<p class="pr-title"><span>Environmental, Social, and
-													Governance (ESG) Strategy</span></p>
-										</div>
-
-									</div>
-
-								</div>
-							</div> -->
+					
 							<div class="pro-graph-4">
 
 								<div class="content">
@@ -599,16 +937,18 @@
 		</section>
 
 		<section id="section16" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_15_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_15_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
 				<div class="frame-content">
-					<div class="fr14-heading">
+					<div class="fr14-heading">a
 						<p class="number">3</p>
 						<p class="heading">Foster Stakeholder Capitalism</p>
 					</div>
@@ -662,9 +1002,14 @@
 
 		<section id="section16B" class="section home">
 
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_15_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
 				<div class="frame-content">
@@ -707,12 +1052,14 @@
 		</section>
 
 		<section id="section17" class="section home">
-			<video autoplay muted loop class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_16_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted loop class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_16_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
 				<div class="frame-content">
@@ -745,12 +1092,14 @@
 		</section>
 
 		<section id="section18" class="section home">
-			<video autoplay muted class="video-section">
-				<source src="https://infosys.ved.band/com-mob/InfosysMobile_19_BG_1.mp4" type="video/mp4">
-			</video>
-			<video autoplay muted class="video-section-web">
-				<source src="https://infosys.ved.band/com-desk/InfosysWeb_17_BG_1.mp4" type="video/mp4">
-			</video>
+			<div class="clouds">
+				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
+				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
+			</div>
+				<div class="mainDiv">
+				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+
+			</div>
 
 			<div class=" frame-contentBody">
 				<div class="frame-content">
@@ -763,19 +1112,19 @@
 				<div class="mr-20"></div>
 				<div id="fr18-body" class="carousel ">
 					<div class="answerBoxImg-fr11">
-						<img src="./images/answerBox.png" alt="">
+						<img src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 						<div class="number-fr18">1</div>
 						<p class="content">Insightful data points revealing how digitally mature companies benefit
 							through
 							collaboration</p>
 					</div>
 					<div class="answerBoxImg-fr11">
-						<img src="./images/answerBox.png" alt="">
+						<img src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 						<div class="number-fr18">2</div>
 						<p class="content">How to move past the initial hurdles when it comes to collaboration</p>
 					</div>
 					<div class="answerBoxImg-fr11">
-						<img src="./images/answerBox.png" alt="">
+						<img src="./images/fr_desk/Frame4b/S4B_HUD.png" alt="">
 						<div class="number-fr18">3</div>
 						<p class="content">How to ensure resillience during the most unprecedented times`</p>
 					</div>
@@ -804,7 +1153,7 @@
 					<img src="./images/top_button.png" alt="downarrow">
 				</a>
 			</div>
-		</section>
+		</section> -->
 
 	</div>
 	<script src="./js/socialShare.js"></script>
@@ -841,32 +1190,31 @@
 				if (nextIndex.index === 7) {
 					section9_animation()
 				}
-				if (nextIndex.index === 8) {
-
+				if (nextIndex.index === 7) {
 					section10_animation()
 				}
-				if (nextIndex.index === 9) {
+				if (nextIndex.index === 8) {
 					section11_animation()
 				}
-				if (nextIndex.index === 10) {
+				if (nextIndex.index === 9) {
 					section12_animation()
 				}
-				if (nextIndex.index === 11) {
+				if (nextIndex.index === 10) {
 					section13_animation()
 				}
-				if (nextIndex.index === 12) {
+				if (nextIndex.index === 11) {
 					section14_animation()
 				}
-				if (nextIndex.index === 13) {
+				if (nextIndex.index === 12) {
 					section15_animation()
 				}
-				if (nextIndex.index === 14) {
+				if (nextIndex.index === 13) {
 					section16_animation()
 					if ($(window).width() <= 991) {
 						percentage_loader();
 					}
 				}
-				if (nextIndex.index === 15) {
+				if (nextIndex.index === 14) {
 					if ($(window).width() <= 991) {
 						section17_animation()
 					} else {
@@ -882,14 +1230,14 @@
 						// });
 					}
 				}
-				if (nextIndex.index === 16) {
+				if (nextIndex.index === 15) {
 					if ($(window).width() <= 991) {
 						section18_animation()
 					} else {
 						section17_animation()
 					}
 				}
-				if (nextIndex.index === 17) {
+				if (nextIndex.index === 16) {
 					section18_animation()
 				}
 			}
@@ -978,14 +1326,15 @@
 			// });
 		})
 
-		// function myFunction() {
-		// 	history.replaceState(null, null, ' ');
-		// 	fullpage_api.moveTo(1);
-		// }
+			// function myFunction() {
+			// 	history.replaceState(null, null, ' ');
+			// 	fullpage_api.moveTo(1);
+			// }
 
 	</script>
 
 
 </body>
+
 
 </html>
