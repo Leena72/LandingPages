@@ -289,3 +289,125 @@
         bottom: 2rem;
     }
  }
+
+ /* Frame 6A */
+ .img-left-arrow {
+    position: absolute;
+    top: -6rem;
+    left: 5rem;
+}
+
+.img-right-arrow {
+    position: absolute;
+    top: -6rem;
+    right: 5rem;
+}
+
+@media (max-width: 767px){
+    #section10 .fr4-content{
+        bottom: 0rem;
+    }
+    #section10 .fr4-content p:last-child{
+        padding: 20px 22px;
+    }
+    #section10 .fr4-content{
+        bottom: 0rem;
+    }
+    .img-left-arrow {
+        position: absolute;
+        top: -2rem;
+        left: 1rem;
+        width: 30%;
+    }
+
+    .img-right-arrow {
+        position: absolute;
+        top: -2rem;
+        right: 1rem;
+        width: 30%;
+    }
+    .img-section9-car{
+        position: absolute;
+        bottom: 0px;
+        right: -188px;
+        width: 100%;
+    }
+}
+
+
+/* Frame7 */
+
+.img-f7-female{
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    width: auto !important;
+}
+
+@media (max-width: 767px){
+    #section12 .fr4-board .timer-img{
+        bottom: 5.5em;
+    }
+    #section12 .fr12-content{
+        bottom: 9em;
+    }
+
+    #section12 #fr5-body{
+        text-align: center;
+        color: #000;
+        font-family: "myriad-pro-regular";
+    }
+    #section12 .css_transform8{
+        top: 1.5rem !important;
+    }
+}
+@media (min-width:991px){
+    #section12 .fr12-content {
+        position: absolute;
+        bottom: 10.5em;
+        left: 0.5em;
+        text-align: center;
+        width: 98%;
+    }
+    #section12 .fr12-content p{
+        font-size: 24px;
+    }
+    
+    #section12 .timer-img{
+        bottom: 6em;
+        left: 1rem !important;
+    }
+    
+    #section12 .web-board{
+        width: 28rem;
+    }
+    
+    #section12 #fr5-body{
+        text-align: center;
+        color: #000;
+        font-family: "myriad-pro-regular";
+    }
+}
+
+
+
+
+/* common styles starts */
+#section14 .heading, #section15 .heading, #section16 .heading, #section16B .heading, #section17 .heading{
+    background-color: #071738!important;
+    color: #b9e3fc;
+}
+
+#section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number{
+    background-color: #3e7dc3;
+    color: #b9e3fc;
+}
+
+.sub-heading-fr14{
+    color: #3e7dc3;
+}
+
+.navigate-btn, .navigate-btn-fr13, .navigate-btn-fr15, .navigate-btn-fr17, .navigate-mob, .navigate-desk{
+    background-color: #3e7cc4;
+}
+/* common styles ends */

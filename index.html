@@ -30,327 +30,487 @@
 
 <body>
 	<style>
- .css_transform1 { 
-	position: absolute;
-	left:32rem;
-	top:-3.5rem;
+		.css_transform1 {
+			position: absolute;
+			left: 32rem;
+			top: -3.5rem;
 
-	transform: scale(1.7,1.3) translate(0px, 600px);
-	animation: T1-animation 4.5s ease infinite normal;
- } 
-@keyframes T1-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateY(-50px);
-	}
-	100% {
-		transform: scaleX(1.7) scaleY(1.3) translateY(600px);
-	}
-}
- .css_transform2 { 
-	position: absolute;
-	top: -2.5rem; 
-	left:34rem;
-	transform: scale(1.7,1.3) translate(-400px, 400px);
-	animation: T2-animation 6s ease infinite normal;
- } 
-@keyframes T2-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
-	}
-	100% {
-		transform: scaleX(1.7) scaleY(1.3) translateX(-400px) translateY(400px);
-	}
-}
- .css_transform3 { 
-	position: absolute;
-	top: -2.5rem; 
-	left:34rem;
-	transform: scale(1.7,1.3) translate(400px, 400px);
-	animation: T3-animation 5.5s ease infinite normal;
- } 
-@keyframes T3-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
-	}
-	100% {
-		transform: scaleX(1.7) scaleY(1.3) translateX(400px) translateY(400px);
-	}
-}
- .css_transform4 { 
-		position: absolute;
-	top: -3.5rem; 
-	left:32rem;
-	transform: scale(1.7,1.3) translate(-800px, 800px);
-	animation: T2-animation 4s ease infinite normal;
- } 
-@keyframes T2-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateX(-100px) translateY(-100px);
-	}
-	100% {
-		transform: scaleX(1.7) scaleY(1.3) translateX(-800px) translateY(800px);
-	}
-}
- .css_transform5 { 
-	position: absolute;
-	top: -2.5rem;
-	left:34rem;
-	transform: scale(1.7,1.3) translate(0px, 600px);
-	animation: T5-animation 5s ease infinite normal;
+			transform: scale(1.7, 1.3) translate(0px, 600px);
+			animation: T1-animation 4.5s ease infinite normal;
+		}
 
- } 
-@keyframes T5-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateY(-50px);
-	}
-	100% {
-		transform: scaleX(1.7) scaleY(1.3) translateY(600px);
-	}
-}
- .css_transform6 { 
-	position: absolute;
-	top: -3.5rem;
-	left:32rem;
-	transform: scale(1.7,1.3) translate(0px, 600px);
-	animation: T6-animation 6.5s ease infinite normal;
+		@keyframes T1-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateY(-50px);
+			}
 
- } 
-@keyframes T6-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateY(-50px);
-	}
-	100% {
-		transform: scaleX(1.7) scaleY(1.3) translateY(600px);
-	}
-}
- .css_transform7 { 
-	position: absolute;
-	left:32rem;
-	top:1.5rem;
+			100% {
+				transform: scaleX(1.7) scaleY(1.3) translateY(600px);
+			}
+		}
 
-	transform: scale(1,1) translate(0px, 50px);
-	animation: T7-animation 3s ease infinite normal;
- } 
-@keyframes T7-animation {
-	0% {
-		transform: scaleX(0) scaleY(0) translateY(0px);
-	}
-	100% {
-		transform: scaleX(1) scaleY(1) translateY(50px);
-	}
-}
- .css_transform8 { 
-	position: absolute;
-	left:-40rem;
-	top:1.5rem;
+		.css_transform2 {
+			position: absolute;
+			top: -2.5rem;
+			left: 34rem;
+			transform: scale(1.7, 1.3) translate(-400px, 400px);
+			animation: T2-animation 6s ease infinite normal;
+		}
 
-	transform: translate(2000px, 0px);
-	animation: T8-animation 3s ease-in-out infinite normal;
- } 
-@keyframes T8-animation {
-	0% {
-		transform: translateX(-50px);
-	}
-	100% {
-		transform: translateX(2000px);
-	}
-}
- .css_transform9 {
+		@keyframes T2-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
+			}
 
-	transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
-	transform-origin: 200px 200px 420px;
-	animation: T9-animation 2s linear infinite normal;
- } 
- @keyframes T9-animation {
-	0% {
-		transform: rotateX(16deg) rotateY(-36deg) rotateZ(0);
-	}
-	100% {
-		transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
-	}
-}
+			100% {
+				transform: scaleX(1.7) scaleY(1.3) translateX(-400px) translateY(400px);
+			}
+		}
 
- @media(max-width:767px) {
- 	.css_transform1 {
- 		left:0 !important;
- 		top:-3rem !important;
+		.css_transform3 {
+			position: absolute;
+			top: -2.5rem;
+			left: 34rem;
+			transform: scale(1.7, 1.3) translate(400px, 400px);
+			animation: T3-animation 5.5s ease infinite normal;
+		}
 
- 	}
- 	.css_transform2 {
- 		left:3rem !important;
- 		top:-2rem !important;
+		@keyframes T3-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
+			}
 
- 	}
- 	.css_transform3 {
- 		left:3rem !important;
- 		top:-2rem !important;
+			100% {
+				transform: scaleX(1.7) scaleY(1.3) translateX(400px) translateY(400px);
+			}
+		}
 
- 	}
- 		.css_transform4 {
- 		left:1rem !important;
- 		top:-3rem !important;
+		.css_transform4 {
+			position: absolute;
+			top: -3.5rem;
+			left: 32rem;
+			transform: scale(1.7, 1.3) translate(-800px, 800px);
+			animation: T2-animation 4s ease infinite normal;
+		}
 
- 	}
- 		.css_transform5 {
- 		left:3rem !important;
- 		top:-2rem !important;
+		@keyframes T2-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateX(-100px) translateY(-100px);
+			}
 
- 	}
- 		.css_transform6 {
- 		left:1rem !important;
- 		top:-3rem !important;
+			100% {
+				transform: scaleX(1.7) scaleY(1.3) translateX(-800px) translateY(800px);
+			}
+		}
 
- 	}
- 	.css_transform7 {
- 		left:0 !important;
- 		top:1.8rem !important;
- 		transform: scale(0.4,0.4) translate(0px, 100px);
- 	} 
- 	@keyframes T7-animation {
- 		0% {
- 			transform: scaleX(0) scaleY(0) translateY(0px);
- 		}
- 		100% {
- 			transform: scaleX(0.4) scaleY(0.4) translateY(100px);
- 			}
- 		}
- 		.css_transform8 { 
-	position: absolute;
-	width:100%;
-	left:-40rem;
-	top:1.5rem;
+		.css_transform5 {
+			position: absolute;
+			top: -2.5rem;
+			left: 34rem;
+			transform: scale(1.7, 1.3) translate(0px, 600px);
+			animation: T5-animation 5s ease infinite normal;
 
-	transform: translate(1000px, 0px);
-	animation: T8-animation 3s ease-in-out infinite normal;
- } 
-@keyframes T8-animation {
-	0% {
-		transform: translateX(-50px);
-	}
-	100% {
-		transform: translateX(1000px);
-	}
-}
- 	}
- 	@media(min-width:768px) and (max-width:1024px) { 
- 		.css_transform1 {
- 			left:12rem !important;
- 			top:-2rem !important;
- 		}
- 		.css_transform2 {
- 			left:15rem !important;
- 			top:-1rem !important;
- 		}
- 		.css_transform3 {
- 			left:15rem !important;
- 			top:-1rem !important;
- 		}
- 		.css_transform4 {
- 			left:13rem !important;
- 			top:-2rem !important;
- 		}
- 		.css_transform5 {
- 			left:15rem !important;
- 			top:-1rem !important;
- 		}
- 		.css_transform6 {
- 			left:13rem !important;
- 			top:-2rem !important;
- 		}
- 		.css_transform7 {
- 			left:13rem !important;
- 			top:6rem !important;
- 		}
- 		.css_transform8 { 
-	position: absolute;
-	left:-90rem;
-	top:1.5rem;
-	width:100%;
+		}
 
-	transform: translate(2200px, 0px);
-	animation: T8-animation 3s ease-in-out infinite normal;
- } 
-@keyframes T8-animation {
-	0% {
-		transform: translateX(-50px);
-	}
-	100% {
-		transform: translateX(2200px);
-	}
-}
- 	}
-  .cloud_transform { 
-  	display: none;
-	position: absolute;
+		@keyframes T5-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateY(-50px);
+			}
 
-	transform: translate(2000px, 0);
-	animation: Tcloud-animation 8s linear infinite reverse;
-	height: 100%;
- } 
-@keyframes Tcloud-animation {
-	0% {
-		transform: translateX(-1000px);
-	}
-	100% {
-		transform: translateX(1200px);
-	}
-}
-  .cloud_transform.mobile-cloud { 
-  	display: block;
-	position: absolute;
+			100% {
+				transform: scaleX(1.7) scaleY(1.3) translateY(600px);
+			}
+		}
 
-	transform: translate(400px, 0);
-	animation: Tcloud-animationMob 5s linear infinite reverse;
-	height: 100%;
- } 
-@keyframes Tcloud-animationMob {
-	0% {
-		transform: translateX(-500px);
-	}
-	100% {
-		transform: translateX(400px);
-	}
-}
-@media(min-width:1200px) {
-	 .cloud_transform.mobile-cloud {
-	 	display: none;
-	 }
-	 	 .cloud_transform {
-	 	display: block;
-	 }
-	}
+		.css_transform6 {
+			position: absolute;
+			top: -3.5rem;
+			left: 32rem;
+			transform: scale(1.7, 1.3) translate(0px, 600px);
+			animation: T6-animation 6.5s ease infinite normal;
+
+		}
+
+		@keyframes T6-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateY(-50px);
+			}
+
+			100% {
+				transform: scaleX(1.7) scaleY(1.3) translateY(600px);
+			}
+		}
+
+		.css_transform7 {
+			position: absolute;
+			left: 32rem;
+			top: 1.5rem;
+
+			transform: scale(1, 1) translate(0px, 50px);
+			animation: T7-animation 3s ease infinite normal;
+		}
+
+		@keyframes T7-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateY(0px);
+			}
+
+			100% {
+				transform: scaleX(1) scaleY(1) translateY(50px);
+			}
+		}
+
+		.css_transform8 {
+			position: absolute;
+			left: -40rem;
+			top: 1.5rem;
+
+			transform: translate(2000px, 0px);
+			animation: T8-animation 3s ease-in-out infinite normal;
+		}
+
+		@keyframes T8-animation {
+			0% {
+				transform: translateX(-50px);
+			}
+
+			100% {
+				transform: translateX(2000px);
+			}
+		}
+
+		.css_transform9 {
+
+			transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
+			transform-origin: 200px 200px 420px;
+			animation: T9-animation 2s linear infinite normal;
+		}
+
+		@keyframes T9-animation {
+			0% {
+				transform: rotateX(16deg) rotateY(-36deg) rotateZ(0);
+			}
+
+			100% {
+				transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
+			}
+		}
+
+		.css_transform10 {
+			position: absolute;
+			bottom: -12.5rem;
+			right: -2rem;
+			width: 100%;
+			animation: T10-animation 3s linear infinite reverse;
+		}
+
+		@keyframes T10-animation {
+
+			0% {
+				transform: translateX(0px) translateY(-100px) scale(0.1)
+			}
+
+			100% {
+				transform: translateX(200px) translateY(100px) scale(0.8);
+			}
+		}
+
+		.css_transform11 {
+			position: absolute;
+			right: 0;
+			top: -4rem;
+			animation: T11-animation 3s linear infinite normal;
+		}
+
+		@keyframes T11-animation {
+			0% {
+				transform: translateX(500px) translateY(00px) scale(0.3);
+			}
+
+			100% {
+				transform: translateX(0px) translateY(30px) scale(0.5);
+			}
+		}
+
+		#section12 .css_transform8 {
+			top: 0rem;
+		}
+
+		.css_transform12 {
+			position: absolute;
+			left: 0;
+			top: 2rem;
+			width: auto !important;
+			height: 50% !important;
+			animation: T12-animation 3s ease-in-out infinite normal;
+		}
+
+		@keyframes T12-animation {
+			0% {
+				transform: translateX(-50px);
+			}
+
+			100% {
+				transform: translateX(2000px);
+			}
+		}
 
 
- .mainDiv{
- 	height: 50%;
- 	position: relative;
- }
- .clouds {
- 	height: 50%;
- 	position: relative;
- }
- .mainDiv .backImg{
- 	height: 100%;
- 	width:100%;
- }
- .mainDiv1 {
- 	height: 45% !important;
- }
-.clouds1 {
-	height: 55%;
-}
-.mainDiv2 {
-	height: 35%;
-}
-.clouds2 {
-	height: 65%;
-}
-#section7 .mainDiv {
-	perspective: 600px;
-}
- section {
- 	background-color: #BEE3FF!important;
- }
+
+		@media(max-width:767px) {
+			.css_transform1 {
+				left: 0 !important;
+				top: -3rem !important;
+
+			}
+
+			.css_transform2 {
+				left: 3rem !important;
+				top: -2rem !important;
+
+			}
+
+			.css_transform3 {
+				left: 3rem !important;
+				top: -2rem !important;
+
+			}
+
+			.css_transform4 {
+				left: 1rem !important;
+				top: -3rem !important;
+
+			}
+
+			.css_transform5 {
+				left: 3rem !important;
+				top: -2rem !important;
+
+			}
+
+			.css_transform6 {
+				left: 1rem !important;
+				top: -3rem !important;
+
+			}
+
+			.css_transform7 {
+				left: 0 !important;
+				top: 1.8rem !important;
+				transform: scale(0.4, 0.4) translate(0px, 100px);
+			}
+
+			@keyframes T7-animation {
+				0% {
+					transform: scaleX(0) scaleY(0) translateY(0px);
+				}
+
+				100% {
+					transform: scaleX(0.4) scaleY(0.4) translateY(100px);
+				}
+			}
+
+			.css_transform8 {
+				position: absolute;
+				width: 100%;
+				left: -40rem;
+				top: 1.5rem;
+
+				transform: translate(1000px, 0px);
+				animation: T8-animation 3s ease-in-out infinite normal;
+			}
+
+			@keyframes T8-animation {
+				0% {
+					transform: translateX(-50px);
+				}
+
+				100% {
+					transform: translateX(1000px);
+				}
+			}
+
+			.css_transform10 {
+				bottom: 7.5rem;
+			}
+
+			@keyframes T10-animation {
+				0% {
+					transform: translateX(0px) translateY(0px) scale(0.2)
+				}
+
+				100% {
+					transform: translateX(200px) translateY(100px) scale(1);
+				}
+			}
+
+			@keyframes T11-animation {
+				0% {
+					transform: translateX(500px) translateY(00px) scale(0.3);
+				}
+
+				100% {
+					transform: translateX(0px) translateY(60px) scale(0.5);
+				}
+			}
+
+			.css_transform12 {
+				height: 25% !important;
+			}
+
+			@media(min-width:768px) and (max-width:1024px) {
+				.css_transform1 {
+					left: 12rem !important;
+					top: -2rem !important;
+				}
+
+				.css_transform2 {
+					left: 15rem !important;
+					top: -1rem !important;
+				}
+
+				.css_transform3 {
+					left: 15rem !important;
+					top: -1rem !important;
+				}
+
+				.css_transform4 {
+					left: 13rem !important;
+					top: -2rem !important;
+				}
+
+				.css_transform5 {
+					left: 15rem !important;
+					top: -1rem !important;
+				}
+
+				.css_transform6 {
+					left: 13rem !important;
+					top: -2rem !important;
+				}
+
+				.css_transform7 {
+					left: 13rem !important;
+					top: 6rem !important;
+				}
+
+				.css_transform8 {
+					position: absolute;
+					left: -90rem;
+					top: 1.5rem;
+					width: 100%;
+
+					transform: translate(2200px, 0px);
+					animation: T8-animation 3s ease-in-out infinite normal;
+				}
+
+				@keyframes T8-animation {
+					0% {
+						transform: translateX(-50px);
+					}
+
+					100% {
+						transform: translateX(2200px);
+					}
+				}
+			}
+		}
+
+		.cloud_transform {
+			display: none;
+			position: absolute;
+
+			transform: translate(2000px, 0);
+			animation: Tcloud-animation 8s linear infinite reverse;
+			height: 100%;
+		}
+
+		@keyframes Tcloud-animation {
+			0% {
+				transform: translateX(-1000px);
+			}
+
+			100% {
+				transform: translateX(1200px);
+			}
+		}
+
+		.cloud_transform.mobile-cloud {
+			display: block;
+			position: absolute;
+
+			transform: translate(400px, 0);
+			animation: Tcloud-animationMob 5s linear infinite reverse;
+			height: 100%;
+		}
+
+		@keyframes Tcloud-animationMob {
+			0% {
+				transform: translateX(-500px);
+			}
+
+			100% {
+				transform: translateX(400px);
+			}
+		}
+
+		@media(min-width:1200px) {
+			.cloud_transform.mobile-cloud {
+				display: none;
+			}
+
+			.cloud_transform {
+				display: block;
+			}
+		}
+
+
+		.mainDiv {
+			height: 50%;
+			position: relative;
+		}
+
+		.clouds {
+			height: 50%;
+			position: relative;
+		}
+
+		.mainDiv .backImg {
+			height: 100%;
+			width: 100%;
+		}
+
+		.mainDiv1 {
+			height: 45% !important;
+		}
+
+		.clouds1 {
+			height: 55%;
+		}
+
+		.mainDiv2 {
+			height: 35%;
+		}
+
+		.clouds2 {
+			height: 65%;
+		}
+
+		.mainDiv3 {
+			height: 25%;
+		}
+
+		.clouds3 {
+			height: 75%;
+		}
+
+		#section7 .mainDiv {
+			perspective: 600px;
+		}
+
+		section {
+			background-color: #BEE3FF !important;
+		}
 	</style>
 	<div class="navbar">
 		<div class="logo">
@@ -375,32 +535,32 @@
 			<div class="clouds clouds1">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
-					<div class="frame-contentBody">
-				<div class="frame-content">
-					<div class="flag">
-						<img src="./images/fr_mob/flag_mobile.png" alt="">
+				<div class="frame-contentBody">
+					<div class="frame-content">
+						<div class="flag">
+							<img src="./images/fr_mob/flag_mobile.png" alt="">
+						</div>
+						<div class="flag-web">
+							<img class="flag1" src="./images/fr_desk/flag1.png" alt="img">
+							<img class="flag2" src="./images/fr_desk/flag2.png" alt="img">
+						</div>
+						<h4 class="heading-2"> CMO-C-Suite Partnership</h4>
+						<p class="heading-1">The Key to Succeed in the race of Digital Transformation</p>
+						<div class="line-img">
+						</div>
+						<p class="content"><span class="content-bold">COVID-19</span> created seismic shifts in consumer
+							behavior and the way businesses operate, communicate, and collaborate.<span
+								class="content-bold">
+								C-suite collaboration</span> is needed now more than ever to <span>accelerate
+								digital transformation</span>
+							and deliver stakeholder value.</p>
 					</div>
-					<div class="flag-web">
-						<img class="flag1" src="./images/fr_desk/flag1.png" alt="img">
-						<img class="flag2" src="./images/fr_desk/flag2.png" alt="img">
-					</div>
-					<h4 class="heading-2"> CMO-C-Suite Partnership</h4>
-					<p class="heading-1">The Key to Succeed in the race of Digital Transformation</p>
-					<div class="line-img">
-					</div>
-					<p class="content"><span class="content-bold">COVID-19</span> created seismic shifts in consumer
-						behavior and the way businesses operate, communicate, and collaborate.<span
-							class="content-bold">
-							C-suite collaboration</span> is needed now more than ever to <span>accelerate
-							digital transformation</span>
-						and deliver stakeholder value.</p>
 				</div>
 			</div>
+
+			<div class="mainDiv mainDiv1">
+				<img class="backImg" src="./images/fr_mob/S1-Road.png" alt="navigate">
 			</div>
-		
-					<div class="mainDiv mainDiv1">
-						<img class="backImg" src="./images/fr_mob/S1-Road.png" alt="navigate">
-					</div>
 			<div class="navigation-section">
 				<a id="section1-link">
 					<img src="./images/navigation.png" alt="navigate">
@@ -412,68 +572,68 @@
 			<div class="clouds">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
-					<div class=" frame-contentBody">
-				<div class="mr-160"></div>
-				<div id="sec2-framebody" class="frame-content">
-					<p class="content">Infosys surveyed <span class="content-bold ">970</span> business leaders &
-						studied
-						the dynamics of <span class="content-bold ">CMO-C-suite partnership.</span>
-					</p>
-					<div class="mr-10"></div>
-					<h4 class="heading-2">
-						How digitally mature is your
-						organization?
-					</h4>
-					<div class="line-img">
+				<div class=" frame-contentBody">
+					<div class="mr-160"></div>
+					<div id="sec2-framebody" class="frame-content">
+						<p class="content">Infosys surveyed <span class="content-bold ">970</span> business leaders &
+							studied
+							the dynamics of <span class="content-bold ">CMO-C-suite partnership.</span>
+						</p>
+						<div class="mr-10"></div>
+						<h4 class="heading-2">
+							How digitally mature is your
+							organization?
+						</h4>
+						<div class="line-img">
+						</div>
+						<p class="heading-1 fr2-heading ">Get insight from our report</p>
+						<div class="mr-12"></div>
+						<button class="navigate-mob" id="section2-mob-link"> Find out now</button>
+						<button class="navigate-desk" id="section2-desk-link"> Get insight from our report and find it
+							now!</button>
 					</div>
-					<p class="heading-1 fr2-heading ">Get insight from our report</p>
-					<div class="mr-12"></div>
-					<button class="navigate-mob" id="section2-mob-link"> Find out now</button>
-					<button class="navigate-desk" id="section2-desk-link"> Get insight from our report and find it
-						now!</button>
 				</div>
 			</div>
-			</div>
-		<div class="mainDiv">
+			<div class="mainDiv">
 				<img src="./images/fr_mob/S2-Road_Crowd.png" alt="" class="backImg">
 				<img src="./images/fr_mob/Red-Car.png" alt="" class="css_transform1">
-				<img src="./images/fr_mob/S2-Green-Car.png" alt="" class="css_transform2" >
-				<img src="./images/fr_mob/S2-Yellow-Car.png" alt="" class="css_transform3" >
+				<img src="./images/fr_mob/S2-Green-Car.png" alt="" class="css_transform2">
+				<img src="./images/fr_mob/S2-Yellow-Car.png" alt="" class="css_transform3">
 				<img src="./images/fr_mob/Red-Car.png" alt="" class="css_transform4">
 				<img src="./images/fr_mob/S2-Green-Car.png" alt="" class="css_transform5">
 				<img src="./images/fr_mob/Grey-Car-0.png" alt="" class="css_transform6">
 
 			</div>
 
-		
+
 		</section>
 
 		<section id="section3" class="section home ">
 			<div class="clouds">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
-					<div class="board">
-				<img class="board-img" src="./images/fr_mob/Frame3/Hanging Board.png" alt="">
+				<div class="board">
+					<img class="board-img" src="./images/fr_mob/Frame3/Hanging Board.png" alt="">
 
-				<div class="fr3-content">
-					<p class="content-white">According to our research,the roles of
-						<span class="heading-2">CMO & CIO </span>have evolved.
-					</p>
-					<div class="mr-12"></div>
-					<button class="navigate-btn" id="section3-link">Take a sneak-peek and compare!</button>
-				</div>
+					<div class="fr3-content">
+						<p class="content-white">According to our research,the roles of
+							<span class="heading-2">CMO & CIO </span>have evolved.
+						</p>
+						<div class="mr-12"></div>
+						<button class="navigate-btn" id="section3-link">Take a sneak-peek and compare!</button>
+					</div>
 
-			</div>
-			<div class="web-board">
-				<img class="board-img" src="./images/fr_desk/Frame3/S3_Screen.png" alt="">
-				<div class="fr3-content">
-					<p class="content-white">According to our research,the roles of
-						<span class="heading-2">CMO & CIO </span>have evolved.
-					</p>
-					<div class="mr-12"></div>
-					<button class="navigate-btn" id="section-3-link">Take a sneak-peek and compare!</button>
 				</div>
-			</div>
+				<div class="web-board">
+					<img class="board-img" src="./images/fr_desk/Frame3/S3_Screen.png" alt="">
+					<div class="fr3-content">
+						<p class="content-white">According to our research,the roles of
+							<span class="heading-2">CMO & CIO </span>have evolved.
+						</p>
+						<div class="mr-12"></div>
+						<button class="navigate-btn" id="section-3-link">Take a sneak-peek and compare!</button>
+					</div>
+				</div>
 			</div>
 
 			<div class="mainDiv">
@@ -483,7 +643,7 @@
 				<img src="./images/fr_mob/CTO.png" alt="" class="img-f3-male">
 
 			</div>
-		
+
 
 		</section>
 
@@ -491,40 +651,40 @@
 			<div class="clouds">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
-					<div class="fr4-board">
-				<img class="board-img" src="./images/fr_mob/Frame3/Hanging Board.png" alt="">
-				<div class="fr4-content">
-					<p class="content-white">Does <span class="heading-2">CMO-CIO collaboration </span> within your
-						organization help with <span class="heading-2">sustained revenue creation </span> and
-						<span class="heading-2"> bottom
-							line growth</span>?
-					</p>
-					<p class="content-white">If it does - you are on roll!</p>
-				</div>
-				<div class="timer-img">
+				<div class="fr4-board">
+					<img class="board-img" src="./images/fr_mob/Frame3/Hanging Board.png" alt="">
+					<div class="fr4-content">
+						<p class="content-white">Does <span class="heading-2">CMO-CIO collaboration </span> within your
+							organization help with <span class="heading-2">sustained revenue creation </span> and
+							<span class="heading-2"> bottom
+								line growth</span>?
+						</p>
+						<p class="content-white">If it does - you are on roll!</p>
+					</div>
+					<div class="timer-img">
 
-					<span id="s4-timercolor" class="timer-color"></span>
-					<img src="./images/Car.png" id="s4-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
+						<span id="s4-timercolor" class="timer-color"></span>
+						<img src="./images/Car.png" id="s4-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
 				</div>
-			</div>
-			<div class="fr4-webboard">
-				<img class="board-img" src="./images/fr_desk/Frame4a/S4A_Screen.png" alt="">
-				<div class="fr4-content">
-					<p class="content-white">Does <span class="heading-2">CMO-CIO collaboration </span>within your
-						organization help with <span class="heading-2">sustained revenue creation</span> and
-						<span class="heading-2">bottom
-							line growth</span>?
-					</p>
-					<p class="content-white">If it does - you are on roll!</p>
-				</div>
+				<div class="fr4-webboard">
+					<img class="board-img" src="./images/fr_desk/Frame4a/S4A_Screen.png" alt="">
+					<div class="fr4-content">
+						<p class="content-white">Does <span class="heading-2">CMO-CIO collaboration </span>within your
+							organization help with <span class="heading-2">sustained revenue creation</span> and
+							<span class="heading-2">bottom
+								line growth</span>?
+						</p>
+						<p class="content-white">If it does - you are on roll!</p>
+					</div>
 
-				<div class="timer-img">
-					<span id="s4-web-timercolor" class="timer-color"></span>
-					<img src="./images/Car.png" id="s4-web-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
+					<div class="timer-img">
+						<span id="s4-web-timercolor" class="timer-color"></span>
+						<img src="./images/Car.png" id="s4-web-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
 				</div>
-			</div>
 			</div>
 
 			<div class="mainDiv">
@@ -586,36 +746,36 @@
 			<div class="clouds">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
-					<div class="fr4-board">
-				<img class="board-img" src="./images/fr_mob/Frame5a/Hanging Board 2.png" alt="">
-				<div class="fr5-content">
-					<p class="content-white">Does the <span class="heading-2">C-suite </span>within your
-						organization <span class="heading-2">share cooperative ethos</span> to accelerate decision
-						making and mitigate risk?
-					</p>
-					<p class="content-white">If they do, it is really commendable!</p>
+				<div class="fr4-board">
+					<img class="board-img" src="./images/fr_mob/Frame5a/Hanging Board 2.png" alt="">
+					<div class="fr5-content">
+						<p class="content-white">Does the <span class="heading-2">C-suite </span>within your
+							organization <span class="heading-2">share cooperative ethos</span> to accelerate decision
+							making and mitigate risk?
+						</p>
+						<p class="content-white">If they do, it is really commendable!</p>
+					</div>
+					<div class="timer-img">
+						<p id="s7-timercolor" class="timer-color"></p>
+						<img src="./images/Car.png" id="s7-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
 				</div>
-				<div class="timer-img">
-					<p id="s7-timercolor" class="timer-color"></p>
-					<img src="./images/Car.png" id="s7-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
+				<div class="web-board">
+					<img class="board-img" src="./images/fr_desk/Frame5a/S5A_Screen.png" alt="">
+					<div class="fr5-content">
+						<p class="content-white">Does the <span class="heading-2">C-suite </span>within your
+							organization <span class="heading-2">share cooperative ethos</span> to accelerate decision
+							making and mitigate risk?
+						</p>
+						<p class="content-white">If they do, it is really commendable!</p>
+					</div>
+					<div class="timer-img">
+						<span id="s7-web-timercolor" class="timer-color"></span>
+						<img src="./images/Car.png" id="s7-web-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
 				</div>
-			</div>
-			<div class="web-board">
-				<img class="board-img" src="./images/fr_desk/Frame5a/S5A_Screen.png" alt="">
-				<div class="fr5-content">
-					<p class="content-white">Does the <span class="heading-2">C-suite </span>within your
-						organization <span class="heading-2">share cooperative ethos</span> to accelerate decision
-						making and mitigate risk?
-					</p>
-					<p class="content-white">If they do, it is really commendable!</p>
-				</div>
-				<div class="timer-img">
-					<span id="s7-web-timercolor" class="timer-color"></span>
-					<img src="./images/Car.png" id="s7-web-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
-				</div>
-			</div>
 			</div>
 
 			<div class="mainDiv">
@@ -638,9 +798,6 @@
 				<img src="./images/fr_mob/Frame5b/CFO.png" alt="" class="img-5b-cfo">
 
 			</div>
-				
-				
-			
 
 			<div class=" frame-contentBody">
 				<div class="mr-160"></div>
@@ -668,42 +825,47 @@
 			</div>
 		</section>
 
-	
-
-		<!-- <section id="section10" class="section home">
+		<section id="section10" class="section home">
 			<div class="clouds clouds2">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
-					<div class="fr4-board">
-				<img class="board-img" src="./images/fr_mob/Hanging Board 3.png" alt="">
-				<div class="fr5-content">
-					<p class="content-white">Does the collaboration between  <span class="heading-2">CMO-CIO drive growth </span>through digital ecosystem?
-					</p>
-					<p class="content-white">If it does, your digital maturity must be high!</p>
+				<div class="fr4-board">
+					<img class="board-img" src="./images/fr_mob/Hanging Board 3.png" alt="">
+					<div class="fr5-content">
+						<p class="content-white">Does the collaboration between <span class="heading-2">CMO-CIO drive
+								growth </span>through digital ecosystem?
+						</p>
+						<p class="content-white">If it does, your digital maturity must be high!</p>
+					</div>
+					<div class="timer-img ">
+						<p id="s10-timercolor" class="timer-color"></p>
+						<img src="./images/Car.png" id="s10-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
 				</div>
-				<div class="timer-img ">
-					<p id="s10-timercolor" class="timer-color"></p>
-					<img src="./images/Car.png" id="s10-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
+				<div class="web-board">
+					<img class="board-img" src="./images/fr_desk/Frame6a/S6A_Screen.gif" alt="">
+					<div class="fr5-content">
+						<p class="content-white">Does the collaboration between <span class="heading-2">CMO-CIO drive
+								growth </span>through digital ecosystem?
+						</p>
+						<p class="content-white">If it does, your digital maturity must be high!</p>
+					</div>
+					<div class="timer-img ">
+						<p id="s10-web-timercolor" class="timer-color"></p>
+						<img src="./images/Car.png" id="s10-web-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
 				</div>
-			</div>
-			<div class="web-board">
-				<img class="board-img" src="./images/fr10-web.png" alt="">
-				<div class="timer-img ">
-					<p id="s10-web-timercolor" class="timer-color"></p>
-					<img src="./images/Car.png" id="s10-web-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
-				</div>
-			</div>
 			</div>
 			<div class="mainDiv mainDiv2">
 				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-				<img src="./images/fr_mob/Car Full.png" alt="" class="img-section9-car">
+				<img src="./images/fr_mob/Car Full.png" alt="" class="css_transform10">
 				<img src="./images/fr_mob/Left Side Arrows.png" alt="" class="img-left-arrow">
 				<img src="./images/fr_mob/Right Side Arrows.png" alt="" class="img-right-arrow">
 
 			</div>
-		
+
 		</section>
 
 		<section id="section11" class="section home">
@@ -712,8 +874,8 @@
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
 			<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-
+				<img src="./images/fr_mob/Frame6b/Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame6b/Car front.png" alt="" class="css_transform11">
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-160"></div>
@@ -737,44 +899,69 @@
 		</section>
 
 		<section id="section12" class="section home">
-			<div class="clouds">
+			<div class="clouds clouds2">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 				<div class="fr4-board">
-				<img class="board-img" src="./images/board.png" alt="">
-				<div class="fr12-content">
-					<p class="content-white">How can a strong<br>
-						<span class="heading-2">CMO & CIO partnership </span><br>has enterprises?
-					</p>
+					<img class="board-img" src="./images/board.png" alt="">
+					<div class="fr12-content">
+						<p class="content-white">How can a strong<br>
+							<span class="heading-2">CMO & CIO partnership </span><br>has enterprises?
+						</p>
+					</div>
+					<div class="timer-img">
+						<p id="s12-timercolor" class="timer-color"></p>
+						<img src="./images/Car.png" id="s12-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
+					<div id="fr5-body" class="">
+						<p class=" animation-s5-h1">Our research found <span class="heading-2">4 key</span> areas for
+							collaboration -
+							if Marketing and IT can see eye-to-eye on them</p>
+						<div class="mr-20"></div>
+						<button class="navigate-btn animation-s5-h1" id="section5-link">Uncover the key area of
+							collaboration!
+						</button>
+					</div>
 				</div>
-				<div class="timer-img">
-					<p id="s12-timercolor" class="timer-color"></p>
-					<img src="./images/Car.png" id="s12-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
-				</div>
-			</div>
-			<div class="web-board">
-				<img class="board-img" src="./images/fr12-web.png" alt="">
-				<div class="timer-img">
-					<p id="s12-web-timercolor" class="timer-color"></p>
-					<img src="./images/Car.png" id="s12-web-car" class="carIcon" alt="">
-					<img src="./images/track.png" class="trackIcon" alt="">
-				</div>
-			</div>
-			</div>
-			<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
 
+				<div class="web-board">
+					<img class="board-img" src="./images/fr_desk/Frame7/S7_Screen.png" alt="">
+					<div class="fr12-content">
+						<p class="content-white">How can a strong<br>
+							<span class="heading-2">CMO & CIO partnership </span><br>has enterprises?
+						</p>
+					</div>
+					<div class="timer-img">
+						<p id="s12-web-timercolor" class="timer-color"></p>
+						<img src="./images/Car.png" id="s12-web-car" class="carIcon" alt="">
+						<img src="./images/track.png" class="trackIcon" alt="">
+					</div>
+					<div id="fr5-body" class="">
+						<p class=" animation-s5-h1">Our research found <span class="heading-2">4 key</span> areas for
+							collaboration -
+							if Marketing and IT can see eye-to-eye on them</p>
+						<div class="mr-20"></div>
+						<button class="navigate-btn animation-s5-h1" id="section5-link">Uncover the key area of
+							collaboration!
+						</button>
+					</div>
+				</div>
 			</div>
-			
+			<div class="mainDiv mainDiv2">
+				<img src="./images/fr_mob/Frame7/Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame4b/Car.png" alt="" class="css_transform8 img-f4b-car">
+				<img src="./images/fr_mob/Frame7/CIO.png" alt="" class="img-f7-female backImg">
+			</div>
+
 		</section>
 
-		<section id="section13" class="section home">
-		<div class="clouds">
+		<!-- <section id="section13" class="section home">
+			<div class="clouds">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
+			<div class="mainDiv">
 				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
 
 			</div>
@@ -791,15 +978,16 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
-		<section id="section14" class="section home">
-			<div class="clouds">
+		<!-- <section id="section14" class="section home">
+			<div class="clouds clouds3">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
+			<div class="mainDiv mainDiv3">
+				<img src="./images/fr_mob/Frame8a+8b/1_4 Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
 
 			</div>
 			<div class=" frame-contentBody">
@@ -857,13 +1045,13 @@
 		</section>
 
 		<section id="section15" class="section home">
-			<div class="clouds">
+			<div class="clouds clouds3">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-
+			<div class="mainDiv mainDiv3">
+				<img src="./images/fr_mob/Frame9a+9b/Road 2-4.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
@@ -903,7 +1091,7 @@
 							<div class="graph-div">
 								<img src="./images/Graph-fr15-2.png" alt="">
 							</div>
-					
+
 							<div class="pro-graph-4">
 
 								<div class="content">
@@ -941,14 +1129,14 @@
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
+			<div class="mainDiv">
 				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
 
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
 				<div class="frame-content">
-					<div class="fr14-heading">a
+					<div class="fr14-heading">
 						<p class="number">3</p>
 						<p class="heading">Foster Stakeholder Capitalism</p>
 					</div>
@@ -998,9 +1186,9 @@
 					<img src="./images/navigation.png" alt="navigate">
 				</a>
 			</div>
-		</section>
+		</section> -->
 
-		<section id="section16B" class="section home">
+		<!--<section id="section16B" class="section home">
 
 			<div class="clouds">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
@@ -1197,18 +1385,29 @@
 					section11_animation()
 				}
 				if (nextIndex.index === 9) {
+					console.log('9')
 					section12_animation()
 				}
 				if (nextIndex.index === 10) {
-					section13_animation()
+					console.log('10')
+					// section13_animation()
+					section14_animation()
+
 				}
 				if (nextIndex.index === 11) {
-					section14_animation()
+					console.log('11')
+					// section14_animation()
+					section15_animation()
+
 				}
 				if (nextIndex.index === 12) {
-					section15_animation()
+					console.log('12')
+					// section15_animation()
+					section16_animation()
+
 				}
 				if (nextIndex.index === 13) {
+					console.log('13')
 					section16_animation()
 					if ($(window).width() <= 991) {
 						percentage_loader();
