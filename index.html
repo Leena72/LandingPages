@@ -22,6 +22,7 @@
 	<script src="./js/loader83.js"></script>
 	<link rel="stylesheet" href="./css/fullpage.css">
 
+	<link rel="stylesheet" href="./css/oswald-fonts.css">
 	<link rel="stylesheet" href="./css/mob-desk.css">
 	<title>Infosys Landing Page</title>
 
@@ -239,9 +240,9 @@
 		.css_transform12 {
 			position: absolute;
 			left: 0;
-			top: 2rem;
+			top: 2.5rem;
 			width: auto !important;
-			height: 50% !important;
+			height: 35% !important;
 			animation: T12-animation 3s ease-in-out infinite normal;
 		}
 
@@ -255,6 +256,25 @@
 			}
 		}
 
+		.css_transform13 {
+			position: absolute;
+			left: 0;
+			top: -4rem !important;
+			height: 100% !important;
+
+			transform: scale(1, 1) translate(0px, 50px);
+			animation: T13-animation 3s ease infinite normal;
+		}
+
+		@keyframes T13-animation {
+			0% {
+				transform: scaleX(0) scaleY(0) translateY(0px);
+			}
+
+			100% {
+				transform: scaleX(0.5) scaleY(0.5) translateY(94px);
+			}
+		}
 
 
 		@media(max-width:767px) {
@@ -356,6 +376,21 @@
 
 			.css_transform12 {
 				height: 25% !important;
+			}
+
+			.css_transform13 {
+				top: -0.5rem !important;
+				height: 50% !important;
+			}
+
+			@keyframes T13-animation {
+				0% {
+					transform: scaleX(0) scaleY(0) translateY(0px);
+				}
+
+				100% {
+					transform: scaleX(0.8) scaleY(0.8) translateY(70px);
+				}
 			}
 
 			@media(min-width:768px) and (max-width:1024px) {
@@ -497,10 +532,18 @@
 		}
 
 		.mainDiv3 {
-			height: 25%;
+			height: 30%;
 		}
 
 		.clouds3 {
+			height: 70%;
+		}
+
+		.mainDiv4 {
+			height: 25%;
+		}
+
+		.clouds4 {
 			height: 75%;
 		}
 
@@ -899,7 +942,7 @@
 		</section>
 
 		<section id="section12" class="section home">
-			<div class="clouds clouds2">
+			<div class="clouds clouds3">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 				<div class="fr4-board">
@@ -948,7 +991,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="mainDiv mainDiv2">
+			<div class="mainDiv mainDiv3">
 				<img src="./images/fr_mob/Frame7/Road.png" alt="" class="backImg">
 				<img src="./images/fr_mob/Frame4b/Car.png" alt="" class="css_transform8 img-f4b-car">
 				<img src="./images/fr_mob/Frame7/CIO.png" alt="" class="img-f7-female backImg">
@@ -980,15 +1023,15 @@
 			</div>
 		</section> -->
 
-		<!-- <section id="section14" class="section home">
-			<div class="clouds clouds3">
+		<section id="section14" class="section home">
+			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-			<div class="mainDiv mainDiv3">
+			<div class="mainDiv mainDiv4">
 				<img src="./images/fr_mob/Frame8a+8b/1_4 Road.png" alt="" class="backImg">
 				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
-
+				<img src="./images/fr_mob/Frame8a+8b/Flag small.png" alt="" class="flags-small">
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
@@ -1030,10 +1073,10 @@
 
 						<div class="custom-graph graph">
 							<div class="graph-div">
-								<img src="./images/Graph-fr14-1.png" alt="">
+								<img src="./images/fr_desk/deskFrames/S8A_HUD.png" alt="">
 							</div>
 							<div class="graph-div">
-								<img src="./images/Graph-fr14-2.png" alt="">
+								<img src="./images/fr_desk/deskFrames/S8B_HUD.png" alt="">
 							</div>
 						</div>
 
@@ -1045,13 +1088,14 @@
 		</section>
 
 		<section id="section15" class="section home">
-			<div class="clouds clouds3">
+			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-			<div class="mainDiv mainDiv3">
-				<img src="./images/fr_mob/Frame9a+9b/Road 2-4.png" alt="" class="backImg">
+			<div class="mainDiv mainDiv4">
+				<img src="./images/fr_mob/tracks/S9_Track.png" alt="" class="backImg">
 				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
+				<!-- <img src="./images/fr_mob/Frame8a+8b/Flag small.png" alt="" class="flags-small"> -->
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
@@ -1086,13 +1130,13 @@
 
 						<div class="custom-graph-2 graph ">
 							<div class="graph-div">
-								<img src="./images/Graph-fr15-1.png" alt="">
+								<img src="./images/fr_desk/deskFrames/S9A_HUD.png" alt="">
 							</div>
 							<div class="graph-div">
-								<img src="./images/Graph-fr15-2.png" alt="">
+								<img src="./images/fr_desk/deskFrames/S9B_HUD.png" alt="">
 							</div>
 
-							<div class="pro-graph-4">
+							<!-- <div class="pro-graph-4">
 
 								<div class="content">
 									<p class="CG-heading">Gap between Marketing-IT perception</p>
@@ -1112,7 +1156,7 @@
 
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 
 					</div>
@@ -1125,13 +1169,14 @@
 		</section>
 
 		<section id="section16" class="section home">
-			<div class="clouds">
+			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-			<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-
+			<div class="mainDiv mainDiv4">
+				<img src="./images/fr_mob/Frame10/Road 3-4.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
+				<img src="./images/fr_mob/Frame8a+8b/Flag small.png" alt="" class="flags-small">
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
@@ -1143,10 +1188,10 @@
 					<div class="mr-12"></div>
 					<div class="graph-content">
 						<div class="graph-fr16">
-							<img src="./images/Graph-fr16.png" alt="">
+							<img src="./images/fr_mob/mobframes/S10_HUD.png" alt="">
 						</div>
 						<div class="graph-fr16-web">
-							<img src="./images/Bracket.png" alt="">
+							<img src="./images/fr_desk/deskFrames/S10_HUD.png" alt="">
 						</div>
 						<div class="mr-20"></div>
 						<div class="Graph-83">
@@ -1186,17 +1231,18 @@
 					<img src="./images/navigation.png" alt="navigate">
 				</a>
 			</div>
-		</section> -->
+		</section>
 
-		<!--<section id="section16B" class="section home">
+		<section id="section16B" class="section home">
 
-			<div class="clouds">
+			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-
+			<div class="mainDiv mainDiv4">
+				<img src="./images/fr_mob/Frame10/Road 3-4.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
+				<img src="./images/fr_mob/Frame8a+8b/Flag small.png" alt="" class="flags-small">
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
@@ -1239,14 +1285,14 @@
 			</div>
 		</section>
 
-		<section id="section17" class="section home">
-			<div class="clouds">
+		<!-- <section id="section17" class="section home">
+			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-
+			<div class="mainDiv mainDiv4">
+				<img src="./images/fr_mob/tracks/S11_Track.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame8a+8b/Car.png" alt="" class="backImg css_transform12">
 			</div>
 			<div class=" frame-contentBody">
 				<div class="mr-60"></div>
@@ -1258,7 +1304,7 @@
 					<div class="mr-20"></div>
 					<div class="graph-content">
 						<div class="graph">
-							<img src="./images/CIO.png" alt="">
+							<img src="./images/fr_desk/deskFrames/S12_HUD.png" alt="">
 							<p class="graph-para"><span class="sub-heading">CIO</span> drives business
 								<br>resilience<span class="sub-heading"> through
 									technology</span>
@@ -1266,7 +1312,7 @@
 						</div>
 						<div class="mr-20"></div>
 						<div class="graph">
-							<img src="./images/CMO.png" alt="">
+							<img src="./images/fr_desk/deskFrames/S12_HUD.png" alt="">
 							<p class="graph-para"><span class="sub-heading">CMO </span> drives brand
 								<br>resilience and<span class="sub-heading"> perception
 									management</span>
@@ -1280,13 +1326,16 @@
 		</section>
 
 		<section id="section18" class="section home">
-			<div class="clouds">
+			<div class="clouds clouds2">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 			</div>
-				<div class="mainDiv">
-				<img src="./images/fr_mob/Road 3.png" alt="" class="backImg">
-
+			<div class="mainDiv mainDiv2">
+				<img src="./images/fr_mob/Frame12/Road.png" alt="" class="backImg">
+				<img src="./images/fr_mob/Frame12/Car.png" alt="" class="backImg css_transform13">
+				<img src="./images/fr_mob/Frame12/Flag copy 2.png" alt="" class="backImg frame12-flags mob">
+				<img src="./images/fr_desk/deskFrames/Flag Left.png" alt="" class="backImg frame12-lflags desk">
+				<img src="./images/fr_desk/deskFrames/Flag Right.png" alt="" class="backImg frame12-rflags desk">
 			</div>
 
 			<div class=" frame-contentBody">
@@ -1385,40 +1434,53 @@
 					section11_animation()
 				}
 				if (nextIndex.index === 9) {
-					console.log('9')
+					// console.log('9')
 					section12_animation()
 				}
 				if (nextIndex.index === 10) {
-					console.log('10')
+					// console.log('10')
 					// section13_animation()
 					section14_animation()
 
 				}
 				if (nextIndex.index === 11) {
-					console.log('11')
+					// console.log('11')
 					// section14_animation()
 					section15_animation()
 
 				}
 				if (nextIndex.index === 12) {
-					console.log('12')
+					// console.log('12')
 					// section15_animation()
 					section16_animation()
+					if ($(window).width() <= 991) {
+						percentage_loader();
+					}
 
 				}
 				if (nextIndex.index === 13) {
 					console.log('13')
 					section16_animation()
+					percentage_loader();
+					// if ($(window).width() <= 991) {
+					// 	percentage_loader();
+					// }
+
 					if ($(window).width() <= 991) {
-						percentage_loader();
+						console.log('13 mob')
+						section17_animation()
 					}
+
 				}
 				if (nextIndex.index === 14) {
+					console.log('14')
 					if ($(window).width() <= 991) {
-						section17_animation()
+						console.log('here')
+						// section17_animation()
+						section18_animation()
 					} else {
-						section16_animation()
-						percentage_loader();
+						// section16_animation()
+						// percentage_loader();
 						// $(window).bind('mousewheel', function (e) {
 						// 	if (e.originalEvent.wheelDelta / 120 > 0) {
 						// 	}
@@ -1427,18 +1489,21 @@
 						// 		percentage_loader();
 						// 	}
 						// });
-					}
-				}
-				if (nextIndex.index === 15) {
-					if ($(window).width() <= 991) {
-						section18_animation()
-					} else {
 						section17_animation()
 					}
 				}
-				if (nextIndex.index === 16) {
+				if (nextIndex.index === 15) {
+					console.log('15')
 					section18_animation()
+					// if ($(window).width() <= 991) {
+					// 	section18_animation()
+					// } else {
+					// 	section17_animation()
+					// }
 				}
+				// if (nextIndex.index === 16) {
+				// 	section18_animation()
+				// }
 			}
 
 

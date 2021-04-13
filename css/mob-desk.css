@@ -63,7 +63,7 @@
 /* Section 4 */
 .fr4-content{
     position: absolute;
-    bottom: 2.1rem;
+    bottom: 3rem;
     padding: 1rem 1rem 0 8rem;
     text-align: center;
     font-size: 22px;
@@ -160,7 +160,7 @@
 
 .fr5-content {
     position: absolute;
-    bottom: 2.1rem;
+    bottom: 3rem;
     padding: 1rem 1rem 0 8rem;
     text-align: center;
     font-size: 22px;
@@ -173,14 +173,32 @@
     padding-top: 20px;
 }
 
+#section10 .fr5-content{
+    bottom: 4rem;
+}
+
+.fr5-content p:last-child {
+    padding-top: 40px;
+}
+
 @media(max-width:767px){
     .fr5-content{
         font-size: inherit;
         padding: 0;
-        bottom: 1rem;
+        bottom: 1.5rem;
     }
+
     .fr5-content p:first-child{
         padding: 0 10px;
+    }
+
+    #section10 .fr5-content {
+        font-size: inherit;
+        padding: 0;
+        bottom: 2rem;
+    }
+    #section10 .fr5-content p:last-child{
+        padding-top: 25px;
     }
 
     .fr5-content p:last-child{
@@ -188,7 +206,7 @@
     }
 
     #section7 .fr4-board .timer-img{
-        bottom: -0.2rem;
+        bottom: 0.8rem;
     }
     .img-f5-car{
     left: -13rem;
@@ -346,16 +364,15 @@
 
 @media (max-width: 767px){
     #section12 .fr4-board .timer-img{
-        bottom: 5.5em;
+        bottom: 6.5em;
     }
     #section12 .fr12-content{
-        bottom: 9em;
+        bottom: 10em;
     }
 
     #section12 #fr5-body{
         text-align: center;
         color: #000;
-        font-family: "myriad-pro-regular";
     }
     #section12 .css_transform8{
         top: 1.5rem !important;
@@ -398,7 +415,7 @@
     color: #b9e3fc;
 }
 
-#section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number{
+#section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number,#section18 .number-fr18{
     background-color: #3e7dc3;
     color: #b9e3fc;
 }
@@ -410,4 +427,183 @@
 .navigate-btn, .navigate-btn-fr13, .navigate-btn-fr15, .navigate-btn-fr17, .navigate-mob, .navigate-desk{
     background-color: #3e7cc4;
 }
+
+.sub-heading,.content-yellow{
+    color: #3e7dc3;
+}
+
+.flags-small{
+    position: absolute;
+    left: 8.5rem;
+    top: -1rem;
+}
+
+@media (max-width:767px){
+    .flags-small{
+        position: absolute;
+        left: 0.5rem;
+        top: 01rem;
+        width: 15% !important;
+        height: auto !important;
+    }
+}
+
 /* common styles ends */
+
+@media (max-width:767px){
+    #section15 .mr-12{
+        padding-top: 0.8rem;
+    }
+    #section16 .Graph-83{
+        margin-top: 0.9rem;
+    }
+}
+
+
+.round_per,.percent_more:after{
+    background:#3e7dc3;
+}
+.percent_text{
+    color: #3e7dc3;
+}
+.circle_inbox{
+    background-color: #bee3fe;
+}
+
+
+#section16 .graph-fr16 {
+    width: 15em;
+    margin: auto;
+}
+
+@media (min-width: 1024px){
+    #section16B .navigate-btn {
+        bottom: 0.5em;
+    }
+}
+
+/* Farme 12 */
+
+.mob{
+    display: none;
+}
+.desk{
+    display: block;
+}
+
+.frame12-lflags{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto !important;
+    width: 15% !important;
+}
+
+.frame12-rflags{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto !important;
+    width: 15% !important;
+}
+
+@media (max-width:767px){
+
+    .mob{
+        display: block;
+    }
+    .frame12-flags{
+        display: block;
+        position: absolute;
+        left: 0;
+        height: 50;
+        top: 2rem;
+        height: 65% !important;
+        width: auto !important;
+    }
+
+    .desk{
+        display: none;
+    }
+}
+
+#section18 .frame-content .content{
+    color: #061838;
+}
+
+#section2 .content>span{
+    color: #007dc3 !important;
+}
+
+/* Fonts Update */
+#section1 .heading-2,#section2 .heading-2{
+    font-family: Oswald-extralight;
+}
+#section1 .heading-1{
+    font-family: Arial;
+    font-weight: bold;
+}
+#section1 .content,#section3 .fr3-content,#section3 .content-white,.content-white,.content{
+    font-family: Arial;
+    font-weight:normal;
+}
+
+#section2 .frame-content p.content{
+    font-family: Arial;
+    font-weight:normal;
+}
+.navigate-desk {
+    font-family: Arial;
+}
+
+
+#section5 .heading-1{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+
+#section12 #fr5-body  {
+    font-family: Arial;
+}
+
+
+#section14 .points, #section15 .points{
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+
+#section14 .heading, #section15 .heading, #section16 .heading, #section16B .heading, #section17 .heading{
+    font-family: Arial;
+    font-size: 18px;
+}
+#section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number, #section18 .number-fr18{
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#section17 .graph-para{
+    font-family: Arial;
+}
+
+#section18 .frame-content .content{
+    font-family: Arial;
+}
+
+#section18 .content .content-yellow{
+    font-family: Oswald-light;
+}
+
+@media (min-width: 1030px){
+    #section14 .points, #section15 .points {
+        font-size: 20px;
+        font-family: "myriad-pro-regular";
+    }
+    #section14 .heading, #section15 .heading, #section16 .heading, #section16B .heading, #section17 .heading {
+        font-size: 1.4em;
+    }
+    #section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number {
+        font-size: 1.4em;
+    }
+}
