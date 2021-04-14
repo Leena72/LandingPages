@@ -71,6 +71,7 @@
 
 .heading-2{
     color: #3c79bd;
+    font-family: Arial-bold;
 }
 
 .fr4-content p:first-child{
@@ -361,13 +362,16 @@
     right: 0;
     width: auto !important;
 }
-
+#section12 #fr5-body p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 @media (max-width: 767px){
     #section12 .fr4-board .timer-img{
-        bottom: 6.5em;
+        bottom: 7.5em;
     }
     #section12 .fr12-content{
-        bottom: 10em;
+        bottom: 12em;
     }
 
     #section12 #fr5-body{
@@ -376,6 +380,10 @@
     }
     #section12 .css_transform8{
         top: 1.5rem !important;
+    }
+    #section12 #fr5-body p {
+        font-size: 16px;
+        padding-bottom: 10px;
     }
 }
 @media (min-width:991px){
@@ -525,6 +533,10 @@
     .desk{
         display: none;
     }
+
+    #section16 .graph-fr16{
+        margin-left: 20px;
+    }
 }
 
 #section18 .frame-content .content{
@@ -533,6 +545,7 @@
 
 #section2 .content>span{
     color: #007dc3 !important;
+    font-family: Arial-bold;
 }
 
 /* Fonts Update */
@@ -540,70 +553,118 @@
     font-family: Oswald-extralight;
 }
 #section1 .heading-1{
-    font-family: Arial;
-    font-weight: bold;
+    font-family: Arial-bold;
+    /* font-weight: bold; */
 }
 #section1 .content,#section3 .fr3-content,#section3 .content-white,.content-white,.content{
-    font-family: Arial;
-    font-weight:normal;
+    font-family: Arial-regular;
+    /* font-weight:normal; */
 }
 
 #section2 .frame-content p.content{
-    font-family: Arial;
-    font-weight:normal;
+    font-family: Arial-regular;
+    /* font-weight:normal; */
 }
 .navigate-desk {
-    font-family: Arial;
+    font-family:  Arial-regular;
 }
 
 
 #section5 .heading-1{
-    font-family: Arial;
-    font-weight: bold;
+    font-family: Arial-bold;
+    /* font-weight: bold; */
 }
 
 
 #section12 #fr5-body  {
-    font-family: Arial;
+    font-family: Arial-regular;
 }
 
 
 #section14 .points, #section15 .points{
-    font-family: Arial;
+    font-family: Arial-regular;
     font-size: 1rem;
 }
 
 
 #section14 .heading, #section15 .heading, #section16 .heading, #section16B .heading, #section17 .heading{
-    font-family: Arial;
+    font-family: Arial-regular;
     font-size: 18px;
 }
 #section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number, #section18 .number-fr18{
-    font-family: Arial;
+    font-family: Arial-regular;
     font-size: 18px;
 }
 
 #section17 .graph-para{
-    font-family: Arial;
+    font-family: Arial-regular;
 }
 
 #section18 .frame-content .content{
-    font-family: Arial;
+    font-family: Arial-regular;
 }
 
 #section18 .content .content-yellow{
     font-family: Oswald-light;
 }
 
+.sub-heading-fr14,.navigate-btn, .navigate-btn-fr13, .navigate-btn-fr15, .navigate-btn-fr17, .navigate-mob, .navigate-desk{
+    font-family: Arial-bold;
+}
+.share-button{
+    font-family: Arial-regular;
+}
+
+#section14 .points, #section15 .points{
+    font-family: Arial-regular;
+}
+
+.download-btn a{
+    font-family: Arial-regular;
+}
+
+.sub-heading{
+    font-family: Arial-bold;
+    /* padding: 0 0 0 8rem; */
+}
+
+#section18 .number-fr18{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 30px;
+    padding: 2px 3px;
+}
+
+#section17 .graph-para{
+    top: 2.5rem;
+    padding-left: 8rem;
+}
+
+
+
 @media (min-width: 1030px){
+
     #section14 .points, #section15 .points {
-        font-size: 20px;
-        font-family: "myriad-pro-regular";
+        font-family: Arial-regular;
+    }
+
+    #section14 .points, #section15 .points {
+        font-size: 1.5rem;
+        font-family: Arial-regular;
     }
     #section14 .heading, #section15 .heading, #section16 .heading, #section16B .heading, #section17 .heading {
-        font-size: 1.4em;
+        font-size: 1.5rem;
+        font-family: Arial-regular;
     }
     #section14 .number, #section15 .number, #section16 .number, #section16B .number, #section17 .number {
-        font-size: 1.4em;
+        font-size: 1.5rem;
+    }
+
+    #section17 .graph-para{
+        top: 3rem;
+        padding-left: 12.5rem;
+        bottom: unset;
     }
 }

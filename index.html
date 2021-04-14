@@ -23,538 +23,15 @@
 	<link rel="stylesheet" href="./css/fullpage.css">
 
 	<link rel="stylesheet" href="./css/oswald-fonts.css">
+	<link rel="stylesheet" href="./css/Arial-fonts.css">
 	<link rel="stylesheet" href="./css/mob-desk.css">
+	<link rel="stylesheet" href="./css/car-animations.css">
 	<title>Infosys Landing Page</title>
 
 
 </head>
 
 <body>
-	<style>
-		.css_transform1 {
-			position: absolute;
-			left: 32rem;
-			top: -3.5rem;
-
-			transform: scale(1.7, 1.3) translate(0px, 600px);
-			animation: T1-animation 4.5s ease infinite normal;
-		}
-
-		@keyframes T1-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateY(-50px);
-			}
-
-			100% {
-				transform: scaleX(1.7) scaleY(1.3) translateY(600px);
-			}
-		}
-
-		.css_transform2 {
-			position: absolute;
-			top: -2.5rem;
-			left: 34rem;
-			transform: scale(1.7, 1.3) translate(-400px, 400px);
-			animation: T2-animation 6s ease infinite normal;
-		}
-
-		@keyframes T2-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
-			}
-
-			100% {
-				transform: scaleX(1.7) scaleY(1.3) translateX(-400px) translateY(400px);
-			}
-		}
-
-		.css_transform3 {
-			position: absolute;
-			top: -2.5rem;
-			left: 34rem;
-			transform: scale(1.7, 1.3) translate(400px, 400px);
-			animation: T3-animation 5.5s ease infinite normal;
-		}
-
-		@keyframes T3-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateX(-50px) translateY(-50px);
-			}
-
-			100% {
-				transform: scaleX(1.7) scaleY(1.3) translateX(400px) translateY(400px);
-			}
-		}
-
-		.css_transform4 {
-			position: absolute;
-			top: -3.5rem;
-			left: 32rem;
-			transform: scale(1.7, 1.3) translate(-800px, 800px);
-			animation: T2-animation 4s ease infinite normal;
-		}
-
-		@keyframes T2-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateX(-100px) translateY(-100px);
-			}
-
-			100% {
-				transform: scaleX(1.7) scaleY(1.3) translateX(-800px) translateY(800px);
-			}
-		}
-
-		.css_transform5 {
-			position: absolute;
-			top: -2.5rem;
-			left: 34rem;
-			transform: scale(1.7, 1.3) translate(0px, 600px);
-			animation: T5-animation 5s ease infinite normal;
-
-		}
-
-		@keyframes T5-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateY(-50px);
-			}
-
-			100% {
-				transform: scaleX(1.7) scaleY(1.3) translateY(600px);
-			}
-		}
-
-		.css_transform6 {
-			position: absolute;
-			top: -3.5rem;
-			left: 32rem;
-			transform: scale(1.7, 1.3) translate(0px, 600px);
-			animation: T6-animation 6.5s ease infinite normal;
-
-		}
-
-		@keyframes T6-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateY(-50px);
-			}
-
-			100% {
-				transform: scaleX(1.7) scaleY(1.3) translateY(600px);
-			}
-		}
-
-		.css_transform7 {
-			position: absolute;
-			left: 32rem;
-			top: 1.5rem;
-
-			transform: scale(1, 1) translate(0px, 50px);
-			animation: T7-animation 3s ease infinite normal;
-		}
-
-		@keyframes T7-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateY(0px);
-			}
-
-			100% {
-				transform: scaleX(1) scaleY(1) translateY(50px);
-			}
-		}
-
-		.css_transform8 {
-			position: absolute;
-			left: -40rem;
-			top: 1.5rem;
-
-			transform: translate(2000px, 0px);
-			animation: T8-animation 3s ease-in-out infinite normal;
-		}
-
-		@keyframes T8-animation {
-			0% {
-				transform: translateX(-50px);
-			}
-
-			100% {
-				transform: translateX(2000px);
-			}
-		}
-
-		.css_transform9 {
-
-			transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
-			transform-origin: 200px 200px 420px;
-			animation: T9-animation 2s linear infinite normal;
-		}
-
-		@keyframes T9-animation {
-			0% {
-				transform: rotateX(16deg) rotateY(-36deg) rotateZ(0);
-			}
-
-			100% {
-				transform: rotateX(100deg) rotateY(38deg) rotateZ(0);
-			}
-		}
-
-		.css_transform10 {
-			position: absolute;
-			bottom: -12.5rem;
-			right: -2rem;
-			width: 100%;
-			animation: T10-animation 3s linear infinite reverse;
-		}
-
-		@keyframes T10-animation {
-
-			0% {
-				transform: translateX(0px) translateY(-100px) scale(0.1)
-			}
-
-			100% {
-				transform: translateX(200px) translateY(100px) scale(0.8);
-			}
-		}
-
-		.css_transform11 {
-			position: absolute;
-			right: 0;
-			top: -4rem;
-			animation: T11-animation 3s linear infinite normal;
-		}
-
-		@keyframes T11-animation {
-			0% {
-				transform: translateX(500px) translateY(00px) scale(0.3);
-			}
-
-			100% {
-				transform: translateX(0px) translateY(30px) scale(0.5);
-			}
-		}
-
-		#section12 .css_transform8 {
-			top: 0rem;
-		}
-
-		.css_transform12 {
-			position: absolute;
-			left: 0;
-			top: 2.5rem;
-			width: auto !important;
-			height: 35% !important;
-			animation: T12-animation 3s ease-in-out infinite normal;
-		}
-
-		@keyframes T12-animation {
-			0% {
-				transform: translateX(-50px);
-			}
-
-			100% {
-				transform: translateX(2000px);
-			}
-		}
-
-		.css_transform13 {
-			position: absolute;
-			left: 0;
-			top: -4rem !important;
-			height: 100% !important;
-
-			transform: scale(1, 1) translate(0px, 50px);
-			animation: T13-animation 3s ease infinite normal;
-		}
-
-		@keyframes T13-animation {
-			0% {
-				transform: scaleX(0) scaleY(0) translateY(0px);
-			}
-
-			100% {
-				transform: scaleX(0.5) scaleY(0.5) translateY(94px);
-			}
-		}
-
-
-		@media(max-width:767px) {
-			.css_transform1 {
-				left: 0 !important;
-				top: -3rem !important;
-
-			}
-
-			.css_transform2 {
-				left: 3rem !important;
-				top: -2rem !important;
-
-			}
-
-			.css_transform3 {
-				left: 3rem !important;
-				top: -2rem !important;
-
-			}
-
-			.css_transform4 {
-				left: 1rem !important;
-				top: -3rem !important;
-
-			}
-
-			.css_transform5 {
-				left: 3rem !important;
-				top: -2rem !important;
-
-			}
-
-			.css_transform6 {
-				left: 1rem !important;
-				top: -3rem !important;
-
-			}
-
-			.css_transform7 {
-				left: 0 !important;
-				top: 1.8rem !important;
-				transform: scale(0.4, 0.4) translate(0px, 100px);
-			}
-
-			@keyframes T7-animation {
-				0% {
-					transform: scaleX(0) scaleY(0) translateY(0px);
-				}
-
-				100% {
-					transform: scaleX(0.4) scaleY(0.4) translateY(100px);
-				}
-			}
-
-			.css_transform8 {
-				position: absolute;
-				width: 100%;
-				left: -40rem;
-				top: 1.5rem;
-
-				transform: translate(1000px, 0px);
-				animation: T8-animation 3s ease-in-out infinite normal;
-			}
-
-			@keyframes T8-animation {
-				0% {
-					transform: translateX(-50px);
-				}
-
-				100% {
-					transform: translateX(1000px);
-				}
-			}
-
-			.css_transform10 {
-				bottom: 7.5rem;
-			}
-
-			@keyframes T10-animation {
-				0% {
-					transform: translateX(0px) translateY(0px) scale(0.2)
-				}
-
-				100% {
-					transform: translateX(200px) translateY(100px) scale(1);
-				}
-			}
-
-			@keyframes T11-animation {
-				0% {
-					transform: translateX(500px) translateY(00px) scale(0.3);
-				}
-
-				100% {
-					transform: translateX(0px) translateY(60px) scale(0.5);
-				}
-			}
-
-			.css_transform12 {
-				height: 25% !important;
-			}
-
-			.css_transform13 {
-				top: -0.5rem !important;
-				height: 50% !important;
-			}
-
-			@keyframes T13-animation {
-				0% {
-					transform: scaleX(0) scaleY(0) translateY(0px);
-				}
-
-				100% {
-					transform: scaleX(0.8) scaleY(0.8) translateY(70px);
-				}
-			}
-
-			@media(min-width:768px) and (max-width:1024px) {
-				.css_transform1 {
-					left: 12rem !important;
-					top: -2rem !important;
-				}
-
-				.css_transform2 {
-					left: 15rem !important;
-					top: -1rem !important;
-				}
-
-				.css_transform3 {
-					left: 15rem !important;
-					top: -1rem !important;
-				}
-
-				.css_transform4 {
-					left: 13rem !important;
-					top: -2rem !important;
-				}
-
-				.css_transform5 {
-					left: 15rem !important;
-					top: -1rem !important;
-				}
-
-				.css_transform6 {
-					left: 13rem !important;
-					top: -2rem !important;
-				}
-
-				.css_transform7 {
-					left: 13rem !important;
-					top: 6rem !important;
-				}
-
-				.css_transform8 {
-					position: absolute;
-					left: -90rem;
-					top: 1.5rem;
-					width: 100%;
-
-					transform: translate(2200px, 0px);
-					animation: T8-animation 3s ease-in-out infinite normal;
-				}
-
-				@keyframes T8-animation {
-					0% {
-						transform: translateX(-50px);
-					}
-
-					100% {
-						transform: translateX(2200px);
-					}
-				}
-			}
-		}
-
-		.cloud_transform {
-			display: none;
-			position: absolute;
-
-			transform: translate(2000px, 0);
-			animation: Tcloud-animation 8s linear infinite reverse;
-			height: 100%;
-		}
-
-		@keyframes Tcloud-animation {
-			0% {
-				transform: translateX(-1000px);
-			}
-
-			100% {
-				transform: translateX(1200px);
-			}
-		}
-
-		.cloud_transform.mobile-cloud {
-			display: block;
-			position: absolute;
-
-			transform: translate(400px, 0);
-			animation: Tcloud-animationMob 5s linear infinite reverse;
-			height: 100%;
-		}
-
-		@keyframes Tcloud-animationMob {
-			0% {
-				transform: translateX(-500px);
-			}
-
-			100% {
-				transform: translateX(400px);
-			}
-		}
-
-		@media(min-width:1200px) {
-			.cloud_transform.mobile-cloud {
-				display: none;
-			}
-
-			.cloud_transform {
-				display: block;
-			}
-		}
-
-
-		.mainDiv {
-			height: 50%;
-			position: relative;
-		}
-
-		.clouds {
-			height: 50%;
-			position: relative;
-		}
-
-		.mainDiv .backImg {
-			height: 100%;
-			width: 100%;
-		}
-
-		.mainDiv1 {
-			height: 45% !important;
-		}
-
-		.clouds1 {
-			height: 55%;
-		}
-
-		.mainDiv2 {
-			height: 35%;
-		}
-
-		.clouds2 {
-			height: 65%;
-		}
-
-		.mainDiv3 {
-			height: 30%;
-		}
-
-		.clouds3 {
-			height: 70%;
-		}
-
-		.mainDiv4 {
-			height: 25%;
-		}
-
-		.clouds4 {
-			height: 75%;
-		}
-
-		#section7 .mainDiv {
-			perspective: 600px;
-		}
-
-		section {
-			background-color: #BEE3FF !important;
-		}
-	</style>
 	<div class="navbar">
 		<div class="logo">
 			<a href="https://www.infosys.com/">
@@ -591,10 +68,9 @@
 						<p class="heading-1">The Key to Succeed in the race of Digital Transformation</p>
 						<div class="line-img">
 						</div>
-						<p class="content"><span class="content-bold">COVID-19</span> created seismic shifts in consumer
-							behavior and the way businesses operate, communicate, and collaborate.<span
-								class="content-bold">
-								C-suite collaboration</span> is needed now more than ever to <span>accelerate
+						<p class="content">COVID-19 created seismic shifts in consumer
+							behavior and the way businesses operate, communicate, and collaborate.
+							C-suite collaboration is needed now more than ever to <span>accelerate
 								digital transformation</span>
 							and deliver stakeholder value.</p>
 					</div>
@@ -942,7 +418,7 @@
 		</section>
 
 		<section id="section12" class="section home">
-			<div class="clouds clouds3">
+			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
 				<div class="fr4-board">
@@ -991,7 +467,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="mainDiv mainDiv3">
+			<div class="mainDiv mainDiv4">
 				<img src="./images/fr_mob/Frame7/Road.png" alt="" class="backImg">
 				<img src="./images/fr_mob/Frame4b/Car.png" alt="" class="css_transform8 img-f4b-car">
 				<img src="./images/fr_mob/Frame7/CIO.png" alt="" class="img-f7-female backImg">
@@ -1285,7 +761,7 @@
 			</div>
 		</section>
 
-		<!-- <section id="section17" class="section home">
+		<section id="section17" class="section home">
 			<div class="clouds clouds4">
 				<img src="./images/fr_mob/S2-Clouds.png" alt="" class="cloud_transform mobile-cloud">
 				<img src="./images/fr_desk/S1_Clouds.png" alt="" class="cloud_transform">
@@ -1390,13 +866,15 @@
 					<img src="./images/top_button.png" alt="downarrow">
 				</a>
 			</div>
-		</section> -->
+		</section>
 
 	</div>
 	<script src="./js/socialShare.js"></script>
 	<script src="./js/fullpage.js"></script>
 
 	<script>
+		let T1, T2, T3, T4;
+
 		var myFullpage = new fullpage('#fullpage', {
 			css3: true,
 			// anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11', 'page12', 'page13', 'page14', 'page15', 'page16', 'page17', 'page18'],
@@ -1406,52 +884,98 @@
 				// console.log(index.index, 'in', nextIndex.index, 'nxt', direction)
 				//after leaving section 1
 
+
 				if (nextIndex.index === 1) {
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section2_animation()
 				}
 				if (nextIndex.index === 2) {
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section3_animation()
 				}
 				if (nextIndex.index === 3) {
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section4_animation()
+					T1 = setTimeout(() => { myFullpage.moveSectionDown() }, 5000)
 				}
 				if (nextIndex.index === 4) {
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section5_animation()
 				}
 				if (nextIndex.index === 5) {
+					clearTimeout(T1)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section7_animation()
+					T2 = setTimeout(() => { myFullpage.moveSectionDown() }, 5000)
 				}
 				if (nextIndex.index === 6) {
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section8_animation()
 				}
+				// if (nextIndex.index === 7) {
+				// 	console.log('7 9 ')
+				// 	section9_animation()
+				// }
 				if (nextIndex.index === 7) {
-					section9_animation()
-				}
-				if (nextIndex.index === 7) {
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T4)
 					section10_animation()
+					T3 = setTimeout(() => { myFullpage.moveSectionDown() }, 5500)
 				}
 				if (nextIndex.index === 8) {
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section11_animation()
 				}
 				if (nextIndex.index === 9) {
-					// console.log('9')
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
 					section12_animation()
+					T4 = setTimeout(() => { myFullpage.moveSectionDown() }, 5500)
 				}
 				if (nextIndex.index === 10) {
-					// console.log('10')
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					// section13_animation()
 					section14_animation()
 
 				}
 				if (nextIndex.index === 11) {
-					// console.log('11')
 					// section14_animation()
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section15_animation()
 
 				}
 				if (nextIndex.index === 12) {
-					// console.log('12')
 					// section15_animation()
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section16_animation()
 					if ($(window).width() <= 991) {
 						percentage_loader();
@@ -1459,7 +983,10 @@
 
 				}
 				if (nextIndex.index === 13) {
-					console.log('13')
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					section16_animation()
 					percentage_loader();
 					// if ($(window).width() <= 991) {
@@ -1467,15 +994,16 @@
 					// }
 
 					if ($(window).width() <= 991) {
-						console.log('13 mob')
 						section17_animation()
 					}
 
 				}
 				if (nextIndex.index === 14) {
-					console.log('14')
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					if ($(window).width() <= 991) {
-						console.log('here')
 						// section17_animation()
 						section18_animation()
 					} else {
@@ -1493,8 +1021,11 @@
 					}
 				}
 				if (nextIndex.index === 15) {
-					console.log('15')
 					section18_animation()
+					clearTimeout(T1)
+					clearTimeout(T2)
+					clearTimeout(T3)
+					clearTimeout(T4)
 					// if ($(window).width() <= 991) {
 					// 	section18_animation()
 					// } else {
@@ -1535,68 +1066,10 @@
 				})
 				$('#section18 .carousel').attr('style', 'overflow: auto !important');
 			}
-
-			// $(document).on('click', '#section1-link', function () {
-			// 	fullpage_api.moveTo('page2');
-			// });
-			// $(document).on('click', '#section2-desk-link', function () {
-			// 	fullpage_api.moveTo('page3');
-			// });
-			// $(document).on('click', '#section-3-link', function () {
-			// 	fullpage_api.moveTo('page4');
-			// });
-			// $(document).on('click', '#section3-link', function () {
-			// 	fullpage_api.moveTo('page4');
-			// });
-			// $(document).on('click', '#section2-mob-link', function () {
-			// 	fullpage_api.moveTo('page3');
-			// });
-			// $(document).on('click', '#section5-link', function () {
-			// 	fullpage_api.moveTo('page6');
-			// });
-			// $(document).on('click', '#section1-link', function () {
-			// 	fullpage_api.moveTo('page2');
-			// });
-			// $(document).on('click', '#section8-link', function () {
-			// 	fullpage_api.moveTo('page8');
-			// });
-			// $(document).on('click', '#section9-link', function () {
-			// 	fullpage_api.moveTo('page9');
-			// });
-			// $(document).on('click', '#section11-link', function () {
-			// 	fullpage_api.moveTo('page11');
-			// });
-			// $(document).on('click', '#section13-link', function () {
-			// 	fullpage_api.moveTo('page13');
-			// });
-			// $(document).on('click', '#section14-link', function () {
-			// 	fullpage_api.moveTo('page14');
-			// });
-			// $(document).on('click', '#section15-link', function () {
-			// 	fullpage_api.moveTo('page15');
-			// });
-
-			// $(document).on('click', '#section16-link', function () {
-			// 	fullpage_api.moveTo('page17');
-			// });
-			// $(document).on('click', '#section16B-link', function () {
-			// 	fullpage_api.moveTo('page16');
-			// });
-			// $(document).on('click', '#section16B-17-link', function () {
-			// 	fullpage_api.moveTo('page17');
-			// });
-			// $(document).on('click', '#section17-link', function () {
-			// 	fullpage_api.moveTo('page18');
-			// });
 		})
 
-			// function myFunction() {
-			// 	history.replaceState(null, null, ' ');
-			// 	fullpage_api.moveTo(1);
-			// }
 
 	</script>
-
 
 </body>
 
