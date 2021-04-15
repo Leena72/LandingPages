@@ -139,11 +139,11 @@
 
 @keyframes T8-animation {
     0% {
-        transform: translateX(-50px);
+        transform: translateX(-50px) scale(0.8); 
     }
 
     100% {
-        transform: translateX(2000px);
+        transform: translateX(2000px) scale(0.8);
     }
 }
 
@@ -174,17 +174,17 @@
     bottom: -12.5rem;
     right: -2rem;
     width: 100%;
-    animation: T10-animation 2s linear infinite reverse;
+    animation: T10-animation 3s ease-in infinite reverse;
 }
 
 @keyframes T10-animation {
 
     0% {
-        transform: translateX(0px) translateY(-100px) scale(0.1)
+        transform: translateX(-20px) translateY(-105px) scale(0.05)
     }
 
     100% {
-        transform: translateX(200px) translateY(100px) scale(0.8);
+        transform: translateX(400px) translateY(500px) scale(1);
     }
 }
 
@@ -197,16 +197,16 @@
 
 @keyframes T11-animation {
     0% {
-        transform: translateX(500px) translateY(00px) scale(0.3);
+        transform: translateX(500px) translateY(-21px) scale(0.2);
     }
 
     100% {
-        transform: translateX(0px) translateY(30px) scale(0.5);
+        transform: translateX(-898px) translateY(232px) scale(0.6);
     }
 }
 
 #section12 .css_transform8 {
-    top: 0rem;
+    top: -2rem;
 }
 
 .css_transform12 {
@@ -215,16 +215,16 @@
     top: 2.5rem;
     width: auto !important;
     height: 35% !important;
-    animation: T12-animation 3s ease-in-out infinite normal;
+    animation: T12-animation 2.5s linear infinite normal;
 }
 
 @keyframes T12-animation {
     0% {
-        transform: translateX(-50px);
+        transform: translateX(-500px);
     }
 
     100% {
-        transform: translateX(2000px);
+        transform: translateX(1500px);
     }
 }
 
@@ -331,7 +331,7 @@
         }
 
         100% {
-            transform: translateX(1000px);
+            transform: translateX(1200px);
         }
     }
 
@@ -341,11 +341,11 @@
 
     @keyframes T10-animation {
         0% {
-            transform: translateX(0px) translateY(0px) scale(0.2)
+            transform: translateX(0px) translateY(6px) scale(0.2)
         }
 
         100% {
-            transform: translateX(200px) translateY(100px) scale(1);
+            transform: translateX(400px) translateY(700px) scale(2);
         }
     }
 
@@ -355,12 +355,22 @@
         }
 
         100% {
-            transform: translateX(0px) translateY(60px) scale(0.5);
+            transform: translateX(-400px) translateY(60px) scale(0.5);
         }
     }
 
     .css_transform12 {
         height: 25% !important;
+    }
+
+    @keyframes T12-animation {
+        0% {
+            transform: translateX(-200px);
+        }
+    
+        100% {
+            transform: translateX(1000px);
+        }
     }
 
     .css_transform13 {
@@ -388,11 +398,11 @@
 
     @keyframes T9-animation {
         0% {
-            transform: translateX(182px) translateY(-90px) scale(0.7);
+            transform: translateX(270px) translateY(-110px) scale(0.7);
         }
 
         100% {
-            transform: translateX(-60px) translateY(60px) scale(1);
+            transform: translateX(-200px) translateY(60px) scale(1);
         }
     }
 
