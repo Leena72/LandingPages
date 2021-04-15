@@ -362,14 +362,6 @@
     right: 0;
     width: auto !important;
 }
-.img-f7-male{
-    position: absolute;
-    top: -1rem;
-    width: auto !important;
-    right: -5rem;
-    left: 0;
-    margin: auto;
-}
 #section12 #fr5-body p{
     font-size: 20px;
     padding-bottom: 20px;
@@ -545,26 +537,6 @@
     #section16 .graph-fr16{
         margin-left: 20px;
     }
-
-    #section14 .navigate-btn,#section15 .navigate-btn-fr15,#section16 .navigate-btn,#section17 .navigate-btn-fr17{
-        font-size: 0.8rem;
-        bottom: 1rem;
-        left: 0;
-        right: 0;
-        bottom: 1rem;
-        font-size: 0.8rem;
-    }
-
-    .top-btn, .download-img{
-        position: fixed;
-        right: 25px;
-        bottom: 38px;
-    }
-
-}
-
-.top-btn, .download-img{
-    display: none;
 }
 
 #section18 .frame-content .content{
@@ -582,13 +554,16 @@
 }
 #section1 .heading-1{
     font-family: Arial-bold;
+    /* font-weight: bold; */
 }
 #section1 .content,#section3 .fr3-content,#section3 .content-white,.content-white,.content{
     font-family: Arial-regular;
+    /* font-weight:normal; */
 }
 
 #section2 .frame-content p.content{
     font-family: Arial-regular;
+    /* font-weight:normal; */
 }
 .navigate-desk {
     font-family:  Arial-regular;
@@ -597,6 +572,7 @@
 
 #section5 .heading-1{
     font-family: Arial-bold;
+    /* font-weight: bold; */
 }
 
 
@@ -649,10 +625,7 @@
 
 .sub-heading{
     font-family: Arial-bold;
-}
-
-.navigate-btn>a, .navigate-mob>a, .navigate-btn-fr13>a, .navigate-btn-fr15>a, .navigate-btn-fr17>a, .navigate-desk>a{
-    font-family: Arial-bold;
+    /* padding: 0 0 0 8rem; */
 }
 
 #section18 .number-fr18{
@@ -669,9 +642,6 @@
     padding-left: 8rem;
 }
 
-#section18 .carousel .answerBoxImg-fr11{
-    opacity: 1;
-}
 
 
 @media (min-width: 1030px){
@@ -696,25 +666,5 @@
         top: 3rem;
         padding-left: 12.5rem;
         bottom: unset;
-    }
-    #section16B .navigate-btn{
-        right: 6rem;
-    }
-    #section18 .carousel .answerBoxImg-fr11{
-        opacity: 1;
-    }
-
-    .img-f7-female{
-        position: absolute;
-        top: -6rem;
-        right: 16rem;
-        width: auto !important;
-        height: 150% !important;
-    }
-    .img-f7-male{
-        width: auto !important;
-        height: 150% !important;
-        top: -6rem;
-        right: -24rem;
     }
 }

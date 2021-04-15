@@ -27,7 +27,6 @@
 	<link rel="stylesheet" href="./css/mob-desk.css">
 	<link rel="stylesheet" href="./css/car-animations.css">
 	<title>Infosys Landing Page</title>
-	<link rel="icon" type="image/png" href="./images/favicon.png" sizes="32x32">
 
 
 </head>
@@ -40,12 +39,12 @@
 			</a>
 		</div>
 		<div class="download-arrow">
-			<a href="./Files/Infosys_Report_Mob_V3.pdf" download="PDF file">
+			<a href="../Files/Infosys_Race Track_Mob Version.pdf" download="PDF file">
 				<img src="./images/Download_Button.png" alt="downarrow">
 			</a>
 		</div>
 		<div class="download-arrow-web">
-			<a href="./Files/Infosys_Report_Web_V2.pdf" download="PDF file">
+			<a href="../Files/Infosys_RaceTrack_Frames_WebVersion.pdf" download="PDF file">
 				<img src="./images/Download_Button.png" alt="downarrow">
 			</a>
 		</div>
@@ -470,10 +469,8 @@
 			</div>
 			<div class="mainDiv mainDiv4">
 				<img src="./images/fr_mob/Frame7/Road.png" alt="" class="backImg">
-				<img src="./images/fr_mob/Frame7/Car Full.png" alt="" class="css_transform8 img-f4b-car">
-				<!-- <img src="./images/fr_mob/Frame4b/Car.png" alt="" class="css_transform8 img-f4b-car"> -->
+				<img src="./images/fr_mob/Frame4b/Car.png" alt="" class="css_transform8 img-f4b-car">
 				<img src="./images/fr_mob/Frame7/CIO.png" alt="" class="img-f7-female backImg">
-				<img src="./images/fr_mob/Frame7/S7_Person1.png" alt="" class="img-f7-male backImg">
 			</div>
 
 		</section>
@@ -848,7 +845,7 @@
 				<div class="mr-20"></div>
 				<div class=" button-section">
 					<div class="download-btn">
-						<a href="./Files/Infosys_Report_Mob_V3.pdf" download="PDF file">
+						<a href="./Files/Infosys_Race Track_Mob Version.pdf" download="PDF file">
 							Download this Report<img src="./images/download-arrow.png" alt="">
 						</a>
 					</div>
@@ -864,14 +861,13 @@
 					</div>
 				</div>
 			</div>
-
+			<div class="top-btn">
+				<a id="scroll-up-btn">
+					<img src="./images/top_button.png" alt="downarrow">
+				</a>
+			</div>
 		</section>
 
-	</div>
-	<div class="top-btn">
-		<a id="scroll-up-btn">
-			<img src="./images/top_button.png" alt="downarrow">
-		</a>
 	</div>
 	<script src="./js/socialShare.js"></script>
 	<script src="./js/fullpage.js"></script>
@@ -895,7 +891,6 @@
 					clearTimeout(T3)
 					clearTimeout(T4)
 					section2_animation()
-					$('.top-btn').hide()
 				}
 				if (nextIndex.index === 2) {
 					clearTimeout(T1)
@@ -903,7 +898,6 @@
 					clearTimeout(T3)
 					clearTimeout(T4)
 					section3_animation()
-					$('.top-btn').show()
 				}
 				if (nextIndex.index === 3) {
 					clearTimeout(T2)
@@ -1052,9 +1046,7 @@
 			$('.custom-graph').slick({
 				dots: true,
 				arrows: false,
-				infinte: false,
-				// autoplay: true,
-				// autoplaySpeed: 3500,
+				infinte: false
 			});
 
 			$('.custom-graph-2').slick({
@@ -1065,7 +1057,6 @@
 
 			$('#scroll-up-btn').click(function () {
 				fullpage_api.moveTo(1);
-				$('.top-btn').hide()
 			})
 
 			if ($(window).width() <= 991) {
