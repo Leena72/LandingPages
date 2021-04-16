@@ -1,7 +1,7 @@
 .css_transform1 {
     position: absolute;
     left: 32rem;
-    top: -3.5rem;
+    top: -1.5rem;
 
     transform: scale(1.7, 1.3) translate(0px, 600px);
     animation: T1-animation 4.5s ease infinite normal;
@@ -19,7 +19,7 @@
 
 .css_transform2 {
     position: absolute;
-    top: -2.5rem;
+    top: -0.5rem;
     left: 34rem;
     transform: scale(1.7, 1.3) translate(-400px, 400px);
     animation: T2-animation 6s ease infinite normal;
@@ -37,7 +37,7 @@
 
 .css_transform3 {
     position: absolute;
-    top: -2.5rem;
+    top: -0.5rem;
     left: 34rem;
     transform: scale(1.7, 1.3) translate(400px, 400px);
     animation: T3-animation 5.5s ease infinite normal;
@@ -55,7 +55,7 @@
 
 .css_transform4 {
     position: absolute;
-    top: -3.5rem;
+    top: -1.5rem;
     left: 32rem;
     transform: scale(1.7, 1.3) translate(-800px, 800px);
     animation: T2-animation 4s ease infinite normal;
@@ -73,7 +73,7 @@
 
 .css_transform5 {
     position: absolute;
-    top: -2.5rem;
+    top: 0.5rem;
     left: 34rem;
     transform: scale(1.7, 1.3) translate(0px, 600px);
     animation: T5-animation 5s ease infinite normal;
@@ -92,7 +92,7 @@
 
 .css_transform6 {
     position: absolute;
-    top: -3.5rem;
+    top: -1.5rem;
     left: 32rem;
     transform: scale(1.7, 1.3) translate(0px, 600px);
     animation: T6-animation 6.5s ease infinite normal;
@@ -139,11 +139,11 @@
 
 @keyframes T8-animation {
     0% {
-        transform: translateX(-50px);
+        transform: translateX(-50px) scale(0.8); 
     }
 
     100% {
-        transform: translateX(2000px);
+        transform: translateX(2000px) scale(0.8);
     }
 }
 
@@ -154,18 +154,18 @@
     bottom: -8.5rem;
     transform: scale(0.3);
     transform: scale(0.2) skewY(6deg);
-    animation: T9-animation 2s linear infinite normal;
+    animation: T9-animation 3s ease-in infinite normal;
 }
 
 
 
 @keyframes T9-animation {
-    /* 0% {
-        transform: translateX(182px) translateY(-90px) scale(0.7);
-    } */
+    0% {
+        transform: translateX(-185px) translateY(2px) scale(0.05);
+    }
 
     100% {
-        transform: translateX(-600px) translateY(60px) scale(0.5)
+        transform: translateX(-950px) translateY(330px) scale(0.5);
     }
 }
 
@@ -174,17 +174,17 @@
     bottom: -12.5rem;
     right: -2rem;
     width: 100%;
-    animation: T10-animation 2s linear infinite reverse;
+    animation: T10-animation 3s ease-in infinite reverse;
 }
 
 @keyframes T10-animation {
 
     0% {
-        transform: translateX(0px) translateY(-100px) scale(0.1)
+        transform: translateX(-20px) translateY(-105px) scale(0.05)
     }
 
     100% {
-        transform: translateX(200px) translateY(100px) scale(0.8);
+        transform: translateX(400px) translateY(500px) scale(1);
     }
 }
 
@@ -192,21 +192,24 @@
     position: absolute;
     right: 0;
     top: -4rem;
-    animation: T11-animation 3s linear infinite normal;
+    animation: T11-animation 3s ease-in infinite normal;
 }
 
 @keyframes T11-animation {
     0% {
-        transform: translateX(500px) translateY(00px) scale(0.3);
+        transform: translateX(300px) translateY(34px) scale(0.009);
     }
 
     100% {
-        transform: translateX(0px) translateY(30px) scale(0.5);
+        transform: translateX(-800px) translateY(300px) scale(0.9);
     }
 }
 
 #section12 .css_transform8 {
-    top: 0rem;
+    top: -2rem;
+}
+#section12 .css_transform16 {
+    top: -2rem;
 }
 
 .css_transform12 {
@@ -215,16 +218,16 @@
     top: 2.5rem;
     width: auto !important;
     height: 35% !important;
-    animation: T12-animation 3s ease-in-out infinite normal;
+    animation: T12-animation 2.5s linear infinite normal;
 }
 
 @keyframes T12-animation {
     0% {
-        transform: translateX(-50px);
+        transform: translateX(-500px);
     }
 
     100% {
-        transform: translateX(2000px);
+        transform: translateX(1500px);
     }
 }
 
@@ -260,6 +263,26 @@
         transform: scaleX(0.5) scaleY(0.5) translateY(94px);
     }
 }
+
+.css_transform16{
+    position: absolute;
+    left: -40rem;
+    top: 1.5rem;
+
+    transform: translate(2000px, 0px);
+    animation: T16-animation 3s ease-in-out infinite normal;
+}
+
+@keyframes T16-animation {
+    0% {
+        transform: translateX(-50px) translateY(-100px) scale(0.4); 
+    }
+
+    100% {
+        transform: translateX(2000px) translateY(100px) scale(0.8);
+    }
+}
+
 
 
 @media(max-width:767px) {
@@ -331,7 +354,27 @@
         }
 
         100% {
-            transform: translateX(1000px);
+            transform: translateX(1200px);
+        }
+    }
+
+    .css_transform16 {
+        position: absolute;
+        width: 100%;
+        left: -40rem;
+        top: 1.5rem;
+
+        transform: translate(1000px, 0px);
+        animation: T16-animation 3s ease-in-out infinite normal;
+    }
+
+    @keyframes T16-animation {
+        0% {
+            transform: translateX(-50px);
+        }
+
+        100% {
+            transform: translateX(1200px);
         }
     }
 
@@ -341,12 +384,16 @@
 
     @keyframes T10-animation {
         0% {
-            transform: translateX(0px) translateY(0px) scale(0.2)
+            transform: translateX(0px) translateY(6px) scale(0.2)
         }
 
         100% {
-            transform: translateX(200px) translateY(100px) scale(1);
+            transform: translateX(400px) translateY(700px) scale(2);
         }
+    }
+
+    .css_transform11{
+        animation-timing-function: linear;
     }
 
     @keyframes T11-animation {
@@ -355,12 +402,22 @@
         }
 
         100% {
-            transform: translateX(0px) translateY(60px) scale(0.5);
+            transform: translateX(-400px) translateY(60px) scale(0.5);
         }
     }
 
     .css_transform12 {
         height: 25% !important;
+    }
+
+    @keyframes T12-animation {
+        0% {
+            transform: translateX(-200px);
+        }
+    
+        100% {
+            transform: translateX(1000px);
+        }
     }
 
     .css_transform13 {
@@ -388,11 +445,11 @@
 
     @keyframes T9-animation {
         0% {
-            transform: translateX(182px) translateY(-90px) scale(0.7);
+            transform: translateX(270px) translateY(-110px) scale(0.7);
         }
 
         100% {
-            transform: translateX(-60px) translateY(60px) scale(1);
+            transform: translateX(-200px) translateY(60px) scale(1);
         }
     }
 
@@ -444,6 +501,26 @@
         }
 
         @keyframes T8-animation {
+            0% {
+                transform: translateX(-50px);
+            }
+
+            100% {
+                transform: translateX(2200px);
+            }
+        }
+
+        .css_transform16 {
+            position: absolute;
+            left: -90rem;
+            top: 1.5rem;
+            width: 100%;
+
+            transform: translate(2200px, 0px);
+            animation: T16-animation 3s ease-in-out infinite normal;
+        }
+
+        @keyframes T16-animation {
             0% {
                 transform: translateX(-50px);
             }

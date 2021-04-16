@@ -362,6 +362,14 @@
     right: 0;
     width: auto !important;
 }
+.img-f7-male{
+    position: absolute;
+    top: -1rem;
+    width: auto !important;
+    right: -5rem;
+    left: 0;
+    margin: auto;
+}
 #section12 #fr5-body p{
     font-size: 20px;
     padding-bottom: 20px;
@@ -389,8 +397,8 @@
 @media (min-width:991px){
     #section12 .fr12-content {
         position: absolute;
-        bottom: 10.5em;
-        left: 0.5em;
+        bottom: 11.5em;
+        left: 0.2em;
         text-align: center;
         width: 98%;
     }
@@ -400,11 +408,11 @@
     
     #section12 .timer-img{
         bottom: 6em;
-        left: 1rem !important;
+        left: 0.5rem !important;
     }
     
     #section12 .web-board{
-        width: 28rem;
+        width: 27rem;
     }
     
     #section12 #fr5-body{
@@ -443,8 +451,14 @@
 .flags-small{
     position: absolute;
     left: 8.5rem;
-    top: -1rem;
+    top: -0.5rem;
 }
+
+#section17 .flags-small{
+    top: -0.1rem;
+}
+
+
 
 @media (max-width:767px){
     .flags-small{
@@ -515,6 +529,15 @@
     width: 15% !important;
 }
 
+@media(min-width:768px) and (max-width:1024px){
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+}
+
 @media (max-width:767px){
 
     .mob{
@@ -537,6 +560,26 @@
     #section16 .graph-fr16{
         margin-left: 20px;
     }
+
+    #section14 .navigate-btn,#section15 .navigate-btn-fr15,#section16 .navigate-btn,#section17 .navigate-btn-fr17{
+        font-size: 0.8rem;
+        bottom: 1rem;
+        left: 0;
+        right: 0;
+        bottom: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .top-btn, .download-img{
+        position: fixed;
+        right: 25px;
+        bottom: 38px;
+    }
+
+}
+
+.top-btn, .download-img{
+    display: none;
 }
 
 #section18 .frame-content .content{
@@ -554,16 +597,13 @@
 }
 #section1 .heading-1{
     font-family: Arial-bold;
-    /* font-weight: bold; */
 }
 #section1 .content,#section3 .fr3-content,#section3 .content-white,.content-white,.content{
     font-family: Arial-regular;
-    /* font-weight:normal; */
 }
 
 #section2 .frame-content p.content{
     font-family: Arial-regular;
-    /* font-weight:normal; */
 }
 .navigate-desk {
     font-family:  Arial-regular;
@@ -572,7 +612,6 @@
 
 #section5 .heading-1{
     font-family: Arial-bold;
-    /* font-weight: bold; */
 }
 
 
@@ -625,7 +664,10 @@
 
 .sub-heading{
     font-family: Arial-bold;
-    /* padding: 0 0 0 8rem; */
+}
+
+.navigate-btn>a, .navigate-mob>a, .navigate-btn-fr13>a, .navigate-btn-fr15>a, .navigate-btn-fr17>a, .navigate-desk>a{
+    font-family: Arial-bold;
 }
 
 #section18 .number-fr18{
@@ -642,6 +684,9 @@
     padding-left: 8rem;
 }
 
+#section18 .carousel .answerBoxImg-fr11{
+    opacity: 1;
+}
 
 
 @media (min-width: 1030px){
@@ -667,4 +712,75 @@
         padding-left: 12.5rem;
         bottom: unset;
     }
+    #section16B .navigate-btn{
+        right: 6rem;
+    }
+    #section18 .carousel .answerBoxImg-fr11{
+        opacity: 1;
+    }
+
+    .img-f7-female{
+        position: absolute;
+        top: -5rem;
+        right: 11rem;
+        width: auto !important;
+        height: 150% !important;
+    }
+    .img-f7-male{
+        width: auto !important;
+        height: 150% !important;
+        top: -5rem;
+        right: -35rem;
+    }
 }
+
+@media all and (min-width:991px){
+
+    #section14 .graph img,#section15 .graph img, #section16 .graph-fr16 img, #section17 .graph img{
+        width: 94%;
+    }
+    #section14 .graph, #section15 .graph{
+        margin-top: -1rem;
+    }
+    .img-f4-car {
+        position: absolute;
+        left: 3rem;
+        right: 0;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        bottom: 1rem;
+    }
+    
+    .img-f4a-female {
+        position: absolute;
+        right: 0;
+        left: -33rem;
+        margin: auto;
+        width: 25%;
+        bottom: -5rem;
+    }
+    .img-f4a-male{
+        position: absolute;
+        right: -34rem;
+        left: 0;
+        margin: auto;
+        width: 25%;
+        bottom: -3rem;
+    }
+}
+
+
+
+
+
+@media (max-width:1024px){
+    #section15 .flags-small, #section17 .flags-small{
+        display: none !important;
+    }
+}
+
+/* #section18 .slick-initialized .slick-slide{
+    width: 260px !important;
+    margin: 0 auto;
+} */

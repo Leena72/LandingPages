@@ -715,15 +715,15 @@ button {
 }
 .slick-dots {
 	list-style: none;
-	/*display: flex;*/
-	display: none !important;
+	display: flex;
+	/* display: none !important; */
 	justify-content: center;
 }
 .slick-dots button {
 	display: none;
 }
 .slick-dots li {
-	margin-right: 5px;
+	margin-right: 8px;
 }
 .slick-dots li::before {
 	content: ' ';
@@ -732,6 +732,7 @@ button {
 	height: 5px;
 	width: 5px;
 	background-color: black;
+	cursor: pointer;
 }
 /* ***************************************************** */
 
@@ -2347,9 +2348,9 @@ button {
 		bottom: 44px;
 	}
 
-	.slick-dots{
+	/* .slick-dots{
 		margin-top: -30px;
-	}
+	} */
 
 	.share-button .shareText{
 		font-size: 1em !important;
