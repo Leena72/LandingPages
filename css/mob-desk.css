@@ -14,6 +14,26 @@
     right: 14rem;
     bottom: 1rem;
     width: 20%;
+
+    
+}
+#section3 .img-f3-male{
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    width: 15%;
+    left: -5rem;
+    margin: auto;
+}
+
+#section3 .img-f3-female{
+    position: absolute;
+    bottom: 1rem;
+    height: auto;
+    width: 12%;
+    left: -42rem;
+    right: 0;
+    margin: auto;
 }
 
 .img-f3-female {
@@ -22,21 +42,25 @@
     height: auto;
     width: 16%;
     left: 14rem;
+
+    
 }
 
 @media(max-width:767px) {
-    .img-f3-female {
+    #section3 .img-f3-female {
         position: absolute;
         top: 5rem;
         height: auto;
         width: 44%;
         left: 0;
+        right: unset;
     }
 
-    .img-f3-male {
+    #section3 .img-f3-male {
         top: 3rem;
-        right: 0;
-        width: 60%;
+    right: 0;
+    width: 60%;
+    left: unset;
     }
 
   /*  #section3 .board,
@@ -58,6 +82,65 @@
 
     }
 }
+
+/* section8 */
+
+#section8 .img-5b-cfo {
+    position: absolute;
+    right: 0;
+    left: -19rem;
+    width: 18%;
+    bottom: 0rem;
+    margin: auto;
+}
+#section8 .img-f3-male {
+    position: absolute;
+    right: 0;
+    bottom: 0rem;
+    width: 15%;
+    left: -6rem;
+    margin: auto;
+}
+#section8 .img-f3-female {
+    position: absolute;
+    bottom: 0rem;
+    height: auto;
+    width: 12%;
+    left: -43rem;
+    right: 0;
+    margin: auto;
+}
+
+.tyre{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+}
+
+
+@media(max-width:767px) {
+    #section8 .img-f3-female {
+        top: 5rem;
+        height: auto;
+        width: 44%;
+        left: 0;
+        right: unset;
+    }
+    #section8 .img-f3-male{
+        top: 3rem;
+        right: 0;
+        width: 60%;
+        left: unset;
+    }
+    #section8 .img-5b-cfo{
+        right: 2rem;
+        width: 75%;
+        bottom: 1rem;
+        left: unset;
+    }
+}
+
 
 
 /* Section 4 */
@@ -732,6 +815,14 @@
         top: -5rem;
         right: -35rem;
     }
+
+    #section3 .web-board {
+        width: 30em;
+    }
+
+    #section8 .answerBoxImg-fr8{
+        width: 31em;
+    }
 }
 
 @media all and (min-width:991px){
@@ -784,3 +875,24 @@
     width: 260px !important;
     margin: 0 auto;
 } */
+
+
+#section14 .frame-content, #section15 .frame-content, #section16 .frame-content, #section16B .frame-content, #section17 .frame-content{
+    position: relative;
+}
+
+/* #section14 .frame-content::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background: url('../images/fr_desk/Frame8a+8b/Strokes.png') no-repeat;
+    left: 3rem;
+    top: 0;
+} */
+
+@media (max-width: 767px){
+    #section18 .slick-track {
+        height: auto;
+    }
+}
